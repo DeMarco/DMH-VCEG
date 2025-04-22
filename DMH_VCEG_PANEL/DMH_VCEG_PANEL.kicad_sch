@@ -847,6 +847,18 @@
 		)
 	)
 	(junction
+		(at 88.9 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02755fdb-90ee-4da1-a41d-7dc06d554156")
+	)
+	(junction
+		(at 88.9 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11091984-8ac4-4500-8aef-1fac82f95c6b")
+	)
+	(junction
 		(at 68.58 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -881,6 +893,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b36244e-334c-4f2e-bd19-10238669bfcf")
+	)
+	(junction
+		(at 53.34 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b83b8f7-9f63-4b58-a6ba-7758d44f4884")
 	)
 	(junction
 		(at 43.18 114.3)
@@ -935,6 +953,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90cd9c5b-2029-428e-8790-e91746db7e05")
+	)
+	(junction
+		(at 85.09 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92a4b2a6-5963-42c9-8413-b3922661aa1a")
 	)
 	(junction
 		(at 247.65 114.3)
@@ -1282,6 +1306,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 180.34) (xy 85.09 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b5e483-f17f-41d0-95cc-0c356824eb13")
+	)
+	(wire
+		(pts
 			(xy 222.25 45.72) (xy 247.65 45.72)
 		)
 		(stroke
@@ -1289,6 +1323,16 @@
 			(type default)
 		)
 		(uuid "29c42e33-30f9-4529-9f05-3d0ceb547ebf")
+	)
+	(wire
+		(pts
+			(xy 85.09 170.18) (xy 88.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf8b8a8-ac12-43c9-8e43-a2240dbf49d3")
 	)
 	(wire
 		(pts
@@ -1452,6 +1496,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 179.07) (xy 116.84 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bff848-94ec-45af-96ed-4c88b9f9aed1")
+	)
+	(wire
+		(pts
 			(xy 247.65 45.72) (xy 260.35 45.72)
 		)
 		(stroke
@@ -1552,6 +1606,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 180.34) (xy 116.84 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ec378e-f6f3-44f7-a646-cce92e667e7d")
+	)
+	(wire
+		(pts
 			(xy 123.19 139.7) (xy 120.65 139.7)
 		)
 		(stroke
@@ -1609,6 +1673,16 @@
 			(type default)
 		)
 		(uuid "73505c19-2175-4e6b-9c15-a0cffc4b88fa")
+	)
+	(wire
+		(pts
+			(xy 85.09 180.34) (xy 88.9 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7384c146-52ee-4ad3-bfb6-94f3ae5edca0")
 	)
 	(wire
 		(pts
@@ -1822,6 +1896,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 170.18) (xy 88.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31f14ce-96fb-4189-bcb6-b5ed3a5026bd")
+	)
+	(wire
+		(pts
 			(xy 201.93 127) (xy 205.74 127)
 		)
 		(stroke
@@ -1829,6 +1913,16 @@
 			(type default)
 		)
 		(uuid "a3fda99b-7443-4a5a-b0b8-e73361d34bc5")
+	)
+	(wire
+		(pts
+			(xy 116.84 168.91) (xy 116.84 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a524f2eb-5d50-4872-a77d-fc86b383f83f")
 	)
 	(wire
 		(pts
@@ -1992,6 +2086,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 170.18) (xy 116.84 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b2567e-50e6-4805-8b96-5e027c7d4c85")
+	)
+	(wire
+		(pts
 			(xy 127 45.72) (xy 127 41.91)
 		)
 		(stroke
@@ -2082,6 +2186,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 180.34) (xy 88.9 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04414a4-7292-4b93-9018-f39485c13bf0")
+	)
+	(wire
+		(pts
 			(xy 247.65 58.42) (xy 247.65 71.12)
 		)
 		(stroke
@@ -2129,6 +2243,16 @@
 			(type default)
 		)
 		(uuid "fe8d4d62-e970-4146-ba65-819cf6f7b804")
+	)
+	(wire
+		(pts
+			(xy 85.09 170.18) (xy 85.09 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff63dfe5-13f0-4a9a-b65a-acb3336429ab")
 	)
 	(wire
 		(pts
@@ -4320,6 +4444,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:MountingHole_Rails")
+		(at 116.84 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ab100d3-c54b-42d5-8e2a-558facaf69fb")
+		(property "Reference" "H54"
+			(at 119.38 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 119.38 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d02bf73-e33f-4756-98b4-d05325a24683")
+		)
+		(instances
+			(project "DMH_VCEG_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SynthStuff:MountingHole_Pot")
 		(at 260.35 52.07 0)
 		(unit 1)
@@ -4599,6 +4790,73 @@
 			(project "DMH_VCEG_PANEL"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Rails")
+		(at 116.84 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95424eb3-abc1-4386-8cef-58260633416e")
+		(property "Reference" "H53"
+			(at 119.38 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 119.38 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23aaf18f-0e29-4b5d-a70e-83ab3c50ec5b")
+		)
+		(instances
+			(project "DMH_VCEG_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H53")
 					(unit 1)
 				)
 			)
@@ -5161,6 +5419,73 @@
 			(project "DMH_VCEG_PANEL"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Rails")
+		(at 88.9 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c23bbb3e-f557-4f2e-8521-439f870468d6")
+		(property "Reference" "H52"
+			(at 91.44 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 91.44 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
+			(at 88.9 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 88.9 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d93600b9-8cc4-432b-ad2d-c5bd3090e923")
+		)
+		(instances
+			(project "DMH_VCEG_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H52")
 					(unit 1)
 				)
 			)
@@ -5873,6 +6198,81 @@
 			(project "DMH_VCEG_PANEL"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Rails")
+		(at 88.9 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fccb8ef2-164f-457b-9aab-8dc0d44c2284")
+		(property "Reference" "H51"
+			(at 91.44 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 91.44 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "963aa113-1b85-47c8-a40d-6c3cbda5dd88")
+		)
+		(instances
+			(project "DMH_VCEG_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H51")
 					(unit 1)
 				)
 			)
