@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH-Kosmo-10cm-PCB.kicad_pro",
+    "filename": "DMH_VCEG_PCB_1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -659,11 +659,15 @@
     ],
     [
       "ce3fef8b-9f1d-4178-b50b-4a046c030679",
-      "Inputs and Outputs"
+      "Inputs and Outputs A"
+    ],
+    [
+      "56bd3f35-094b-4adb-8c6d-1e57b38bb61e",
+      "Inputs and Outputs B"
     ],
     [
       "7ad2d702-dfb7-4d49-a82d-34430dd5948f",
-      "Core Circuit"
+      "Core Circuit A"
     ],
     [
       "0cdf34b2-39cd-4d9e-981a-97cd34791509",
