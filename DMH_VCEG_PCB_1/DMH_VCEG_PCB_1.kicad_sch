@@ -7,7 +7,7 @@
 	(title_block
 		(rev "1")
 		(company "DMH Instruments")
-		(comment 1 "PCB for 10cm Kosmo format synthesizer module")
+		(comment 1 "PCB for 15cm Kosmo format synthesizer module")
 	)
 	(lib_symbols)
 	(sheet

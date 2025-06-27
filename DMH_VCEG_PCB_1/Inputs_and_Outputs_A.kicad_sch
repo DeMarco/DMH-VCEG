@@ -6,7 +6,7 @@
 	(paper "A4" portrait)
 	(title_block
 		(company "DMH Instruments")
-		(comment 1 "PCB for 10cm Kosmo format synthesizer module")
+		(comment 1 "PCB for 15cm Kosmo format synthesizer module")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL074"
@@ -3971,13 +3971,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 107.95 129.54 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "17068198-abe4-4c16-b00b-d74a58df79d2")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 107.95 139.7 0)
 			(effects
 				(font
@@ -4018,6 +4018,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
@@ -4065,8 +4073,8 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "U2")
-					(unit 2)
+					(reference "U1")
+					(unit 4)
 				)
 			)
 		)
@@ -5037,6 +5045,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d710")
 		)
@@ -5390,41 +5406,49 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
-			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d712")
+			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d713")
 		)
 		(pin "3"
-			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda641")
+			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda642")
 		)
 		(pin "7"
 			(uuid "828ffdbe-5578-44ea-b181-14e97471fcdb")
 		)
 		(pin "2"
-			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f6")
+			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f7")
 		)
 		(pin "11"
-			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289e")
+			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289f")
 		)
 		(pin "4"
-			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0c")
+			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0d")
 		)
 		(pin "13"
-			(uuid "93474525-8eb5-410e-bd0d-de0163d8eef1")
+			(uuid "93474525-8eb5-410e-bd0d-de0163d8eef2")
 		)
 		(pin "9"
-			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f6")
+			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f7")
 		)
 		(pin "12"
-			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a3")
+			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a4")
 		)
 		(pin "14"
-			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a849")
+			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a84a")
 		)
 		(pin "10"
-			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ee")
+			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ef")
 		)
 		(pin "1"
-			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3527")
+			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3528")
 		)
 		(pin "6"
 			(uuid "548fe3c4-da71-48db-acd2-e3cc8cf24fbe")
@@ -5526,13 +5550,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 107.95 97.79 0)
 		(mirror x)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b4d43938-416c-4104-8045-9e4fdcd88847")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -5575,53 +5599,61 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 107.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
-			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d710")
+			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d711")
 		)
 		(pin "3"
 			(uuid "03d62768-8262-4787-bb7f-85b399212ae0")
 		)
 		(pin "7"
-			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b00")
+			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b01")
 		)
 		(pin "2"
 			(uuid "0ba090a1-829f-4dfd-b31f-57b5793125d6")
 		)
 		(pin "11"
-			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289c")
+			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289d")
 		)
 		(pin "4"
-			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0a")
+			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0b")
 		)
 		(pin "13"
-			(uuid "93474525-8eb5-410e-bd0d-de0163d8eeef")
+			(uuid "93474525-8eb5-410e-bd0d-de0163d8eef0")
 		)
 		(pin "9"
-			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f4")
+			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f5")
 		)
 		(pin "12"
-			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a1")
+			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a2")
 		)
 		(pin "14"
-			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a847")
+			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a848")
 		)
 		(pin "10"
-			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ec")
+			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ed")
 		)
 		(pin "1"
 			(uuid "39c671a6-9edd-4dba-b165-aafb2fe85dd3")
 		)
 		(pin "6"
-			(uuid "74056594-cf30-420a-a602-8a1cf2c71429")
+			(uuid "74056594-cf30-420a-a602-8a1cf2c7142a")
 		)
 		(pin "5"
-			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2e")
+			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2f")
 		)
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "U2")
-					(unit 1)
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)

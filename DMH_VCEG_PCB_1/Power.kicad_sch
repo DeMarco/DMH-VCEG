@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Distribution")
 		(company "DMH Instruments")
-		(comment 1 "PCB for 10cm Kosmo format synthesizer module")
+		(comment 1 "PCB for 15cm Kosmo format synthesizer module")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
