@@ -9248,7 +9248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 127 194.31 0)
 			(effects
 				(font
@@ -9809,7 +9809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 55.88 199.39 0)
 			(effects
 				(font
@@ -10629,7 +10629,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 167.64 72.39 0)
 		(mirror x)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10651,7 +10651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 166.37 74.93 0)
 			(effects
 				(font
@@ -10676,6 +10676,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -10724,7 +10732,7 @@
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U3")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -11520,7 +11528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 96.52 196.85 0)
 			(effects
 				(font
@@ -13747,7 +13755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 55.88 245.11 0)
 			(effects
 				(font
@@ -13775,46 +13783,46 @@
 			)
 		)
 		(pin "6"
-			(uuid "dbf69e38-8261-497a-a227-f5acf0a851c2")
+			(uuid "dbf69e38-8261-497a-a227-f5acf0a851c3")
 		)
 		(pin "3"
-			(uuid "b53c84fb-26ff-415f-83e9-0a6c4981df28")
+			(uuid "b53c84fb-26ff-415f-83e9-0a6c4981df29")
 		)
 		(pin "2"
-			(uuid "c56283b9-7906-45ec-a42a-eab8b8a3d91a")
+			(uuid "c56283b9-7906-45ec-a42a-eab8b8a3d91b")
 		)
 		(pin "1"
-			(uuid "020d6ea5-8a61-4819-b5e6-741db7e29a5e")
+			(uuid "020d6ea5-8a61-4819-b5e6-741db7e29a5f")
 		)
 		(pin "5"
-			(uuid "cfbc65ff-5928-472b-a103-61bcb3a8cdd7")
+			(uuid "cfbc65ff-5928-472b-a103-61bcb3a8cdd8")
 		)
 		(pin "14"
 			(uuid "e7cd6144-6e19-458b-bc34-7f1f25886383")
 		)
 		(pin "10"
-			(uuid "5207645b-219c-41d1-8f75-91fbb407cf4f")
+			(uuid "5207645b-219c-41d1-8f75-91fbb407cf50")
 		)
 		(pin "13"
 			(uuid "17445e1f-0501-42f3-a20a-b10279dd37af")
 		)
 		(pin "4"
-			(uuid "872cb0f4-a388-4017-bcf7-11f61693b04a")
+			(uuid "872cb0f4-a388-4017-bcf7-11f61693b04b")
 		)
 		(pin "9"
-			(uuid "f5ab1ddb-2eb9-4511-82b7-35e343d5c6a3")
+			(uuid "f5ab1ddb-2eb9-4511-82b7-35e343d5c6a4")
 		)
 		(pin "8"
-			(uuid "abb59e3f-bfdb-43dd-887a-2b2e52d85555")
+			(uuid "abb59e3f-bfdb-43dd-887a-2b2e52d85556")
 		)
 		(pin "7"
-			(uuid "456de022-b552-4d65-87f5-f95f45e98bc1")
+			(uuid "456de022-b552-4d65-87f5-f95f45e98bc2")
 		)
 		(pin "12"
 			(uuid "bea31e2c-826c-4cab-8bec-866dedba87e1")
 		)
 		(pin "11"
-			(uuid "53bee530-c68d-4ef8-a308-eb4158d0c198")
+			(uuid "53bee530-c68d-4ef8-a308-eb4158d0c199")
 		)
 		(instances
 			(project "DMH_VCEG_PCB_1"
@@ -14638,7 +14646,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 50.8 152.4 0)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14661,7 +14669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 49.53 149.86 0)
 			(effects
 				(font
@@ -14686,6 +14694,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -14734,7 +14750,7 @@
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U3")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
