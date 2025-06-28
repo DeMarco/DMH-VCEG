@@ -12035,7 +12035,7 @@
 		(dnp no)
 		(uuid "a5d22152-478d-4ece-9196-273e097a1db2")
 		(property "Reference" "R53"
-			(at 152.3999 67.31 0)
+			(at 154.94 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,7 +12044,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 154.9399 67.31 0)
+			(at 154.9399 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
