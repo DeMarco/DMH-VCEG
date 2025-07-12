@@ -1003,6 +1003,12 @@
 		(uuid "a21067a6-c459-490d-9d0b-0fac5c2c7855")
 	)
 	(junction
+		(at 120.65 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e2f8d2-47f5-4866-b805-f1ac3cf06153")
+	)
+	(junction
 		(at 45.72 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1088,6 +1094,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 111.76) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01fab2af-88f8-481f-8f23-5b6a376a41c4")
+	)
+	(wire
+		(pts
 			(xy 205.74 139.7) (xy 201.93 139.7)
 		)
 		(stroke
@@ -1145,6 +1161,16 @@
 			(type default)
 		)
 		(uuid "0870f8ce-8797-488b-907f-dca6c3e95359")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 120.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7d6939-c4ef-48f9-92b1-d9524c180642")
 	)
 	(wire
 		(pts
@@ -3322,7 +3348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Exp"
+		(property "Value" "Long"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -5280,7 +5306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Exp"
+		(property "Value" "Long"
 			(at 186.69 38.1 0)
 			(effects
 				(font
@@ -5608,6 +5634,76 @@
 			(project "DMH_VCEG_PANEL"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 127 107.95 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caad439d-d370-405f-a4c7-762e2c23bbac")
+		(property "Reference" "H45"
+			(at 129.54 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LEDs"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 129.54 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b140024c-a00d-40ed-809b-0d59bcd1f9f8")
+		)
+		(instances
+			(project "DMH_VCEG_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H45")
 					(unit 1)
 				)
 			)
