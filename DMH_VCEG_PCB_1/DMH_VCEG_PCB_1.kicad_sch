@@ -10,42 +10,6 @@
 		(comment 1 "PCB for 15cm Kosmo format synthesizer module")
 	)
 	(lib_symbols)
-	(junction
-		(at 86.36 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58a66b54-33f0-494c-91c3-5669d3526bff")
-	)
-	(junction
-		(at 72.39 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c312584-cb0e-4bce-acb1-f7097d7b28d4")
-	)
-	(junction
-		(at 76.2 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f85ea0c-f1f3-4552-a5b0-e4f6a527ab86")
-	)
-	(junction
-		(at 68.58 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "904d25c8-40b3-432f-919a-a5737839eed9")
-	)
-	(junction
-		(at 80.01 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5d9e8f3-2300-4dd0-a29b-0fdc9178889d")
-	)
-	(junction
-		(at 90.17 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c438d163-68bb-4ae7-a8c1-98d4483da7fd")
-	)
 	(wire
 		(pts
 			(xy 63.5 49.53) (xy 76.2 49.53)
@@ -65,16 +29,6 @@
 			(type default)
 		)
 		(uuid "0ebb47d5-b1c9-409a-8443-e63deedd8be5")
-	)
-	(wire
-		(pts
-			(xy 80.01 53.34) (xy 95.25 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12da7a74-89fe-4f04-a0bd-0e110536cad1")
 	)
 	(wire
 		(pts
@@ -145,16 +99,6 @@
 			(type default)
 		)
 		(uuid "5f95fb43-c694-4c89-9f67-9700e843063f")
-	)
-	(wire
-		(pts
-			(xy 72.39 45.72) (xy 95.25 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c42a9a-43aa-49dd-988f-a4fe962d3916")
 	)
 	(wire
 		(pts
@@ -238,36 +182,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 49.53) (xy 95.25 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a111ab2d-b962-44eb-a1db-1f2a65208dec")
-	)
-	(wire
-		(pts
-			(xy 68.58 41.91) (xy 95.25 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1ea29f1-6fd0-4e86-a188-d4b10693d220")
-	)
-	(wire
-		(pts
-			(xy 86.36 59.69) (xy 95.25 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac04e252-40db-4cc8-81e8-19ef486ff1da")
-	)
-	(wire
-		(pts
 			(xy 68.58 41.91) (xy 68.58 165.1)
 		)
 		(stroke
@@ -318,16 +232,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 69.85) (xy 95.25 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68218ae-2b55-4a3d-b663-8e7baf425b21")
-	)
-	(wire
-		(pts
 			(xy 38.1 146.05) (xy 35.56 146.05)
 		)
 		(stroke
@@ -345,16 +249,6 @@
 			(type default)
 		)
 		(uuid "d20011db-74e0-4445-8508-72e459d24d9a")
-	)
-	(wire
-		(pts
-			(xy 90.17 63.5) (xy 95.25 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d34d83f2-40f0-465a-a298-42651a24fe56")
 	)
 	(wire
 		(pts
@@ -416,18 +310,8 @@
 		)
 		(uuid "fc4ee95f-9774-414c-a767-499cf5723807")
 	)
-	(wire
-		(pts
-			(xy 63.5 77.47) (xy 95.25 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0f18e1-f68e-4ee6-ac55-c8dd723c1b21")
-	)
 	(sheet
-		(at 177.8 88.9)
+		(at 242.57 132.08)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -443,7 +327,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 177.8 88.1884 0)
+			(at 242.57 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,7 +336,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 177.8 114.8846 0)
+			(at 242.57 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +346,7 @@
 			)
 		)
 		(pin "Bus Gate" output
-			(at 177.8 107.95 180)
+			(at 242.57 151.13 180)
 			(uuid "00f3de1f-6ad5-4ce6-83b6-bcc422cb898f")
 			(effects
 				(font
@@ -713,7 +597,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 38.1)
+		(at 208.28 35.56)
 		(size 50.8 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -728,8 +612,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
-		(property "Sheetname" "Core Circuit A"
-			(at 95.25 37.3884 0)
+		(property "Sheetname" "Envylope A"
+			(at 208.28 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -737,8 +621,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Core_Circuit_A.kicad_sch"
-			(at 95.25 102.1846 0)
+		(property "Sheetfile" "Envylope_A.kicad_sch"
+			(at 208.28 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,7 +632,7 @@
 			)
 		)
 		(pin "Att CV" input
-			(at 95.25 41.91 180)
+			(at 208.28 39.37 180)
 			(uuid "19673a30-3a9b-4e71-8ae4-5e229c0cab03")
 			(effects
 				(font
@@ -758,7 +642,7 @@
 			)
 		)
 		(pin "Dec CV" input
-			(at 95.25 45.72 180)
+			(at 208.28 43.18 180)
 			(uuid "108eef7f-1fdf-4dbb-b994-7bb1a6c88c88")
 			(effects
 				(font
@@ -768,7 +652,7 @@
 			)
 		)
 		(pin "Gate" input
-			(at 95.25 59.69 180)
+			(at 208.28 57.15 180)
 			(uuid "8f9961a4-4916-4103-8f2c-670809e36544")
 			(effects
 				(font
@@ -778,7 +662,7 @@
 			)
 		)
 		(pin "Rel CV" input
-			(at 95.25 53.34 180)
+			(at 208.28 50.8 180)
 			(uuid "f5c8145e-0b9b-4192-9699-fffa168632a3")
 			(effects
 				(font
@@ -788,7 +672,7 @@
 			)
 		)
 		(pin "SG Out" output
-			(at 95.25 69.85 180)
+			(at 208.28 67.31 180)
 			(uuid "553804e8-404c-4b3d-81d2-308c18d8bc45")
 			(effects
 				(font
@@ -798,7 +682,7 @@
 			)
 		)
 		(pin "Sus CV" input
-			(at 95.25 49.53 180)
+			(at 208.28 46.99 180)
 			(uuid "bf58ff14-1f83-4abc-b30c-6d94ce670835")
 			(effects
 				(font
@@ -808,7 +692,7 @@
 			)
 		)
 		(pin "Trig" input
-			(at 95.25 63.5 180)
+			(at 208.28 60.96 180)
 			(uuid "0b2c8d76-0888-47a3-8e91-c19d7badee77")
 			(effects
 				(font
@@ -818,7 +702,7 @@
 			)
 		)
 		(pin "Out" output
-			(at 95.25 77.47 180)
+			(at 208.28 74.93 180)
 			(uuid "58d07930-1931-4600-bd23-569c26dfdf10")
 			(effects
 				(font
@@ -831,6 +715,129 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 38.1)
+		(size 50.8 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c")
+		(property "Sheetname" "Core Circuit A"
+			(at 101.6 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core_Circuit_A.kicad_sch"
+			(at 101.6 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Att CV" input
+			(at 101.6 41.91 180)
+			(uuid "3ed98ca2-3ef4-4178-b9ff-a73e2f07ef89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dec CV" input
+			(at 101.6 45.72 180)
+			(uuid "e96c8abf-22b9-4d94-bbc7-abb3d96d881e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Gate" input
+			(at 101.6 59.69 180)
+			(uuid "5c18d0a2-8069-4917-a424-94f5da42978a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel CV" input
+			(at 101.6 53.34 180)
+			(uuid "cfaab185-a6e8-4c57-9418-b084ddd66435")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SG Out" output
+			(at 101.6 69.85 180)
+			(uuid "39faa34e-83f4-4b39-af11-a2cdeff7ec64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sus CV" input
+			(at 101.6 49.53 180)
+			(uuid "0a9ed012-1e92-4ddf-86f8-5953b2823214")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trig" input
+			(at 101.6 63.5 180)
+			(uuid "a469e801-aa53-4660-be2b-529d61a4df5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 101.6 77.47 180)
+			(uuid "47047b31-8826-46a1-9976-73003f6ba029")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "5")
 				)
 			)
 		)
