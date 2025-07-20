@@ -9,260 +9,6 @@
 		(comment 1 "PCB for 15cm Kosmo format synthesizer module")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:TL072"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TL072"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL072_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
 				(offset 0.127)
@@ -3934,7 +3680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a73a7f6-b788-40c7-8da6-ba5777a45883")
-		(property "Reference" "U?"
+		(property "Reference" "U18"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -4030,7 +3776,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/56bd3f35-094b-4adb-8c6d-1e57b38bb61e"
-					(reference "U?")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -4664,7 +4410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dad2dc6-1f99-48c0-8e34-b966fcbb7a2b")
-		(property "Reference" "U?"
+		(property "Reference" "U18"
 			(at 107.95 76.2 0)
 			(effects
 				(font
@@ -4760,7 +4506,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/56bd3f35-094b-4adb-8c6d-1e57b38bb61e"
-					(reference "U?")
+					(reference "U18")
 					(unit 2)
 				)
 			)
@@ -4776,7 +4522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9df2111f-184c-47f9-a52e-73b18d7b4aef")
-		(property "Reference" "U?"
+		(property "Reference" "U18"
 			(at 107.95 139.7 0)
 			(effects
 				(font
@@ -4872,7 +4618,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/56bd3f35-094b-4adb-8c6d-1e57b38bb61e"
-					(reference "U?")
+					(reference "U18")
 					(unit 4)
 				)
 			)
@@ -4964,7 +4710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a878a17f-a0be-483f-b87f-5182a343de9f")
-		(property "Reference" "U?"
+		(property "Reference" "U18"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -5060,7 +4806,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/56bd3f35-094b-4adb-8c6d-1e57b38bb61e"
-					(reference "U?")
+					(reference "U18")
 					(unit 3)
 				)
 			)
@@ -5611,7 +5357,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
+		(lib_id "Amplifier_Operational:TL074")
 		(at 146.05 234.95 180)
 		(unit 2)
 		(exclude_from_sim no)
@@ -5620,7 +5366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eefed368-1de1-4e42-bd4b-ed346410d9d1")
-		(property "Reference" "U?"
+		(property "Reference" "U10"
 			(at 146.05 224.79 0)
 			(effects
 				(font
@@ -5628,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL074"
 			(at 146.05 227.33 0)
 			(effects
 				(font
@@ -5636,8 +5382,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 146.05 234.95 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 147.32 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +5392,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 146.05 234.95 0)
+			(at 144.78 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +5400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 146.05 234.95 0)
 			(effects
 				(font
@@ -5695,10 +5441,28 @@
 		(pin "6"
 			(uuid "569d5353-f21e-4a3e-b7ea-ad7e5084d95e")
 		)
+		(pin "10"
+			(uuid "4fe30c28-7ad6-4a93-a4d4-34267501040c")
+		)
+		(pin "9"
+			(uuid "fee0aa06-d4b5-4dc9-a602-9f55c1015467")
+		)
+		(pin "12"
+			(uuid "e2480d8d-5713-4cd0-b0f7-75e5afd4e6a2")
+		)
+		(pin "14"
+			(uuid "31a70cdd-b430-4007-a466-1f29d7cd4960")
+		)
+		(pin "11"
+			(uuid "2166f4bc-0327-422d-bf52-2b59b813537a")
+		)
+		(pin "13"
+			(uuid "0b57c078-906f-4c58-925b-79906480a3de")
+		)
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/56bd3f35-094b-4adb-8c6d-1e57b38bb61e"
-					(reference "U?")
+					(reference "U10")
 					(unit 2)
 				)
 			)

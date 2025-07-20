@@ -696,20 +696,16 @@
       "Inputs and Outputs B"
     ],
     [
-      "7ad2d702-dfb7-4d49-a82d-34430dd5948f",
-      "Envylope A"
-    ],
-    [
-      "0cdf34b2-39cd-4d9e-981a-97cd34791509",
-      "Power"
-    ],
-    [
       "cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c",
       "Core Circuit A"
     ],
     [
       "dfc6a801-157b-43f6-bf92-8048d56e52a2",
       "Extra Features A"
+    ],
+    [
+      "0cdf34b2-39cd-4d9e-981a-97cd34791509",
+      "Power"
     ]
   ],
   "text_variables": {}
