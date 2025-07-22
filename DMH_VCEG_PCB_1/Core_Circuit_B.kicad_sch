@@ -9842,7 +9842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07348852-65d7-429d-9121-0b28dcbe243a")
-		(property "Reference" "U15"
+		(property "Reference" "U12"
 			(at 78.74 90.17 0)
 			(effects
 				(font
@@ -9883,6 +9883,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 78.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -9930,7 +9938,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U15")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -10417,7 +10425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d5fe060-56f4-439d-8c04-5dbab140c040")
-		(property "Reference" "U17"
+		(property "Reference" "U14"
 			(at 172.212 160.528 0)
 			(effects
 				(font
@@ -10505,7 +10513,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U17")
+					(reference "U14")
 					(unit 2)
 				)
 			)
@@ -11389,7 +11397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2731cd73-e721-49ed-945b-9910fe585bb4")
-		(property "Reference" "U16"
+		(property "Reference" "U11"
 			(at 138.43 60.96 0)
 			(effects
 				(font
@@ -11430,6 +11438,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -11477,7 +11493,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U16")
+					(reference "U11")
 					(unit 3)
 				)
 			)
@@ -12465,7 +12481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bb30449-dca9-40b3-9786-8876086be283")
-		(property "Reference" "U16"
+		(property "Reference" "U11"
 			(at 99.06 58.42 0)
 			(effects
 				(font
@@ -12506,6 +12522,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -12553,7 +12577,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U16")
+					(reference "U11")
 					(unit 2)
 				)
 			)
@@ -12569,7 +12593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4bd02250-16b6-4f63-aed7-6d06966751c9")
-		(property "Reference" "U14"
+		(property "Reference" "U15"
 			(at 107.95 118.364 0)
 			(effects
 				(font
@@ -12657,7 +12681,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U14")
+					(reference "U15")
 					(unit 4)
 				)
 			)
@@ -14061,7 +14085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "782dad5d-3fbb-442f-b942-b6b83701d157")
-		(property "Reference" "U16"
+		(property "Reference" "U11"
 			(at 99.06 31.75 0)
 			(effects
 				(font
@@ -14102,6 +14126,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -14149,7 +14181,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U16")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -14230,7 +14262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80edb4b9-401b-4efb-b130-05053b694c1d")
-		(property "Reference" "U14"
+		(property "Reference" "U15"
 			(at 67.31 177.8 0)
 			(effects
 				(font
@@ -14318,7 +14350,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U14")
+					(reference "U15")
 					(unit 3)
 				)
 			)
@@ -14475,7 +14507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "846db4e3-f29a-4954-8d12-ac3d3e6f5e1a")
-		(property "Reference" "U14"
+		(property "Reference" "U15"
 			(at 142.494 147.066 0)
 			(effects
 				(font
@@ -14563,7 +14595,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U14")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -15096,7 +15128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a342ac3-0445-4b55-88b3-70b1b22b57fd")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 45.974 43.942 0)
 			(effects
 				(font
@@ -15193,7 +15225,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U11")
+					(reference "U10")
 					(unit 2)
 				)
 			)
@@ -15208,7 +15240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b5d01ed-f001-4a43-8182-5d7a58e3ea51")
-		(property "Reference" "U17"
+		(property "Reference" "U14"
 			(at 225.552 142.494 0)
 			(effects
 				(font
@@ -15296,7 +15328,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U17")
+					(reference "U14")
 					(unit 4)
 				)
 			)
@@ -15465,7 +15497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95a4e560-f9ff-41e1-96be-f381f179b5ed")
-		(property "Reference" "U14"
+		(property "Reference" "U15"
 			(at 95.25 175.26 0)
 			(effects
 				(font
@@ -15553,7 +15585,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U14")
+					(reference "U15")
 					(unit 2)
 				)
 			)
@@ -15568,7 +15600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9812763f-3236-4e12-8e46-3ea5152dab21")
-		(property "Reference" "U12"
+		(property "Reference" "U16"
 			(at 209.296 56.642 0)
 			(effects
 				(font
@@ -15664,7 +15696,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U12")
+					(reference "U16")
 					(unit 3)
 				)
 			)
@@ -17358,7 +17390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd6b7768-d1da-4f39-934d-fb58e8b31e2c")
-		(property "Reference" "U12"
+		(property "Reference" "U16"
 			(at 236.982 54.356 0)
 			(effects
 				(font
@@ -17454,7 +17486,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U12")
+					(reference "U16")
 					(unit 4)
 				)
 			)
@@ -17470,7 +17502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d64625-bcf0-4bc6-b292-469b067726a9")
-		(property "Reference" "U16"
+		(property "Reference" "U11"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -17511,6 +17543,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -17558,7 +17598,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U16")
+					(reference "U11")
 					(unit 4)
 				)
 			)
@@ -17573,7 +17613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d73ef954-d7c9-48a0-8941-3ca811035dd8")
-		(property "Reference" "U12"
+		(property "Reference" "U16"
 			(at 188.976 103.632 0)
 			(effects
 				(font
@@ -17669,7 +17709,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U12")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -17889,7 +17929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dccf4945-1c62-4005-b17f-c1df828f388f")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 48.768 84.582 0)
 			(effects
 				(font
@@ -17986,7 +18026,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -18002,7 +18042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f591e4-4375-4193-bbf5-a5862533d36c")
-		(property "Reference" "U17"
+		(property "Reference" "U14"
 			(at 215.9 120.65 0)
 			(effects
 				(font
@@ -18090,7 +18130,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U17")
+					(reference "U14")
 					(unit 3)
 				)
 			)
@@ -18358,7 +18398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7fe668d-1a45-4643-8100-816e4e2c5a41")
-		(property "Reference" "U12"
+		(property "Reference" "U16"
 			(at 216.662 101.346 0)
 			(effects
 				(font
@@ -18454,7 +18494,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U12")
+					(reference "U16")
 					(unit 2)
 				)
 			)
@@ -18983,7 +19023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f32c37ba-29d8-4fc5-ad7e-5cd4ae20ce21")
-		(property "Reference" "U17"
+		(property "Reference" "U14"
 			(at 171.45 140.97 0)
 			(effects
 				(font
@@ -19071,7 +19111,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U17")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -19385,7 +19425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe08962f-b213-44b8-80e2-87bc0f55b774")
-		(property "Reference" "U15"
+		(property "Reference" "U12"
 			(at 119.38 77.47 0)
 			(effects
 				(font
@@ -19426,6 +19466,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -19473,7 +19521,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0347d444-b732-4d51-a48d-f043a0c0fe84"
-					(reference "U15")
+					(reference "U12")
 					(unit 6)
 				)
 			)
