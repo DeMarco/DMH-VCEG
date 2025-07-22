@@ -6439,7 +6439,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 156.21) (xy 205.74 156.21)
+			(xy 203.2 156.21) (xy 215.9 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9159,16 +9159,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 156.21) (xy 220.98 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda7c436-acf6-40b6-8178-36cd237ae7fd")
-	)
-	(wire
-		(pts
 			(xy 203.2 165.1) (xy 203.2 156.21)
 		)
 		(stroke
@@ -9665,7 +9655,7 @@
 	)
 	(hierarchical_label "Out"
 		(shape output)
-		(at 220.98 156.21 0)
+		(at 215.9 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11294,7 +11284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 143.51 116.205 0)
 			(effects
 				(font
@@ -12888,74 +12878,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 209.55 156.21 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4328f16e-6fa1-4a39-910a-8264c48fd081")
-		(property "Reference" "R35"
-			(at 209.55 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 209.55 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 209.296 155.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 209.55 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb9a6001-2b83-4a78-8436-267d546fa8cb")
-		)
-		(pin "1"
-			(uuid "d5959c2f-9bee-4757-8880-f1dd754838b9")
-		)
-		(instances
-			(project "DMH_VCEG_PCB_1"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 199.39 73.66 180)
 		(unit 1)
@@ -13324,7 +13246,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "4b68caf9-d6c3-49a1-9b1a-97e91027e6d5")
 		(property "Reference" "RV4"
@@ -13345,7 +13267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
+		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 128.27 162.56 0)
 			(effects
 				(font
@@ -13700,7 +13622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 			(at 160.02 100.965 0)
 			(effects
 				(font
@@ -14556,7 +14478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 43.4848 63.5 0)
 			(effects
 				(font
@@ -15078,7 +15000,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "87ae5ee1-abeb-4146-804b-cbdcaf67a3d5")
 		(property "Reference" "RV5"
@@ -15099,7 +15021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
+		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 190.5 144.78 0)
 			(effects
 				(font
@@ -16788,7 +16710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 49.53 14.9352 0)
 			(effects
 				(font
@@ -16976,7 +16898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 49.53 113.3348 0)
 			(effects
 				(font
