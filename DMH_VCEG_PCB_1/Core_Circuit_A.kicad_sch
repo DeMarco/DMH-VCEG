@@ -5134,6 +5134,18 @@
 		(uuid 5ad5923d-abaf-4871-950f-6323da5f9ce9)
 	)
 	(circle
+		(center 31.242 41.656)
+		(radius 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5ae892f4-5dff-40ab-b74b-cf4e9db79983)
+	)
+	(circle
 		(center 199.39 73.66)
 		(radius 5.08)
 		(stroke
@@ -5168,6 +5180,18 @@
 			(type none)
 		)
 		(uuid b8d8aa2a-fe65-44ac-ae57-729d02bd4eff)
+	)
+	(circle
+		(center 20.32 99.06)
+		(radius 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c9c18502-a893-4963-9367-a50ad6e4ea51)
 	)
 	(circle
 		(center 119.38 151.384)
@@ -5227,6 +5251,16 @@
 		)
 		(uuid "10dbf0a8-c7b2-4e43-8134-afafb5f1bfd1")
 	)
+	(text "Was 10k"
+		(exclude_from_sim no)
+		(at 30.48 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ad8327f-b8ce-4fad-b8b1-e504afeab933")
+	)
 	(text "Adjust to\naround 30k"
 		(exclude_from_sim no)
 		(at 118.364 158.75 0)
@@ -5266,6 +5300,16 @@
 			)
 		)
 		(uuid "89072073-ca16-4729-a09f-aca261416b41")
+	)
+	(text "Was 10k"
+		(exclude_from_sim no)
+		(at 19.558 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "916b6798-1162-49f6-bf78-48414501a899")
 	)
 	(text "Adjust to around 37k"
 		(exclude_from_sim no)
@@ -7609,6 +7653,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 25.4) (xy 83.82 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805bbee2-724c-4f8d-8015-55f82749b0f3")
+	)
+	(wire
+		(pts
 			(xy 54.61 38.1) (xy 53.34 38.1)
 		)
 		(stroke
@@ -7746,6 +7800,16 @@
 			(type default)
 		)
 		(uuid "86d55982-2e5e-409a-b9f4-e400830e6fbc")
+	)
+	(wire
+		(pts
+			(xy 83.82 25.4) (xy 83.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8788b061-13fd-4bb1-94ef-aaec2adc868d")
 	)
 	(wire
 		(pts
@@ -9564,6 +9628,17 @@
 			(justify right)
 		)
 		(uuid "40058c73-a332-4baf-8a5f-7839000b2e59")
+	)
+	(hierarchical_label "Loop"
+		(shape input)
+		(at 81.28 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "455708ba-aba4-4900-a312-331f3b1bc766")
 	)
 	(hierarchical_label "Proc Gate"
 		(shape output)
@@ -19222,7 +19297,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fbdb4e77-ab70-4d59-a2e9-0f7ca8154bbb")
 		(property "Reference" "SW1"
 			(at 158.75 175.26 0)
@@ -19267,11 +19341,14 @@
 				(hide yes)
 			)
 		)
-		(property "Function" ""
-			(at 158.75 184.15 0)
+		(property "Function" "Long A"
+			(at 158.75 189.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)

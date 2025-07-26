@@ -100,7 +100,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 96.52) (xy 162.56 85.09)
+			(xy 162.56 96.52) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -150,7 +150,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 160.02 81.28)
+			(xy 165.1 67.31) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -240,6 +240,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 57.15) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25334c0b-f9a8-40b5-abba-ffca9e7834f2")
+	)
+	(wire
+		(pts
 			(xy 38.1 144.78) (xy 27.94 144.78)
 		)
 		(stroke
@@ -320,6 +330,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 133.35) (xy 165.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34aa417f-c5c5-42de-ad61-7c4bbc58b17b")
+	)
+	(wire
+		(pts
 			(xy 63.5 152.4) (xy 68.58 152.4)
 		)
 		(stroke
@@ -340,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 57.15) (xy 165.1 57.15)
+			(xy 157.48 60.96) (xy 165.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -400,7 +420,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 161.29) (xy 162.56 161.29)
+			(xy 165.1 147.32) (xy 162.56 147.32)
 		)
 		(stroke
 			(width 0)
@@ -430,7 +450,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 81.28) (xy 160.02 93.98)
+			(xy 160.02 67.31) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
@@ -440,7 +460,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 133.35) (xy 157.48 133.35)
+			(xy 165.1 137.16) (xy 157.48 137.16)
 		)
 		(stroke
 			(width 0)
@@ -740,7 +760,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 133.35) (xy 157.48 167.64)
+			(xy 157.48 137.16) (xy 157.48 167.64)
 		)
 		(stroke
 			(width 0)
@@ -790,7 +810,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 91.44) (xy 157.48 57.15)
+			(xy 157.48 91.44) (xy 157.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 157.48) (xy 160.02 170.18)
+			(xy 160.02 143.51) (xy 160.02 170.18)
 		)
 		(stroke
 			(width 0)
@@ -920,7 +940,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 161.29) (xy 162.56 172.72)
+			(xy 162.56 147.32) (xy 162.56 172.72)
 		)
 		(stroke
 			(width 0)
@@ -960,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 165.1 85.09)
+			(xy 162.56 71.12) (xy 165.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -980,7 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 157.48) (xy 160.02 157.48)
+			(xy 165.1 143.51) (xy 160.02 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1163,6 +1183,16 @@
 				(justify right)
 			)
 		)
+		(pin "Loop" input
+			(at 152.4 133.35 0)
+			(uuid "72241a36-1e15-4752-891e-484af715cd1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
@@ -1280,7 +1310,7 @@
 			)
 		)
 		(pin "Env Out" input
-			(at 165.1 133.35 180)
+			(at 165.1 137.16 180)
 			(uuid "333299f2-dfea-491d-86b8-3da2170f3a74")
 			(effects
 				(font
@@ -1290,7 +1320,7 @@
 			)
 		)
 		(pin "Out R" output
-			(at 165.1 157.48 180)
+			(at 165.1 143.51 180)
 			(uuid "e7b1407e-7479-4c6d-949c-b56afd296b13")
 			(effects
 				(font
@@ -1330,7 +1360,7 @@
 			)
 		)
 		(pin "SG Out" output
-			(at 165.1 161.29 180)
+			(at 165.1 147.32 180)
 			(uuid "53ff70a8-95fa-4ebf-afe9-318bc402a7e9")
 			(effects
 				(font
@@ -1349,9 +1379,19 @@
 				(justify left)
 			)
 		)
-		(pin "LEDs SW" output
+		(pin "Loop" output
+			(at 165.1 133.35 180)
+			(uuid "0077b786-17c0-4687-89f5-4917c2e9e22d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LEDs Anode" output
 			(at 190.5 161.29 0)
-			(uuid "274727b7-4fa2-4151-8df2-e148ad5384a8")
+			(uuid "19bf279d-7ec5-4bcf-b339-4c988f73cc1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,6 +1805,16 @@
 				(justify right)
 			)
 		)
+		(pin "Loop" input
+			(at 152.4 57.15 0)
+			(uuid "f02473d8-124b-4b40-882a-2d2d8b069e29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
@@ -2012,7 +2062,7 @@
 			)
 		)
 		(pin "Env Out" input
-			(at 165.1 57.15 180)
+			(at 165.1 60.96 180)
 			(uuid "209565a7-c4f5-424d-980d-02df6bab317e")
 			(effects
 				(font
@@ -2022,7 +2072,7 @@
 			)
 		)
 		(pin "Out R" output
-			(at 165.1 81.28 180)
+			(at 165.1 67.31 180)
 			(uuid "ab09d51e-1482-46d7-9464-660eeddee2d5")
 			(effects
 				(font
@@ -2062,7 +2112,7 @@
 			)
 		)
 		(pin "SG Out" output
-			(at 165.1 85.09 180)
+			(at 165.1 71.12 180)
 			(uuid "2919a2e0-29c3-406f-9c09-d9ad5a7d4552")
 			(effects
 				(font
@@ -2089,6 +2139,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Loop" output
+			(at 165.1 57.15 180)
+			(uuid "449c9953-234b-42ea-9060-70b7f9c3f7ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

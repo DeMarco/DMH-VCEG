@@ -6009,6 +6009,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 25.4) (xy 83.82 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dd5271-6644-494c-b68a-e72eb4e9474b")
+	)
+	(wire
+		(pts
 			(xy 54.61 88.9) (xy 55.88 88.9)
 		)
 		(stroke
@@ -8749,6 +8759,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 25.4) (xy 83.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b8a1cc-61ed-43bc-9c49-5f212420db1b")
+	)
+	(wire
+		(pts
 			(xy 128.27 149.86) (xy 128.27 152.4)
 		)
 		(stroke
@@ -9586,6 +9606,17 @@
 			(justify left)
 		)
 		(uuid "6b5b8ba4-044c-4904-86d5-a667d7ab33bf")
+	)
+	(hierarchical_label "Loop"
+		(shape input)
+		(at 81.28 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78e32445-3669-4853-aef1-0d9bf91643e3")
 	)
 	(hierarchical_label "Trig"
 		(shape input)
@@ -12988,7 +13019,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d310992-fb2e-4f12-80ef-0d970cca16cc")
 		(property "Reference" "SW2"
 			(at 158.75 175.26 0)
@@ -13033,11 +13063,14 @@
 				(hide yes)
 			)
 		)
-		(property "Function" ""
-			(at 158.75 184.15 0)
+		(property "Function" "Long B"
+			(at 158.75 189.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
