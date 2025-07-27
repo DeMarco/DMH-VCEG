@@ -10705,7 +10705,7 @@
 				)
 			)
 		)
-		(property "Value" "125k"
+		(property "Value" "127k"
 			(at 189.23 119.38 90)
 			(effects
 				(font
@@ -10738,6 +10738,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 189.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
