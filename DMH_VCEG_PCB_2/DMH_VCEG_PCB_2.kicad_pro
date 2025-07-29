@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -547,7 +548,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "DMH_VCEG_PCB_1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -578,10 +579,10 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -596,13 +597,43 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Function",
+          "name": "Function",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -659,11 +690,27 @@
     ],
     [
       "ce3fef8b-9f1d-4178-b50b-4a046c030679",
-      "Inputs and Outputs"
+      "Inputs and Outputs A"
     ],
     [
-      "7ad2d702-dfb7-4d49-a82d-34430dd5948f",
-      "Core Circuit"
+      "56bd3f35-094b-4adb-8c6d-1e57b38bb61e",
+      "Inputs and Outputs B"
+    ],
+    [
+      "cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c",
+      "Core Circuit A"
+    ],
+    [
+      "0347d444-b732-4d51-a48d-f043a0c0fe84",
+      "Core Circuit B"
+    ],
+    [
+      "dfc6a801-157b-43f6-bf92-8048d56e52a2",
+      "Extra Features A"
+    ],
+    [
+      "5112ef52-02ff-4071-9179-b1c0d55d0b73",
+      "Extra Features B"
     ],
     [
       "0cdf34b2-39cd-4d9e-981a-97cd34791509",
