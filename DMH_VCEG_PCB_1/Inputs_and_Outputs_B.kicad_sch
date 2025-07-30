@@ -6784,7 +6784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 146.05 228.6 0)
 			(effects
 				(font

@@ -15984,7 +15984,7 @@
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "8a342ac3-0445-4b55-88b3-70b1b22b57fd")
 		(property "Reference" "U10"
@@ -18903,7 +18903,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "dccf4945-1c62-4005-b17f-c1df828f388f")
 		(property "Reference" "U10"

@@ -13102,7 +13102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 184.15 139.7 0)
 			(effects
 				(font
@@ -15046,7 +15046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 273.05 33.02 0)
 			(effects
 				(font
@@ -15984,7 +15984,7 @@
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "8a342ac3-0445-4b55-88b3-70b1b22b57fd")
 		(property "Reference" "U10"
@@ -18133,7 +18133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 127 157.48 0)
 			(effects
 				(font
@@ -18696,7 +18696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 151.13 189.23 0)
 			(effects
 				(font
@@ -18903,7 +18903,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "dccf4945-1c62-4005-b17f-c1df828f388f")
 		(property "Reference" "U10"
@@ -19394,7 +19394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 251.46 77.47 0)
 			(effects
 				(font
