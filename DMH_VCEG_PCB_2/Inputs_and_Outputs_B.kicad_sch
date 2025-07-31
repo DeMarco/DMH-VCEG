@@ -2844,12 +2844,6 @@
 		(uuid "c0d70fb7-001c-4a58-a375-540c6c87c70e")
 	)
 	(junction
-		(at 171.45 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ccdfb8f5-e717-4094-bb9a-052315fbc90c")
-	)
-	(junction
 		(at 38.1 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2995,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 179.07) (xy 171.45 181.61)
+			(xy 171.45 176.53) (xy 171.45 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3395,16 +3389,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 179.07) (xy 171.45 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46773cc8-ed36-42f0-bcfb-2f6983ed35e8")
-	)
-	(wire
-		(pts
 			(xy 38.1 99.06) (xy 38.1 124.46)
 		)
 		(stroke
@@ -3552,16 +3536,6 @@
 			(type default)
 		)
 		(uuid "5b0142e0-7462-42d1-9f17-ef638b4fc3e2")
-	)
-	(wire
-		(pts
-			(xy 171.45 176.53) (xy 171.45 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d5a11d2-0618-4953-9f6a-cc7bdd2fc9ef")
 	)
 	(wire
 		(pts
@@ -6124,7 +6098,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "75k"
 			(at 146.05 210.82 90)
 			(effects
 				(font
@@ -7543,99 +7517,6 @@
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/56bd3f35-094b-4adb-8c6d-1e57b38bb61e"
 					(reference "U18")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:Conn_01x10_PinHeader")
-		(at 190.5 179.07 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0906e3f-5401-43e5-9dba-1e6d01a332da")
-		(property "Reference" "J26"
-			(at 189.865 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x10_PinHeader"
-			(at 190.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
-			(at 190.5 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x10"
-			(at 190.5 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "eeb89029-e99a-4c31-bdc2-a3ad4f7e9bdd")
-		)
-		(pin "1"
-			(uuid "a4e954e0-a54c-488d-ac7d-7c9527569baa")
-		)
-		(pin "5"
-			(uuid "fe418479-78e5-4d2a-b73a-a93fd1efb36a")
-		)
-		(pin "4"
-			(uuid "1d99bc6a-e011-40d5-8f02-6e2846696c5b")
-		)
-		(pin "10"
-			(uuid "dbecf3fd-cb4c-4a25-9828-28daada72306")
-		)
-		(pin "3"
-			(uuid "45df91ff-b30d-461c-bf8a-067d395f0006")
-		)
-		(pin "2"
-			(uuid "9671c898-b878-4ff3-aca2-9a15300f303b")
-		)
-		(pin "9"
-			(uuid "14d422fd-0513-4109-82ef-69547520f1b4")
-		)
-		(pin "7"
-			(uuid "c5410cb9-2a3e-4366-a76e-d9fab4ac7021")
-		)
-		(pin "8"
-			(uuid "b5f73e1b-b7dc-40e5-8660-aaa0027ab372")
-		)
-		(instances
-			(project "DMH_VCEG_PCB_1"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/56bd3f35-094b-4adb-8c6d-1e57b38bb61e"
-					(reference "J26")
-					(unit 2)
 				)
 			)
 		)

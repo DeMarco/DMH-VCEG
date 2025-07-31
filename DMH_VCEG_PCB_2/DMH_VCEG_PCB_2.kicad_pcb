@@ -2379,7 +2379,7 @@
 	(footprint "SynthStuff:Toggle_Switch_2_Poles_TE"
 		(layer "F.Cu")
 		(uuid "1238f151-e658-45b9-a514-2c4bc3317c0d")
-		(at 70 167.5)
+		(at 85 167.5)
 		(property "Reference" "SW1"
 			(at 0 -8 0)
 			(unlocked yes)
@@ -6218,7 +6218,7 @@
 	(footprint "SynthStuff:Toggle_Switch_TE"
 		(layer "F.Cu")
 		(uuid "3aa5c501-d2c2-40a7-9ddf-e07c453e905e")
-		(at 115 167.5)
+		(at 130 167.5)
 		(property "Reference" "SW5"
 			(at 0 -8 0)
 			(unlocked yes)
@@ -6836,7 +6836,7 @@
 	(footprint "SynthStuff:Toggle_Switch_TE"
 		(layer "F.Cu")
 		(uuid "3b73bb85-ec10-41bf-b673-fed6921ded54")
-		(at 85 167.5)
+		(at 70 167.5)
 		(property "Reference" "SW4"
 			(at 0 -8 0)
 			(unlocked yes)
@@ -26569,7 +26569,7 @@
 	(footprint "SynthStuff:Toggle_Switch_2_Poles_TE"
 		(layer "F.Cu")
 		(uuid "b8cd113d-188c-42b6-a4da-bd457e78ae3d")
-		(at 130 167.5)
+		(at 115 167.5)
 		(property "Reference" "SW2"
 			(at 0 -8 0)
 			(unlocked yes)
