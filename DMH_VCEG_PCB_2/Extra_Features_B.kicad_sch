@@ -6732,7 +6732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
 			(at 101.6 127 0)
 			(effects
 				(font
@@ -9234,7 +9234,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
 			(at 109.22 22.86 0)
 			(effects
 				(font
@@ -10893,43 +10893,43 @@
 			)
 		)
 		(pin "7"
-			(uuid "eaf1f200-4ff4-4df1-bfd0-864837c3f8a8")
+			(uuid "eaf1f200-4ff4-4df1-bfd0-864837c3f8aa")
 		)
 		(pin "14"
-			(uuid "e3ede1b9-0955-44fa-a4c2-9e5c5be9b61b")
+			(uuid "e3ede1b9-0955-44fa-a4c2-9e5c5be9b61d")
 		)
 		(pin "10"
 			(uuid "b2fe00cf-d2df-404a-99bd-58d948294b2f")
 		)
 		(pin "2"
-			(uuid "070dba0f-d01b-4ad8-ab3b-60913b5dde20")
+			(uuid "070dba0f-d01b-4ad8-ab3b-60913b5dde22")
 		)
 		(pin "8"
-			(uuid "64dbb107-d68a-4f25-902a-3179f33a516e")
+			(uuid "64dbb107-d68a-4f25-902a-3179f33a516f")
 		)
 		(pin "3"
-			(uuid "1f08eec0-e225-4f9b-a4df-9ae3015a0cfa")
+			(uuid "1f08eec0-e225-4f9b-a4df-9ae3015a0cfb")
 		)
 		(pin "13"
-			(uuid "5782636a-64df-4182-b812-b7eece0d55f7")
+			(uuid "5782636a-64df-4182-b812-b7eece0d55f9")
 		)
 		(pin "12"
-			(uuid "654b1ee9-c860-44ad-810e-41ffe9ca9557")
+			(uuid "654b1ee9-c860-44ad-810e-41ffe9ca9559")
 		)
 		(pin "9"
-			(uuid "fd123bd7-c88e-4269-ac2a-2e659d6c4f24")
+			(uuid "fd123bd7-c88e-4269-ac2a-2e659d6c4f25")
 		)
 		(pin "6"
-			(uuid "61de5424-0ca1-4dd6-a8fe-259639498fa7")
+			(uuid "61de5424-0ca1-4dd6-a8fe-259639498fa8")
 		)
 		(pin "1"
-			(uuid "fcaef6d0-028c-4d18-81a8-587819b16cda")
+			(uuid "fcaef6d0-028c-4d18-81a8-587819b16cdc")
 		)
 		(pin "4"
-			(uuid "cf3ad90e-6356-4d5b-b0fd-704da6382673")
+			(uuid "cf3ad90e-6356-4d5b-b0fd-704da6382674")
 		)
 		(pin "5"
-			(uuid "e3186a6d-14ed-4060-9c30-f7a957ce24fd")
+			(uuid "e3186a6d-14ed-4060-9c30-f7a957ce24fe")
 		)
 		(pin "11"
 			(uuid "95f7878e-223c-4c85-a2bd-1dfdbe1173fd")

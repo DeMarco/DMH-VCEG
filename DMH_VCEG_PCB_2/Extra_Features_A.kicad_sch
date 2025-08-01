@@ -8818,7 +8818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
 			(at 101.6 127 0)
 			(effects
 				(font
@@ -9552,7 +9552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
 			(at 109.22 22.86 0)
 			(effects
 				(font
@@ -9591,22 +9591,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "1146d23b-6bd4-4ba8-abc8-59b6075db241")
+			(uuid "1146d23b-6bd4-4ba8-abc8-59b6075db242")
 		)
 		(pin "5"
-			(uuid "4734b4b4-7923-4325-92be-63bb972821b9")
+			(uuid "4734b4b4-7923-4325-92be-63bb972821ba")
 		)
 		(pin "1"
-			(uuid "cf77562f-2f66-48ed-8a52-08b7711a8dc7")
+			(uuid "cf77562f-2f66-48ed-8a52-08b7711a8dc8")
 		)
 		(pin "2"
-			(uuid "aaef88cb-0e30-4e93-83d2-8d0139e570d5")
+			(uuid "aaef88cb-0e30-4e93-83d2-8d0139e570d6")
 		)
 		(pin "6"
-			(uuid "33ccdd3e-0753-4628-882d-2fbf9c07fc88")
+			(uuid "33ccdd3e-0753-4628-882d-2fbf9c07fc89")
 		)
 		(pin "3"
-			(uuid "5196e19a-e183-4520-81c2-6cc6e74c2c85")
+			(uuid "5196e19a-e183-4520-81c2-6cc6e74c2c86")
 		)
 		(instances
 			(project ""
