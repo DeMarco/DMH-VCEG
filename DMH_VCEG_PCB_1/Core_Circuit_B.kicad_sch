@@ -18041,7 +18041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "C100k"
 			(at 132.08 166.3701 0)
 			(effects
 				(font
@@ -20206,7 +20206,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "C100k"
 			(at 260.35 95.2499 0)
 			(effects
 				(font
@@ -20421,7 +20421,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "C100k"
 			(at 278.13 48.2599 0)
 			(effects
 				(font
