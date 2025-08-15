@@ -5906,6 +5906,12 @@
 		(uuid "e09b89e2-0e4e-485a-af1a-e6fe07b43d4c")
 	)
 	(junction
+		(at 54.61 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1272456-a94c-4e88-a7da-5c1f3c4f75a8")
+	)
+	(junction
 		(at 219.71 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6088,6 +6094,16 @@
 			(type default)
 		)
 		(uuid "09130035-7168-482e-aaa1-86bb583ca871")
+	)
+	(wire
+		(pts
+			(xy 54.61 106.68) (xy 54.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0937fd70-5b0f-4f2e-92e6-babc2b0a5071")
 	)
 	(wire
 		(pts
@@ -9451,6 +9467,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 106.68) (xy 54.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc0e354-1ff3-4ab5-a409-78673565a3ed")
+	)
+	(wire
+		(pts
 			(xy 72.39 106.68) (xy 59.69 106.68)
 		)
 		(stroke
@@ -9829,16 +9855,6 @@
 		)
 		(uuid "bc090428-b58a-42d6-8c8e-c31f595aa327")
 	)
-	(label "ProcGate"
-		(at 63.5 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c54c1481-c4f7-41fc-9048-e8797834690d")
-	)
 	(label "Dec"
 		(at 146.05 73.66 0)
 		(effects
@@ -9848,6 +9864,16 @@
 			(justify left bottom)
 		)
 		(uuid "c7370ad9-cb88-4ebc-b32b-1dc30bd05277")
+	)
+	(label "ProcGate"
+		(at 52.07 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb2668ac-f4ec-433a-a801-1aae6f22c766")
 	)
 	(hierarchical_label "Rel Cur Mir"
 		(shape input)
