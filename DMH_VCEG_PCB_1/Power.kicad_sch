@@ -4378,6 +4378,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "ICs on PCB 1 (jacks):\nU11, U12, U13, U15, U16, U17\n\nICs on PCB 2 (pots):\nU14, U18, U19, U20, U23, U24"
+		(exclude_from_sim no)
+		(at 250.19 151.13 0)
+		(size 33.02 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "29b25a4a-1ab1-4171-8b8b-f3a446659db8")
+	)
+	(text_box "ICs on PCB 1 (jacks):\nU1, U2, U3, U5, U6, U7\n\nICs on PCB 2 (pots):\nU4, U8, U9, U10, U21, U22"
+		(exclude_from_sim no)
+		(at 212.09 151.13 0)
+		(size 33.02 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "69f41334-cb89-47f4-8185-aa2c2f548ba1")
+	)
 	(junction
 		(at 177.8 50.8)
 		(diameter 0)
@@ -5075,7 +5115,7 @@
 		(uuid "fdfb540e-f56b-4d1e-a826-d6456d81adac")
 	)
 	(no_connect
-		(at 229.87 152.4)
+		(at 64.77 152.4)
 		(uuid "44d970da-62bc-4baf-b42c-27d0d9a9d763")
 	)
 	(no_connect
@@ -5087,7 +5127,7 @@
 		(uuid "7b30e57f-90d0-440a-88db-8878a8cf0c13")
 	)
 	(no_connect
-		(at 204.47 152.4)
+		(at 39.37 152.4)
 		(uuid "aaed9080-6349-480b-ba45-f994a406477d")
 	)
 	(no_connect
@@ -6240,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 154.94) (xy 186.69 152.4)
+			(xy 21.59 154.94) (xy 21.59 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7230,7 +7270,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 152.4) (xy 189.23 152.4)
+			(xy 21.59 152.4) (xy 24.13 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8200,7 +8240,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 154.94) (xy 212.09 152.4)
+			(xy 46.99 154.94) (xy 46.99 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8300,7 +8340,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 152.4) (xy 214.63 152.4)
+			(xy 46.99 152.4) (xy 49.53 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8577,7 +8617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 90.17 168.91 0)
 			(effects
 				(font
@@ -9011,7 +9051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 50.4952 173.99 0)
 			(effects
 				(font
@@ -9137,7 +9177,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "196bd672-07b0-4f7c-b907-04f900f05242")
@@ -9476,7 +9516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 154.94 0)
+		(at 46.99 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9485,7 +9525,7 @@
 		(fields_autoplaced yes)
 		(uuid "2169dd07-fd1f-4691-bcdc-153275e1bc31")
 		(property "Reference" "#PWR023"
-			(at 212.09 161.29 0)
+			(at 46.99 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,7 +9534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 160.02 0)
+			(at 46.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +9542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 154.94 0)
+			(at 46.99 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +9551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 154.94 0)
+			(at 46.99 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,7 +9560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 154.94 0)
+			(at 46.99 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,7 +9586,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "274572dd-9179-4345-b94e-c7f14f3af3cd")
@@ -9796,7 +9836,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d958a28-470a-4971-9195-230a62555937")
@@ -10046,7 +10086,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e8c868e-7fa0-4611-9518-3eaad46bde71")
@@ -10454,7 +10494,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47b3096e-0a3e-4260-afce-3c934a324c43")
@@ -10700,7 +10740,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49bff794-03db-43ca-a4a1-0ff8fdaba221")
@@ -11020,7 +11060,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:40106")
-		(at 196.85 152.4 0)
+		(at 31.75 152.4 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11029,7 +11069,7 @@
 		(fields_autoplaced yes)
 		(uuid "565d7bc0-00f9-4294-a9b1-ccf81b6a6e6b")
 		(property "Reference" "U3"
-			(at 196.85 143.51 0)
+			(at 31.75 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11037,15 +11077,15 @@
 			)
 		)
 		(property "Value" "40106"
-			(at 196.85 146.05 0)
+			(at 31.75 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 152.4 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 31.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,7 +11094,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
-			(at 196.85 152.4 0)
+			(at 31.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,7 +11103,7 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
-			(at 196.85 152.4 0)
+			(at 31.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11128,7 +11168,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57301347-9e68-48d5-a82e-809884cc1c48")
@@ -11296,7 +11336,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:40106")
-		(at 222.25 152.4 0)
+		(at 57.15 152.4 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11305,7 +11345,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a1d6bc9-6d76-4377-ac5c-0cc531180373")
 		(property "Reference" "U13"
-			(at 222.25 143.51 0)
+			(at 57.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11313,15 +11353,15 @@
 			)
 		)
 		(property "Value" "40106"
-			(at 222.25 146.05 0)
+			(at 57.15 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 222.25 152.4 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11330,7 +11370,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
-			(at 222.25 152.4 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11339,7 +11379,7 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
-			(at 222.25 152.4 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11584,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "5db6bb3e-7696-4b78-990d-07ad69e1c003")
 		(property "Reference" "U24"
@@ -11785,7 +11825,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63c1ce94-081a-49b9-a42f-8ee5356afe47")
@@ -12109,7 +12149,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a411717-623a-4a25-856f-d26bf6a700e1")
@@ -12223,7 +12263,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ece2702-6224-4f84-b6ab-aa0b8657d711")
@@ -12653,7 +12693,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "7dd8416f-886d-41ff-8f83-bfd91610087e")
 		(property "Reference" "U14"
@@ -12758,7 +12798,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81576738-fcfc-45f2-95b8-c14eb4cb044c")
@@ -12872,7 +12912,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "826b0ad8-10bb-4fae-9a2c-3c05d6cdbc82")
@@ -13833,7 +13873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 191.77 111.76 0)
 			(effects
 				(font
@@ -14135,7 +14175,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0398bf8-5da3-4688-a0e4-2028bca1cf67")
@@ -14205,7 +14245,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "c8d8c28b-3b48-4e86-bcd9-425251a892fd")
 		(property "Reference" "U22"
@@ -14450,7 +14490,7 @@
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d9860c1c-d736-4973-873d-cb5f9ac67495")
 		(property "Reference" "U4"
@@ -14731,7 +14771,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e820465c-08b9-46fd-a98e-07fde974c09d")
@@ -14801,7 +14841,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea3b2d68-7957-4139-9e17-1a802c513c3f")
@@ -14999,7 +15039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 50.4952 194.31 0)
 			(effects
 				(font
@@ -15055,7 +15095,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee84adbd-1306-4273-ac3b-47e65103789d")
@@ -15575,7 +15615,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 154.94 0)
+		(at 21.59 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15584,7 +15624,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe5f1b33-5a2c-402c-800b-e27190b3d03e")
 		(property "Reference" "#PWR022"
-			(at 186.69 161.29 0)
+			(at 21.59 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,7 +15633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 160.02 0)
+			(at 21.59 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15601,7 +15641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 154.94 0)
+			(at 21.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15610,7 +15650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 154.94 0)
+			(at 21.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15619,7 +15659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 154.94 0)
+			(at 21.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15781,7 +15821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 140.97 168.91 0)
 			(effects
 				(font
