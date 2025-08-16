@@ -11,62 +11,40 @@
 	)
 	(lib_symbols)
 	(junction
-		(at 68.58 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ad6c8f1-0ab0-4fe0-b165-7744a846d251")
-	)
-	(junction
-		(at 81.28 50.8)
+		(at 81.28 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dd2dd8f-3b41-46e4-8afb-55261737956a")
 	)
 	(junction
-		(at 96.52 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ee10a10-d2a1-4ab6-9ca0-01e494ac605a")
-	)
-	(junction
-		(at 96.52 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42f8d90d-0dde-4268-bfa6-6ffcbc9e43de")
-	)
-	(junction
-		(at 78.74 46.99)
+		(at 78.74 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "430c753b-547d-49d8-beac-ee3719009a06")
 	)
 	(junction
-		(at 76.2 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ee0de7b-df10-4bd1-8e9b-07ee4ef6d6d2")
-	)
-	(junction
 		(at 73.66 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6abf5bba-4e18-40b3-a9d4-afa21aad4513")
+		(uuid "81979280-da5f-4542-a2ec-b0fab466d179")
+	)
+	(junction
+		(at 68.58 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afc906a4-e7cc-48c2-8880-7862e64f868f")
+	)
+	(junction
+		(at 76.2 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c80240f9-6e1a-46ad-9511-616f978e1a5a")
 	)
 	(junction
 		(at 71.12 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d65104af-ccc0-4017-8e80-bf53180652ce")
-	)
-	(wire
-		(pts
-			(xy 152.4 29.21) (xy 165.1 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03742571-d678-4880-8f04-b5b34b841990")
+		(uuid "ecb19fd9-df46-4e34-b003-c85a11163e72")
 	)
 	(wire
 		(pts
@@ -80,17 +58,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 33.02) (xy 101.6 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05d8187e-23d4-4aaf-9ce0-d72fb98a6402")
-	)
-	(wire
-		(pts
-			(xy 63.5 57.15) (xy 96.52 57.15)
+			(xy 63.5 62.23) (xy 101.6 62.23)
 		)
 		(stroke
 			(width 0)
@@ -100,13 +68,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 96.52) (xy 162.56 71.12)
+			(xy 152.4 146.05) (xy 165.1 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c5b60a1-3c36-41c2-aea7-6a5b1f3c71c4")
+		(uuid "0db65172-a60f-427b-9af3-19c455a9285a")
 	)
 	(wire
 		(pts
@@ -120,26 +88,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 91.44) (xy 157.48 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc719f1-2ad1-455e-b39d-511f1f248430")
-	)
-	(wire
-		(pts
-			(xy 63.5 127) (xy 101.6 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "118db2ff-7f73-4079-9c1b-e56c4f0af834")
-	)
-	(wire
-		(pts
 			(xy 63.5 173.99) (xy 81.28 173.99)
 		)
 		(stroke
@@ -150,57 +98,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 67.31) (xy 160.02 67.31)
+			(xy 76.2 40.64) (xy 165.1 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15cf9c30-a8f5-4f54-9946-2cd445db6e28")
+		(uuid "1b5faf0e-8dab-4316-aaca-5526b713693e")
 	)
 	(wire
 		(pts
-			(xy 162.56 172.72) (xy 91.44 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1797e7df-c916-4407-8723-7bb76edf8622")
-	)
-	(wire
-		(pts
-			(xy 152.4 109.22) (xy 165.1 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18e1e545-610a-4f6a-a6f7-6220fce4edc8")
-	)
-	(wire
-		(pts
-			(xy 96.52 57.15) (xy 96.52 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c4e889c-8bdb-4fcd-91f4-af98d5b14081")
-	)
-	(wire
-		(pts
-			(xy 152.4 127) (xy 165.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1efe8e52-3082-4647-878c-8a0c1122dd58")
-	)
-	(wire
-		(pts
-			(xy 63.5 50.8) (xy 81.28 50.8)
+			(xy 63.5 58.42) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0)
@@ -210,17 +118,27 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 116.84) (xy 165.1 116.84)
+			(xy 63.5 146.05) (xy 101.6 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20e2426c-812f-4979-93a8-e949938aacff")
+		(uuid "20fcc1e1-ece0-4874-9377-8e3dc6c11f99")
 	)
 	(wire
 		(pts
-			(xy 63.5 113.03) (xy 101.6 113.03)
+			(xy 152.4 69.85) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22071fc4-8e4f-494a-9fc8-695c8d6b323f")
+	)
+	(wire
+		(pts
+			(xy 63.5 113.03) (xy 165.1 113.03)
 		)
 		(stroke
 			(width 0)
@@ -230,27 +148,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 161.29) (xy 196.85 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a7f19a-5450-4982-8794-9578cfb2b91b")
-	)
-	(wire
-		(pts
-			(xy 152.4 57.15) (xy 165.1 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25334c0b-f9a8-40b5-abba-ffca9e7834f2")
-	)
-	(wire
-		(pts
-			(xy 38.1 144.78) (xy 27.94 144.78)
+			(xy 38.1 134.62) (xy 27.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -260,27 +158,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 113.03) (xy 165.1 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf06403-bdae-4038-984f-3021544072c6")
-	)
-	(wire
-		(pts
-			(xy 96.52 133.35) (xy 101.6 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d6372ac-6057-459e-86d5-c647f6ff2a4c")
-	)
-	(wire
-		(pts
-			(xy 63.5 105.41) (xy 101.6 105.41)
+			(xy 63.5 105.41) (xy 165.1 105.41)
 		)
 		(stroke
 			(width 0)
@@ -290,53 +168,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 105.41) (xy 165.1 105.41)
+			(xy 152.4 85.09) (xy 196.85 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "310d6f14-bdb0-4908-b528-d7297085c295")
-	)
-	(wire
-		(pts
-			(xy 160.02 93.98) (xy 93.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31184393-2b44-4f2a-8ff9-15c8f9aeed5e")
-	)
-	(wire
-		(pts
-			(xy 196.85 85.09) (xy 190.5 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32392291-bd98-436f-8453-84e0a76a50b1")
-	)
-	(wire
-		(pts
-			(xy 93.98 137.16) (xy 63.5 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328591a3-e017-451d-8f74-264f05d95897")
-	)
-	(wire
-		(pts
-			(xy 152.4 133.35) (xy 165.1 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34aa417f-c5c5-42de-ad61-7c4bbc58b17b")
+		(uuid "30313de6-0b72-41d2-bdba-cf9ac3136a25")
 	)
 	(wire
 		(pts
@@ -360,13 +198,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 60.96) (xy 165.1 60.96)
+			(xy 152.4 138.43) (xy 165.1 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4079a241-2307-4d63-8778-d649b088c226")
+		(uuid "424faac8-de51-4204-bf74-1407966fc95e")
 	)
 	(wire
 		(pts
@@ -380,17 +218,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 133.35) (xy 96.52 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45ba4885-86c5-472e-9a33-fc75400d84e6")
-	)
-	(wire
-		(pts
-			(xy 93.98 60.96) (xy 63.5 60.96)
+			(xy 63.5 66.04) (xy 101.6 66.04)
 		)
 		(stroke
 			(width 0)
@@ -400,7 +228,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 46.99) (xy 78.74 46.99)
+			(xy 63.5 54.61) (xy 78.74 54.61)
 		)
 		(stroke
 			(width 0)
@@ -410,27 +238,27 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 162.56 96.52)
+			(xy 152.4 58.42) (xy 165.1 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "496230a4-e8a6-4f07-a448-01ecb4496fbc")
+		(uuid "5549df4b-e88b-42ae-9453-3c597d9d0af8")
 	)
 	(wire
 		(pts
-			(xy 165.1 147.32) (xy 162.56 147.32)
+			(xy 68.58 29.21) (xy 165.1 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dce6877-7cb9-48fb-a49b-abd9054e870b")
+		(uuid "57c95a8f-948d-421c-9f85-73f0869dbc05")
 	)
 	(wire
 		(pts
-			(xy 81.28 50.8) (xy 101.6 50.8)
+			(xy 81.28 58.42) (xy 101.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -450,23 +278,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 160.02 93.98)
+			(xy 152.4 73.66) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61777cea-29d3-42ea-a5d4-fdc772068a45")
+		(uuid "6b41f85e-6762-414d-94e8-37ec0c64c1e9")
 	)
 	(wire
 		(pts
-			(xy 165.1 137.16) (xy 157.48 137.16)
+			(xy 73.66 36.83) (xy 165.1 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62c283df-d0d9-4b54-b838-b0902efff318")
+		(uuid "6e1a3b9a-0e9a-4c5b-91a5-0f5c836ea861")
 	)
 	(wire
 		(pts
@@ -480,7 +308,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 170.18) (xy 78.74 46.99)
+			(xy 78.74 170.18) (xy 78.74 54.61)
 		)
 		(stroke
 			(width 0)
@@ -490,7 +318,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 46.99) (xy 101.6 46.99)
+			(xy 78.74 54.61) (xy 101.6 54.61)
 		)
 		(stroke
 			(width 0)
@@ -500,17 +328,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 170.18) (xy 93.98 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ceded06-8b66-4500-988f-88c6b9f4e48d")
-	)
-	(wire
-		(pts
-			(xy 33.02 137.16) (xy 33.02 77.47)
+			(xy 33.02 127) (xy 33.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -520,43 +338,33 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 93.98 60.96)
+			(xy 63.5 142.24) (xy 101.6 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8091b012-31ca-4534-9ef7-c94a2518f48e")
+		(uuid "856609a9-703a-4673-90d9-745916d2ed27")
 	)
 	(wire
 		(pts
-			(xy 91.44 64.77) (xy 91.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "836fad5a-ba52-4460-9df1-d08a9c5d031b")
-	)
-	(wire
-		(pts
-			(xy 152.4 33.02) (xy 165.1 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "840601de-d9a1-4e4f-b9ac-96cfc9d85858")
-	)
-	(wire
-		(pts
-			(xy 38.1 137.16) (xy 33.02 137.16)
+			(xy 38.1 127) (xy 33.02 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86611cfd-5f7a-4d09-bfdd-dcbbaf9ee5e8")
+	)
+	(wire
+		(pts
+			(xy 152.4 149.86) (xy 165.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86970fbc-0ff2-4477-b7ff-622238ff3dd0")
 	)
 	(wire
 		(pts
@@ -567,16 +375,6 @@
 			(type default)
 		)
 		(uuid "8bbd33a8-ab2a-434d-a01f-c07393a0d407")
-	)
-	(wire
-		(pts
-			(xy 88.9 85.09) (xy 88.9 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c201583-43d3-4bba-affa-2650643c290c")
 	)
 	(wire
 		(pts
@@ -600,13 +398,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 128.27) (xy 241.3 128.27)
+			(xy 88.9 92.71) (xy 88.9 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93551fa5-4dc2-4d19-8eab-40afe9984ebf")
+		(uuid "9a3848e3-b8e1-4b36-b6d5-794bf12ae3fd")
 	)
 	(wire
 		(pts
@@ -620,27 +418,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 172.72) (xy 91.44 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b55a697-07d8-4f69-9a43-2b8e73356545")
-	)
-	(wire
-		(pts
-			(xy 152.4 50.8) (xy 165.1 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c162639-461d-4a39-a985-2bf5bf8300dc")
-	)
-	(wire
-		(pts
-			(xy 63.5 109.22) (xy 101.6 109.22)
+			(xy 63.5 109.22) (xy 165.1 109.22)
 		)
 		(stroke
 			(width 0)
@@ -660,33 +438,33 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 36.83) (xy 165.1 36.83)
+			(xy 152.4 62.23) (xy 165.1 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a108a696-005b-481b-b761-31a011dc8379")
+		(uuid "a8cc4405-be17-461a-aeb8-4bb34d9a5965")
 	)
 	(wire
 		(pts
-			(xy 157.48 167.64) (xy 96.52 167.64)
+			(xy 152.4 161.29) (xy 196.85 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9f44650-76c4-404e-bf36-f6f2c8e31b6f")
+		(uuid "ac8d1b36-4fe5-4703-9baf-38d9537806db")
 	)
 	(wire
 		(pts
-			(xy 152.4 40.64) (xy 165.1 40.64)
+			(xy 63.5 134.62) (xy 101.6 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acac52a2-93c4-4391-a1ac-b5015123d443")
+		(uuid "b0c512f1-579d-43fc-8d3b-8288c252e330")
 	)
 	(wire
 		(pts
@@ -700,7 +478,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 144.78) (xy 27.94 85.09)
+			(xy 27.94 134.62) (xy 27.94 58.42)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 77.47) (xy 38.1 77.47)
+			(xy 33.02 66.04) (xy 38.1 66.04)
 		)
 		(stroke
 			(width 0)
@@ -720,23 +498,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 133.35) (xy 96.52 133.35)
+			(xy 152.4 130.81) (xy 165.1 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b50b5ffe-57a0-4d8e-988a-2caa3af44d40")
-	)
-	(wire
-		(pts
-			(xy 73.66 36.83) (xy 101.6 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f0f189-6788-4b10-8577-508aa2ab5e07")
+		(uuid "b5b57d38-4816-4343-a76b-124701da5813")
 	)
 	(wire
 		(pts
@@ -750,7 +518,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 85.09) (xy 38.1 85.09)
+			(xy 27.94 58.42) (xy 38.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -760,17 +528,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 137.16) (xy 157.48 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9181d10-cd6d-476e-99ef-e06555ad3cc9")
-	)
-	(wire
-		(pts
-			(xy 63.5 64.77) (xy 91.44 64.77)
+			(xy 63.5 69.85) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
@@ -780,7 +538,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 133.35) (xy 35.56 133.35)
+			(xy 38.1 123.19) (xy 35.56 123.19)
 		)
 		(stroke
 			(width 0)
@@ -790,37 +548,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 99.06) (xy 241.3 99.06)
+			(xy 63.5 138.43) (xy 101.6 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "caec6750-1cda-4879-b292-1ca3b79457dc")
+		(uuid "ccd984a9-1084-4fc8-afa2-9f14efcf2238")
 	)
 	(wire
 		(pts
-			(xy 96.52 57.15) (xy 101.6 57.15)
+			(xy 152.4 54.61) (xy 165.1 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cafcd78b-3734-429a-89e8-a0ccc6008abc")
+		(uuid "d14cede6-9ccc-46ca-a10e-b391c89d184c")
 	)
 	(wire
 		(pts
-			(xy 157.48 91.44) (xy 157.48 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0dccdae-bbe1-491a-bc1f-5b4e0a7c2d19")
-	)
-	(wire
-		(pts
-			(xy 81.28 173.99) (xy 81.28 50.8)
+			(xy 81.28 173.99) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0)
@@ -830,23 +578,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 123.19) (xy 165.1 123.19)
+			(xy 63.5 130.81) (xy 101.6 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3e059d2-ddcc-42a5-9b96-70462dc7c204")
-	)
-	(wire
-		(pts
-			(xy 160.02 143.51) (xy 160.02 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c35180-8018-4646-ad9b-fc7d1c861526")
+		(uuid "d3e7506e-e024-4b8e-a2e0-acf43cbcd221")
 	)
 	(wire
 		(pts
@@ -860,7 +598,27 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 81.28) (xy 38.1 81.28)
+			(xy 152.4 142.24) (xy 165.1 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60dd747-0221-468a-822e-1c673cf6c106")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 165.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68e2cf4-73d5-4ba7-8f9d-b48bcd66be4f")
+	)
+	(wire
+		(pts
+			(xy 30.48 62.23) (xy 38.1 62.23)
 		)
 		(stroke
 			(width 0)
@@ -870,7 +628,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 73.66) (xy 38.1 73.66)
+			(xy 152.4 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ebff72-8919-4af7-90d0-032c88faa4db")
+	)
+	(wire
+		(pts
+			(xy 35.56 69.85) (xy 38.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -880,37 +648,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 140.97) (xy 91.44 140.97)
+			(xy 215.9 92.71) (xy 88.9 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dae79725-8227-434b-a02d-3679bb34119c")
+		(uuid "dc22884f-8566-4778-a938-ba779e6e31e7")
 	)
 	(wire
 		(pts
-			(xy 241.3 128.27) (xy 241.3 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd872e5e-0e35-42a0-b836-7f8dd4814252")
-	)
-	(wire
-		(pts
-			(xy 63.5 123.19) (xy 101.6 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de95ab4d-3e46-4d02-9deb-48c2ce82fe42")
-	)
-	(wire
-		(pts
-			(xy 63.5 116.84) (xy 101.6 116.84)
+			(xy 63.5 116.84) (xy 165.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -920,7 +668,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 140.97) (xy 30.48 81.28)
+			(xy 30.48 130.81) (xy 30.48 62.23)
 		)
 		(stroke
 			(width 0)
@@ -930,37 +678,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 29.21) (xy 101.6 29.21)
+			(xy 71.12 33.02) (xy 165.1 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebba334c-36af-42ed-9c40-705d09c7e376")
+		(uuid "ed1821cd-cc9c-4ab1-b19d-6b00d6452cc7")
 	)
 	(wire
 		(pts
-			(xy 162.56 147.32) (xy 162.56 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed1dfc79-48e2-4a97-a461-4d1de08e78da")
-	)
-	(wire
-		(pts
-			(xy 152.4 46.99) (xy 165.1 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef8d1b0c-d1c8-42f9-8040-986b43e12250")
-	)
-	(wire
-		(pts
-			(xy 35.56 133.35) (xy 35.56 73.66)
+			(xy 35.56 123.19) (xy 35.56 69.85)
 		)
 		(stroke
 			(width 0)
@@ -970,47 +698,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 170.18) (xy 93.98 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f35ae6a8-389d-41d6-9f28-29efdfec5ab0")
-	)
-	(wire
-		(pts
-			(xy 162.56 71.12) (xy 165.1 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f522eee6-2259-4f07-805c-79d72af12298")
-	)
-	(wire
-		(pts
-			(xy 76.2 40.64) (xy 101.6 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ba4339-5f66-4281-a4b8-f8160965fac0")
-	)
-	(wire
-		(pts
-			(xy 165.1 143.51) (xy 160.02 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f7115e-ced3-46f2-b243-90f93b9622ab")
-	)
-	(wire
-		(pts
-			(xy 38.1 140.97) (xy 30.48 140.97)
+			(xy 38.1 130.81) (xy 30.48 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1019,190 +707,7 @@
 		(uuid "fc4ee95f-9774-414c-a767-499cf5723807")
 	)
 	(sheet
-		(at 101.6 101.6)
-		(size 50.8 63.5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0347d444-b732-4d51-a48d-f043a0c0fe84")
-		(property "Sheetname" "Core Circuit B"
-			(at 101.6 100.8884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Core_Circuit_B.kicad_sch"
-			(at 101.6 165.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Att CV" input
-			(at 101.6 105.41 180)
-			(uuid "6f8d7768-11ec-44e7-89ee-2a7d3aac3e11")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Dec CV" input
-			(at 101.6 109.22 180)
-			(uuid "ad9b9707-f947-4a3f-b3e6-f68d8c0d7aeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Gate" input
-			(at 101.6 123.19 180)
-			(uuid "311c39ac-9be7-4139-a790-5de13c20a7e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Rel CV" input
-			(at 101.6 116.84 180)
-			(uuid "72af6871-c308-4d01-b450-e7b44518e1f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Sus CV" input
-			(at 101.6 113.03 180)
-			(uuid "5ddfe28c-5343-4d5e-bcd4-6a859156d225")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Trig" input
-			(at 101.6 127 180)
-			(uuid "c3b8b175-80d7-40af-863f-f4898bcf2e61")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 101.6 133.35 180)
-			(uuid "90ed79d5-80c1-49da-8d15-dd55f6fe3d23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Att Logic" output
-			(at 152.4 105.41 0)
-			(uuid "a03124b0-ef33-448b-ad45-040da9778f5c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Dec Logic" output
-			(at 152.4 109.22 0)
-			(uuid "cb769648-739d-4cb9-b2cb-a7f649cb6d32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Rel Logic" output
-			(at 152.4 116.84 0)
-			(uuid "301af7cb-b02e-41bd-aa2b-a9e4ad6615de")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Sus Level" output
-			(at 152.4 113.03 0)
-			(uuid "97170a46-b75d-412c-bce5-679c89e09946")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Proc Gate" output
-			(at 152.4 123.19 0)
-			(uuid "48211322-f90c-474d-a71e-13226187faf0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Rel Proc CV" output
-			(at 152.4 127 0)
-			(uuid "02e4d2de-e63d-4608-a639-e9cc6d414c28")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Loop" input
-			(at 152.4 133.35 0)
-			(uuid "72241a36-1e15-4752-891e-484af715cd1c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "DMH_VCEG_PCB_2"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 247.65 109.22)
+		(at 215.9 73.66)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1218,7 +723,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 247.65 108.5084 0)
+			(at 215.9 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +732,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 247.65 135.2046 0)
+			(at 215.9 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +742,7 @@
 			)
 		)
 		(pin "Bus Gate" output
-			(at 247.65 128.27 180)
+			(at 215.9 92.71 180)
 			(uuid "00f3de1f-6ad5-4ce6-83b6-bcc422cb898f")
 			(effects
 				(font
@@ -1249,160 +754,7 @@
 		(instances
 			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 165.1 101.6)
-		(size 25.4 63.5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5112ef52-02ff-4071-9179-b1c0d55d0b73")
-		(property "Sheetname" "Extra Features B"
-			(at 165.1 100.8884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Extra_Features_B.kicad_sch"
-			(at 165.1 165.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Att Logic" input
-			(at 165.1 105.41 180)
-			(uuid "02a684bd-d458-48bc-bb95-6abdad6bd31f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Dec Logic" input
-			(at 165.1 109.22 180)
-			(uuid "c190eb5d-63d9-454e-95a1-e25673e0da57")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Env Out" input
-			(at 165.1 137.16 180)
-			(uuid "333299f2-dfea-491d-86b8-3da2170f3a74")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out R" output
-			(at 165.1 143.51 180)
-			(uuid "e7b1407e-7479-4c6d-949c-b56afd296b13")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Proc Gate" input
-			(at 165.1 123.19 180)
-			(uuid "db78b4a5-ee43-419f-aba0-029f4b741e41")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Rel Logic" input
-			(at 165.1 116.84 180)
-			(uuid "9f90c469-70fd-4cee-b72c-1d72390827ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Rel Proc CV" input
-			(at 165.1 127 180)
-			(uuid "db2e83cc-313a-4dc8-be25-3b2478a409d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SG Out" output
-			(at 165.1 147.32 180)
-			(uuid "53ff70a8-95fa-4ebf-afe9-318bc402a7e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Sus Level" input
-			(at 165.1 113.03 180)
-			(uuid "5deeba16-03fa-4296-854d-28fd18f15365")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Loop" output
-			(at 165.1 133.35 180)
-			(uuid "0077b786-17c0-4687-89f5-4917c2e9e22d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LEDs Anode" output
-			(at 190.5 161.29 0)
-			(uuid "19bf279d-7ec5-4bcf-b339-4c988f73cc1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "DMH_VCEG_PCB_2"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "7")
+					(page "10")
 				)
 			)
 		)
@@ -1463,7 +815,7 @@
 			)
 		)
 		(pin "Gate B" output
-			(at 63.5 123.19 0)
+			(at 63.5 130.81 0)
 			(uuid "5c5537b4-60d1-463f-aefb-ba0abac51176")
 			(effects
 				(font
@@ -1483,7 +835,7 @@
 			)
 		)
 		(pin "Out + B TN" output
-			(at 38.1 144.78 180)
+			(at 38.1 134.62 180)
 			(uuid "f486be58-45ac-427f-a4d2-9b74a94b4264")
 			(effects
 				(font
@@ -1493,7 +845,7 @@
 			)
 		)
 		(pin "Out - B TN" output
-			(at 38.1 140.97 180)
+			(at 38.1 130.81 180)
 			(uuid "10f524d3-8026-4d03-9932-d0a943cb6574")
 			(effects
 				(font
@@ -1503,7 +855,7 @@
 			)
 		)
 		(pin "Out B" input
-			(at 63.5 133.35 0)
+			(at 63.5 138.43 0)
 			(uuid "7e418dc3-3a91-4b20-b029-64bd56ff4e3d")
 			(effects
 				(font
@@ -1513,7 +865,7 @@
 			)
 		)
 		(pin "Out R B" input
-			(at 63.5 137.16 0)
+			(at 63.5 142.24 0)
 			(uuid "0f49e183-0e23-41ff-8666-e1c99aaec793")
 			(effects
 				(font
@@ -1523,7 +875,7 @@
 			)
 		)
 		(pin "Out R B TN" output
-			(at 38.1 137.16 180)
+			(at 38.1 127 180)
 			(uuid "83ebd2ad-ff46-4db9-8a40-272302ac80a0")
 			(effects
 				(font
@@ -1543,7 +895,7 @@
 			)
 		)
 		(pin "SG Out B" input
-			(at 63.5 140.97 0)
+			(at 63.5 146.05 0)
 			(uuid "0ba46a48-3e41-42f9-88c2-60be96d1d25c")
 			(effects
 				(font
@@ -1553,7 +905,7 @@
 			)
 		)
 		(pin "SG Out B TN" output
-			(at 38.1 133.35 180)
+			(at 38.1 123.19 180)
 			(uuid "b0f32df6-718c-4e34-9f69-383f0a8977e7")
 			(effects
 				(font
@@ -1573,7 +925,7 @@
 			)
 		)
 		(pin "Trig B" output
-			(at 63.5 127 0)
+			(at 63.5 134.62 0)
 			(uuid "795a8e28-e26d-4ea9-9cfb-e01b73c87d0a")
 			(effects
 				(font
@@ -1641,8 +993,8 @@
 		)
 	)
 	(sheet
-		(at 101.6 25.4)
-		(size 50.8 63.5)
+		(at 165.1 20.32)
+		(size 25.4 55.88)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1655,9 +1007,456 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
+		(uuid "7d3cb848-7f4a-41b7-b3df-5bb0c19476ef")
+		(property "Sheetname" "CV Processing A"
+			(at 165.1 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CV_Processing_A.kicad_sch"
+			(at 165.1 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Att CV" input
+			(at 165.1 29.21 180)
+			(uuid "ae649b8a-8245-44df-a51a-e7f113979922")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dec CV" input
+			(at 165.1 33.02 180)
+			(uuid "ca3e7097-e872-45a3-96cf-cd5586f5eb52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel CV" input
+			(at 165.1 40.64 180)
+			(uuid "52b9d6cf-427c-41ab-8427-3bf30f3880d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sus CV" input
+			(at 165.1 36.83 180)
+			(uuid "6fa909d3-0275-412a-8919-42aec7cc4ed7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Max Level" input
+			(at 165.1 54.61 180)
+			(uuid "dee6b1e4-ed94-4be5-a870-945e3638eb40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Att Cur Src" output
+			(at 165.1 58.42 180)
+			(uuid "3d0e7ca1-bef6-4f2f-ba19-794529ea3508")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dec Cur Snk" output
+			(at 165.1 62.23 180)
+			(uuid "914b3cbf-220c-4ef5-b6b4-4114147c29fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel Proc CV" output
+			(at 165.1 73.66 180)
+			(uuid "18aed36f-25ef-4652-b038-c1ad07b438ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel Cur Snk" output
+			(at 165.1 69.85 180)
+			(uuid "da86b1e1-cfc5-4a61-9ea1-efe23a025d2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sus Level" output
+			(at 165.1 66.04 180)
+			(uuid "77f74327-e86b-4445-8c46-4b982211c895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DMH_VCEG_PCB_2"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 127)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d22a13f-1d3b-4a1f-8b3f-baf42965c019")
+		(property "Sheetname" "Core Circuit B"
+			(at 138.176 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core_Circuit_B.kicad_sch"
+			(at 101.6 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Gate" input
+			(at 101.6 130.81 180)
+			(uuid "a2c75ba6-d70e-432b-915a-a0e64d22828b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trig" input
+			(at 101.6 134.62 180)
+			(uuid "82999391-9cbe-4884-a5bc-1e5edca5899f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 101.6 138.43 180)
+			(uuid "bf9a19a8-b468-4d00-b08e-d0f7b53d3269")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Max Level" output
+			(at 152.4 130.81 0)
+			(uuid "4df2680a-7c52-43b6-9bf1-9902f57e0fee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Sus Level" input
+			(at 152.4 142.24 0)
+			(uuid "7ca34b70-3025-4ef8-bd93-ad8d097f40d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Dec Cur Snk" input
+			(at 152.4 138.43 0)
+			(uuid "bcc49da9-9862-4bb4-ab9d-7e31e57992ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEDs" output
+			(at 152.4 161.29 0)
+			(uuid "a42f1191-08c5-4a9e-9cb2-fe52efa772d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out R" output
+			(at 101.6 142.24 180)
+			(uuid "2d1f640b-fb69-4924-9307-7eb96385d91c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel Cur Snk" input
+			(at 152.4 146.05 0)
+			(uuid "a559b709-d8de-4a31-8dfa-c0026ef78fc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Att Cur Src" input
+			(at 152.4 134.62 0)
+			(uuid "abb96633-747c-4a5e-9c43-69c060cf2945")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Sus State" output
+			(at 101.6 146.05 180)
+			(uuid "ff060a7c-a3de-48ef-b5ea-3a5d9efb4a32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel Proc CV" input
+			(at 152.4 149.86 0)
+			(uuid "41e353bc-3c12-4d81-87fe-ab35babfa2d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DMH_VCEG_PCB_2"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 96.52)
+		(size 25.4 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3f92c0e-ea97-4ef0-9a6b-254feed98ad2")
+		(property "Sheetname" "CV Processing B"
+			(at 165.1 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CV_Processing_B.kicad_sch"
+			(at 165.1 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Att CV" input
+			(at 165.1 105.41 180)
+			(uuid "0c557391-a1d4-4cda-b765-69e9814fe6d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dec CV" input
+			(at 165.1 109.22 180)
+			(uuid "fa1fc326-1548-4c27-ba5c-538de4f9a529")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel CV" input
+			(at 165.1 116.84 180)
+			(uuid "808d02e6-537c-49b6-a2b7-38c147ade26f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sus CV" input
+			(at 165.1 113.03 180)
+			(uuid "e36394af-c27a-402a-bd95-20c45a61e6a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Max Level" input
+			(at 165.1 130.81 180)
+			(uuid "45bfeaf1-f349-42f8-88a3-30250ad0f362")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Att Cur Src" output
+			(at 165.1 134.62 180)
+			(uuid "0b79948e-d1e3-4e73-ba56-339ac9c4df49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dec Cur Snk" output
+			(at 165.1 138.43 180)
+			(uuid "b481978e-eced-42dd-9bee-94966565c356")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel Proc CV" output
+			(at 165.1 149.86 180)
+			(uuid "73526f46-1ad4-49b9-8437-d2ce5d08143d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel Cur Snk" output
+			(at 165.1 146.05 180)
+			(uuid "e4c6a7d6-8905-4845-8b21-9e783dc1bbb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sus Level" output
+			(at 165.1 142.24 180)
+			(uuid "3eb8acea-3a73-4a5b-b58e-f6f8ae20eada")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DMH_VCEG_PCB_2"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 50.8)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
 		(uuid "cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c")
 		(property "Sheetname" "Core Circuit A"
-			(at 101.6 24.6884 0)
+			(at 138.176 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,28 +1474,8 @@
 				(hide yes)
 			)
 		)
-		(pin "Att CV" input
-			(at 101.6 29.21 180)
-			(uuid "3ed98ca2-3ef4-4178-b9ff-a73e2f07ef89")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Dec CV" input
-			(at 101.6 33.02 180)
-			(uuid "e96c8abf-22b9-4d94-bbc7-abb3d96d881e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Gate" input
-			(at 101.6 46.99 180)
+			(at 101.6 54.61 180)
 			(uuid "5c18d0a2-8069-4917-a424-94f5da42978a")
 			(effects
 				(font
@@ -1705,28 +1484,8 @@
 				(justify left)
 			)
 		)
-		(pin "Rel CV" input
-			(at 101.6 40.64 180)
-			(uuid "cfaab185-a6e8-4c57-9418-b084ddd66435")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Sus CV" input
-			(at 101.6 36.83 180)
-			(uuid "0a9ed012-1e92-4ddf-86f8-5953b2823214")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Trig" input
-			(at 101.6 50.8 180)
+			(at 101.6 58.42 180)
 			(uuid "a469e801-aa53-4660-be2b-529d61a4df5b")
 			(effects
 				(font
@@ -1736,7 +1495,7 @@
 			)
 		)
 		(pin "Out" output
-			(at 101.6 57.15 180)
+			(at 101.6 62.23 180)
 			(uuid "47047b31-8826-46a1-9976-73003f6ba029")
 			(effects
 				(font
@@ -1745,9 +1504,9 @@
 				(justify left)
 			)
 		)
-		(pin "Att Logic" output
-			(at 152.4 29.21 0)
-			(uuid "30bac971-4bda-4c09-9673-e9c9e5bf1cc1")
+		(pin "Max Level" output
+			(at 152.4 54.61 0)
+			(uuid "4ed2d949-04b6-435e-9a05-4b3a1ea79c7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,9 +1514,9 @@
 				(justify right)
 			)
 		)
-		(pin "Dec Logic" output
-			(at 152.4 33.02 0)
-			(uuid "418d7d91-9c3e-4552-8688-4827ce1549a5")
+		(pin "Sus Level" input
+			(at 152.4 66.04 0)
+			(uuid "20d88507-e9ee-43be-b05c-cf599fe02a1e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,9 +1524,9 @@
 				(justify right)
 			)
 		)
-		(pin "Rel Logic" output
-			(at 152.4 40.64 0)
-			(uuid "606ef29b-1f83-445b-b51d-866a99099725")
+		(pin "Dec Cur Snk" input
+			(at 152.4 62.23 0)
+			(uuid "209e8cd5-9641-478b-8dd8-5e6e34d2060b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,9 +1534,9 @@
 				(justify right)
 			)
 		)
-		(pin "Sus Level" output
-			(at 152.4 36.83 0)
-			(uuid "3c665414-f88b-44e6-823a-b3ecee666eae")
+		(pin "LEDs SW" input
+			(at 152.4 85.09 0)
+			(uuid "b278ccf0-cb41-4103-a954-b3096fe3dc29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,9 +1544,19 @@
 				(justify right)
 			)
 		)
-		(pin "Proc Gate" output
-			(at 152.4 46.99 0)
-			(uuid "be017ba2-ff6d-46af-9224-1fe70f8b70ef")
+		(pin "Out R" output
+			(at 101.6 66.04 180)
+			(uuid "bc283c80-a50f-4152-9972-4e5f3b8fcb94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel Cur Snk" input
+			(at 152.4 69.85 0)
+			(uuid "3c81691c-ec3e-4942-bbbf-32dc9da9ded3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,9 +1564,9 @@
 				(justify right)
 			)
 		)
-		(pin "Rel Proc CV" output
-			(at 152.4 50.8 0)
-			(uuid "7e3f564e-7600-45f3-b25f-f140ac23db9f")
+		(pin "Att Cur Src" input
+			(at 152.4 58.42 0)
+			(uuid "d352a588-4b5c-4884-877d-7262188ef4ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,9 +1574,19 @@
 				(justify right)
 			)
 		)
-		(pin "Loop" input
-			(at 152.4 57.15 0)
-			(uuid "f02473d8-124b-4b40-882a-2d2d8b069e29")
+		(pin "Sus State" output
+			(at 101.6 69.85 180)
+			(uuid "842c1c26-7789-4443-9c27-d9adefca833f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rel Proc CV" input
+			(at 152.4 73.66 0)
+			(uuid "1045df88-5b3c-4677-8a09-6790caa130ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1658,7 @@
 			)
 		)
 		(pin "Gate A" output
-			(at 63.5 46.99 0)
+			(at 63.5 54.61 0)
 			(uuid "6ed31cfe-bf4a-462a-9975-24a7ac04aacf")
 			(effects
 				(font
@@ -1889,7 +1668,7 @@
 			)
 		)
 		(pin "Out + B" input
-			(at 38.1 85.09 180)
+			(at 38.1 58.42 180)
 			(uuid "92df3c26-8b75-4326-b19a-d29afe85368a")
 			(effects
 				(font
@@ -1899,7 +1678,7 @@
 			)
 		)
 		(pin "Out - B" input
-			(at 38.1 81.28 180)
+			(at 38.1 62.23 180)
 			(uuid "4d3bd83c-1bbc-482d-b099-65b6647ed5a1")
 			(effects
 				(font
@@ -1909,7 +1688,7 @@
 			)
 		)
 		(pin "Out A" input
-			(at 63.5 57.15 0)
+			(at 63.5 62.23 0)
 			(uuid "f1e1b909-8483-492d-bf23-07f8c537f083")
 			(effects
 				(font
@@ -1919,7 +1698,7 @@
 			)
 		)
 		(pin "Out R A" input
-			(at 63.5 60.96 0)
+			(at 63.5 66.04 0)
 			(uuid "931f2cf7-fb8a-4a2c-8ac1-9f6c5c741245")
 			(effects
 				(font
@@ -1929,7 +1708,7 @@
 			)
 		)
 		(pin "Out R B" input
-			(at 38.1 77.47 180)
+			(at 38.1 66.04 180)
 			(uuid "84f609c7-c970-4883-9383-a0e490765cb4")
 			(effects
 				(font
@@ -1949,7 +1728,7 @@
 			)
 		)
 		(pin "SG Out A" input
-			(at 63.5 64.77 0)
+			(at 63.5 69.85 0)
 			(uuid "29c09bc2-2da8-4fb7-90c4-90e26be44ed3")
 			(effects
 				(font
@@ -1959,7 +1738,7 @@
 			)
 		)
 		(pin "SG Out B" input
-			(at 38.1 73.66 180)
+			(at 38.1 69.85 180)
 			(uuid "ee0f59e1-2dcf-47c6-b8e3-2dd8b4976c41")
 			(effects
 				(font
@@ -1979,7 +1758,7 @@
 			)
 		)
 		(pin "Trig A" output
-			(at 63.5 50.8 0)
+			(at 63.5 58.42 0)
 			(uuid "412ceeda-419b-4f5e-8fca-558bdb2e7967")
 			(effects
 				(font
@@ -2002,159 +1781,6 @@
 			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 165.1 25.4)
-		(size 25.4 63.5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dfc6a801-157b-43f6-bf92-8048d56e52a2")
-		(property "Sheetname" "Extra Features A"
-			(at 165.1 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Extra_Features_A.kicad_sch"
-			(at 165.1 89.4846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Att Logic" input
-			(at 165.1 29.21 180)
-			(uuid "02f16b05-f8fb-4731-a4ec-91900450d4b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Dec Logic" input
-			(at 165.1 33.02 180)
-			(uuid "0fcb64fd-efde-4d90-a0f3-eeddf109b343")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Env Out" input
-			(at 165.1 60.96 180)
-			(uuid "209565a7-c4f5-424d-980d-02df6bab317e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out R" output
-			(at 165.1 67.31 180)
-			(uuid "ab09d51e-1482-46d7-9464-660eeddee2d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Proc Gate" input
-			(at 165.1 46.99 180)
-			(uuid "e74e89b9-09fe-470f-abc4-8e9214bc8a69")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Rel Logic" input
-			(at 165.1 40.64 180)
-			(uuid "1d1295d1-5efa-45dc-b9d8-64f57d243f4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Rel Proc CV" input
-			(at 165.1 50.8 180)
-			(uuid "195f9e0d-9305-46f9-93ff-a90287a41e76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SG Out" output
-			(at 165.1 71.12 180)
-			(uuid "2919a2e0-29c3-406f-9c09-d9ad5a7d4552")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Sus Level" input
-			(at 165.1 36.83 180)
-			(uuid "62771375-90cd-4e1e-83e6-f4234a33f765")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LEDs SW" input
-			(at 190.5 85.09 0)
-			(uuid "5abeef12-109d-4b0f-92af-7521fec886f3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Loop" output
-			(at 165.1 57.15 180)
-			(uuid "449c9953-234b-42ea-9060-70b7f9c3f7ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "DMH_VCEG_PCB_2"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "6")
 				)
 			)
 		)

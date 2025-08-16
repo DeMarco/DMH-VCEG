@@ -8812,34 +8812,34 @@
 			)
 		)
 		(pin "3"
-			(uuid "98883146-a899-43e5-9213-25f3c33ad9a1")
+			(uuid "98883146-a899-43e5-9213-25f3c33ad9a2")
 		)
 		(pin "1"
-			(uuid "e94d2c6c-5cb7-4c6c-a102-cb58e19e0211")
+			(uuid "e94d2c6c-5cb7-4c6c-a102-cb58e19e0212")
 		)
 		(pin "2"
-			(uuid "5674cfd0-cb68-45e4-a439-9d740ecf210a")
+			(uuid "5674cfd0-cb68-45e4-a439-9d740ecf210b")
 		)
 		(pin "5"
-			(uuid "cbbedd64-17df-4eed-9012-3ff911c57194")
+			(uuid "cbbedd64-17df-4eed-9012-3ff911c57195")
 		)
 		(pin "7"
-			(uuid "76a7dca4-5fe1-49cd-bc3d-dd41333202ec")
+			(uuid "76a7dca4-5fe1-49cd-bc3d-dd41333202ed")
 		)
 		(pin "9"
 			(uuid "18c9e993-bbfe-4ca7-b39f-eefe2d5a10c2")
 		)
 		(pin "6"
-			(uuid "446016e4-5c17-42f9-af8a-255864510e55")
+			(uuid "446016e4-5c17-42f9-af8a-255864510e56")
 		)
 		(pin "10"
-			(uuid "a7f2c646-64dc-4b32-9885-21b1b00570c4")
+			(uuid "a7f2c646-64dc-4b32-9885-21b1b00570c5")
 		)
 		(pin "8"
-			(uuid "a735cd2c-0e69-42af-a19a-52f51861e52d")
+			(uuid "a735cd2c-0e69-42af-a19a-52f51861e52e")
 		)
 		(pin "4"
-			(uuid "977fe62a-0ecd-4e34-aa48-5a3fac8509bd")
+			(uuid "977fe62a-0ecd-4e34-aa48-5a3fac8509be")
 		)
 		(instances
 			(project "DMH_VCEG_PCB_1"
