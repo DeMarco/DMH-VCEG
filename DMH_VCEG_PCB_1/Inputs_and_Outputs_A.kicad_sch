@@ -7710,7 +7710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Sus CV A Zero Adj"
+		(property "Function" "Sus CV A Zero"
 			(at 127 86.868 90)
 			(effects
 				(font
@@ -8577,7 +8577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Dec CV A Zero Adj"
+		(property "Function" "Dec CV A Zero"
 			(at 127 55.118 90)
 			(effects
 				(font
@@ -9604,7 +9604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Rel CV A Zero Adj"
+		(property "Function" "Rel CV A Zero"
 			(at 127 118.618 90)
 			(effects
 				(font
@@ -10702,7 +10702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Att CV A Zero Adj"
+		(property "Function" "Att CV A Zero"
 			(at 127 23.368 90)
 			(effects
 				(font
