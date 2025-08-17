@@ -12584,7 +12584,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
+		(property "Value" "SPDT_OnOn"
 			(at 222.25 147.32 0)
 			(effects
 				(font
@@ -20564,8 +20564,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2_On-Off-(On)"
-			(at 141.732 24.13 0)
+		(property "Value" "DPDT_OnOff(On)"
+			(at 138.684 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24685,7 +24685,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "DPDT_OnOn"
 			(at 255.27 82.55 0)
 			(effects
 				(font
@@ -25427,7 +25427,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2_On-Off-(On)"
+		(property "Value" "DPDT_OnOff(On)"
 			(at 69.342 148.844 0)
 			(effects
 				(font
@@ -26013,7 +26013,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "DPDT_OnOn"
 			(at 270.51 106.68 0)
 			(effects
 				(font
