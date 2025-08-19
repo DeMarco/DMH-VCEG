@@ -1298,6 +1298,49 @@
 		)
 	)
 	(sheet
+		(at 215.9 114.3)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1342965-49b9-4a82-bc27-4e4d74178aed")
+		(property "Sheetname" "Bread Board layout"
+			(at 215.9 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bb_layout.kicad_sch"
+			(at 215.9 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 165.1 96.52)
 		(size 25.4 55.88)
 		(exclude_from_sim no)
