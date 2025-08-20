@@ -44371,7 +44371,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP?14*")
-		(path "/cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c/eddf0587-40c4-4f76-87ab-629590eb67dc")
+		(path "/cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c/25bfbcec-21cb-4cc9-8c77-4aef9fa52f08")
 		(sheetname "/Core Circuit A/")
 		(sheetfile "Core_Circuit_A.kicad_sch")
 		(attr through_hole)

@@ -18142,7 +18142,6 @@
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
 		(at 201.93 63.5 270)
-		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18150,7 +18149,7 @@
 		(dnp no)
 		(uuid "71fed0ff-280a-4296-b794-97e1a8cfd1b4")
 		(property "Reference" "U4"
-			(at 204.978 62.738 90)
+			(at 204.978 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18159,7 +18158,7 @@
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 204.978 60.452 90)
+			(at 204.978 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18606,7 +18605,6 @@
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
 		(at 181.61 63.5 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18614,7 +18612,7 @@
 		(dnp no)
 		(uuid "75c308f2-432d-4606-951c-9310d233a407")
 		(property "Reference" "U4"
-			(at 184.658 62.738 90)
+			(at 184.658 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18623,7 +18621,7 @@
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 184.658 60.4521 90)
+			(at 184.658 66.5479 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23154,7 +23152,6 @@
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
 		(at 222.25 63.5 270)
-		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23162,7 +23159,7 @@
 		(dnp no)
 		(uuid "c333f9cc-ccbe-4a02-8a91-217888833125")
 		(property "Reference" "U4"
-			(at 225.552 62.992 90)
+			(at 225.552 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23171,7 +23168,7 @@
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 225.552 60.452 90)
+			(at 225.552 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25233,7 +25230,6 @@
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
 		(at 161.29 63.5 270)
-		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25241,7 +25237,7 @@
 		(dnp no)
 		(uuid "edf1b8aa-6c97-4dc1-bb4b-36da799a5f59")
 		(property "Reference" "U4"
-			(at 164.338 62.738 90)
+			(at 164.338 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25250,7 +25246,7 @@
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 164.338 60.198 90)
+			(at 164.338 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
