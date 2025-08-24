@@ -6148,9 +6148,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 70.612 44.196)
+		(radius 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ee06cd7-9db6-42e9-847b-840ceca5db9e)
+	)
 	(rectangle
-		(start 55.88 133.35)
-		(end 82.55 151.13)
+		(start 62.23 125.73)
+		(end 86.36 143.51)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6253,7 +6265,7 @@
 	)
 	(text "PCB 2"
 		(exclude_from_sim no)
-		(at 78.994 135.128 0)
+		(at 82.296 127.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6351,6 +6363,16 @@
 		)
 		(uuid "ceccdc88-5fc9-48b8-9481-7b4a3afd04fc")
 	)
+	(text "Was 10n"
+		(exclude_from_sim no)
+		(at 71.12 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7cc2f6a-3311-464d-a08f-04d8d6f89b5b")
+	)
 	(text "/Q"
 		(exclude_from_sim no)
 		(at 162.814 176.276 0)
@@ -6372,6 +6394,12 @@
 		(uuid "e6e9c7e6-c1f2-44ea-8c2a-2eddd63c19b1")
 	)
 	(junction
+		(at 64.77 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0346447c-a5b0-4ece-8523-fdbaff8a79a9")
+	)
+	(junction
 		(at 54.61 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6388,6 +6416,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "085c1479-93c8-49ed-8590-ec84a504b971")
+	)
+	(junction
+		(at 78.74 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08b02b95-e20d-4f59-8b00-d46d118f94a1")
 	)
 	(junction
 		(at 97.79 96.52)
@@ -6472,6 +6506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b3de8cc-584b-4ff8-af26-95529ed311e9")
+	)
+	(junction
+		(at 54.61 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "303af7c6-0e3a-4d8c-bff0-c506c85ca069")
 	)
 	(junction
 		(at 193.04 121.92)
@@ -6562,12 +6602,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52103e99-47cd-4b09-be07-dcc43e28cc3b")
-	)
-	(junction
-		(at 52.07 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "561624aa-32ee-4d8e-958b-1c561bf96697")
 	)
 	(junction
 		(at 166.37 153.67)
@@ -6690,12 +6724,6 @@
 		(uuid "7bbc88c1-3682-491f-9287-c9707c8e6cb3")
 	)
 	(junction
-		(at 54.61 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "839bdc56-2352-47bf-acd6-6b7ebb3da395")
-	)
-	(junction
 		(at 54.61 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6724,12 +6752,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "922aa78e-5591-40cc-80e9-d430ab4c0e7c")
-	)
-	(junction
-		(at 64.77 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "955253f6-6eac-4c9d-97c4-22a9b474d1bf")
 	)
 	(junction
 		(at 236.22 118.11)
@@ -6804,12 +6826,6 @@
 		(uuid "afb89eee-c312-49de-977e-0bb249c834bf")
 	)
 	(junction
-		(at 72.39 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b00c75a0-cf55-40f4-bc3b-c84626d254ce")
-	)
-	(junction
 		(at 36.83 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6844,6 +6860,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c19c1d32-e152-4543-9169-b15bba22d043")
+	)
+	(junction
+		(at 64.77 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c259517d-6079-4af2-849a-df2bafe3b168")
 	)
 	(junction
 		(at 181.61 74.93)
@@ -7026,7 +7048,7 @@
 		(uuid "a13186e5-0879-4238-a7a5-02b62d960b47")
 	)
 	(no_connect
-		(at 69.85 138.43)
+		(at 76.2 130.81)
 		(uuid "b378e6b6-d760-4adf-b7bd-1d0f64aab7ce")
 	)
 	(no_connect
@@ -8175,13 +8197,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 140.97) (xy 54.61 140.97)
+			(xy 64.77 133.35) (xy 64.77 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ab0b164-00b7-4a2a-bbf5-1bce4b45600e")
+		(uuid "3abc97ce-22e3-455f-88ae-8582dcecf2dc")
 	)
 	(wire
 		(pts
@@ -8205,7 +8227,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 143.51) (xy 72.39 130.81)
+			(xy 78.74 135.89) (xy 78.74 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8485,16 +8507,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 107.95) (xy 59.69 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c1b1690-1112-49bc-9fca-972ef2bb5d5e")
-	)
-	(wire
-		(pts
 			(xy 20.32 120.65) (xy 20.32 151.13)
 		)
 		(stroke
@@ -8535,7 +8547,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 143.51) (xy 72.39 143.51)
+			(xy 76.2 135.89) (xy 78.74 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8825,7 +8837,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 59.69 107.95)
+			(xy 59.69 86.36) (xy 59.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8902,6 +8914,16 @@
 			(type default)
 		)
 		(uuid "5f73e858-8a64-4d88-9a23-be4fe4320a7d")
+	)
+	(wire
+		(pts
+			(xy 64.77 133.35) (xy 66.04 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604aac82-f3a4-4980-be57-3c699afa6bae")
 	)
 	(polyline
 		(pts
@@ -9195,6 +9217,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 104.14) (xy 78.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc437ed-2eb2-440c-9e2c-24aff6528887")
+	)
+	(wire
+		(pts
 			(xy 124.46 72.39) (xy 130.81 72.39)
 		)
 		(stroke
@@ -9255,7 +9287,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 140.97) (xy 52.07 140.97)
+			(xy 49.53 140.97) (xy 54.61 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9285,7 +9317,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 140.97) (xy 59.69 140.97)
+			(xy 54.61 123.19) (xy 55.88 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9585,16 +9617,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 107.95) (xy 72.39 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d0dd0fc-2c9e-4eaf-9ff3-0b3005d643a5")
-	)
-	(wire
-		(pts
 			(xy 179.07 43.18) (xy 215.9 43.18)
 		)
 		(stroke
@@ -9832,6 +9854,16 @@
 			(type default)
 		)
 		(uuid "8904672a-ea23-43e2-8a43-d9ac20e30b34")
+	)
+	(wire
+		(pts
+			(xy 78.74 123.19) (xy 78.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a1f648-fb8c-4c90-b3a9-e7e2ceff1526")
 	)
 	(polyline
 		(pts
@@ -11085,6 +11117,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 123.19) (xy 63.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caaae0b4-19b5-4c96-aabc-12aab76ae125")
+	)
+	(wire
+		(pts
 			(xy 97.79 49.53) (xy 96.52 49.53)
 		)
 		(stroke
@@ -11752,16 +11794,6 @@
 			(type default)
 		)
 		(uuid "f0a20866-9226-4fc2-bf8f-b82ded18f705")
-	)
-	(wire
-		(pts
-			(xy 72.39 130.81) (xy 72.39 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0b99272-b1bc-4274-b7d9-f37334a013e1")
 	)
 	(wire
 		(pts
@@ -12497,7 +12529,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:Conn_01x06_PinHeader")
-		(at 77.47 130.81 180)
+		(at 83.82 123.19 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12506,7 +12538,7 @@
 		(fields_autoplaced yes)
 		(uuid "0416a72a-11f7-4bd1-b853-6028a8f8fa30")
 		(property "Reference" "J24"
-			(at 76.835 128.27 0)
+			(at 83.185 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12514,7 +12546,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_PinHeader"
-			(at 77.47 128.27 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12523,7 +12555,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 77.47 130.81 0)
+			(at 83.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12532,7 +12564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 130.81 0)
+			(at 83.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12541,7 +12573,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06"
-			(at 77.47 130.81 0)
+			(at 83.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12550,7 +12582,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 77.47 130.81 0)
+			(at 83.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13127,6 +13159,95 @@
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:Conn_01x06_PinHeader")
+		(at 69.85 123.19 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "145af82d-f36e-486a-b0f2-bdd6d5f17bf9")
+		(property "Reference" "J24"
+			(at 72.136 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_PinHeader"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 69.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06"
+			(at 69.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 69.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ccbfdd2-4a3d-4eac-95ae-478d095c857e")
+		)
+		(pin "3"
+			(uuid "506f5358-bbf3-4f09-a598-292c1336b3e2")
+		)
+		(pin "5"
+			(uuid "f84c362e-6581-4c0d-a5f2-302257b885ac")
+		)
+		(pin "4"
+			(uuid "eaf23a31-a720-462a-a55f-1905857b95c4")
+		)
+		(pin "6"
+			(uuid "755330ef-c8cc-4f0e-bb92-11c693b94de7")
+		)
+		(pin "2"
+			(uuid "cb0ceaca-9b3c-41e6-83ba-7179d2ef851f")
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c"
+					(reference "J24")
+					(unit 3)
 				)
 			)
 		)
@@ -17721,7 +17842,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "51k"
 			(at 31.75 125.73 90)
 			(effects
 				(font
@@ -18836,7 +18957,7 @@
 		(dnp no)
 		(uuid "73006aaa-8239-4ed6-9976-1e1e953a823e")
 		(property "Reference" "U1"
-			(at 45.72 118.11 0)
+			(at 48.006 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18844,7 +18965,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 45.72 115.57 0)
+			(at 48.006 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23277,7 +23398,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1nF"
 			(at 69.85 43.18 90)
 			(effects
 				(font
@@ -23984,8 +24105,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 72.39 120.65 90)
-		(mirror x)
+		(at 59.69 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23993,7 +24113,7 @@
 		(dnp no)
 		(uuid "cc6dc10f-f400-4e78-9ae8-2306079cd9d4")
 		(property "Reference" "D13"
-			(at 77.47 119.38 90)
+			(at 59.69 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24001,7 +24121,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 77.47 121.92 90)
+			(at 59.69 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24009,7 +24129,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 72.39 120.65 0)
+			(at 59.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24018,7 +24138,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 72.39 120.65 0)
+			(at 59.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24027,7 +24147,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 72.39 120.65 0)
+			(at 59.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24036,7 +24156,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 72.39 120.65 0)
+			(at 59.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24045,7 +24165,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 120.65 0)
+			(at 59.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25804,7 +25924,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 64.77 140.97 0)
+		(at 71.12 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25812,7 +25932,7 @@
 		(dnp no)
 		(uuid "f16989d5-160e-4c7d-88dc-5caa251666f3")
 		(property "Reference" "SW1"
-			(at 64.77 135.89 0)
+			(at 71.12 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25820,7 +25940,7 @@
 			)
 		)
 		(property "Value" "DPDT_OnOff(On)"
-			(at 69.342 148.844 0)
+			(at 75.692 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25828,7 +25948,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
-			(at 64.77 140.97 0)
+			(at 71.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25837,7 +25957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 140.97 0)
+			(at 71.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25846,7 +25966,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 64.77 140.97 0)
+			(at 71.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25855,7 +25975,7 @@
 			)
 		)
 		(property "Function" "Loop / Manual Gate A"
-			(at 67.564 146.304 0)
+			(at 73.914 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25888,95 +26008,6 @@
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c"
 					(reference "SW1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:Conn_01x06_PinHeader")
-		(at 52.07 135.89 270)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f28bae29-48c3-4336-9eda-e3b478e256b9")
-		(property "Reference" "J24"
-			(at 49.276 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06_PinHeader"
-			(at 49.53 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 52.07 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06"
-			(at 52.07 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 52.07 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2ccbfdd2-4a3d-4eac-95ae-478d095c857e")
-		)
-		(pin "3"
-			(uuid "30f5a9ec-f932-437c-907e-d25edd350f00")
-		)
-		(pin "5"
-			(uuid "f84c362e-6581-4c0d-a5f2-302257b885ac")
-		)
-		(pin "4"
-			(uuid "eaf23a31-a720-462a-a55f-1905857b95c4")
-		)
-		(pin "6"
-			(uuid "755330ef-c8cc-4f0e-bb92-11c693b94de7")
-		)
-		(pin "2"
-			(uuid "cb0ceaca-9b3c-41e6-83ba-7179d2ef851f")
-		)
-		(instances
-			(project "DMH_VCEG_PCB_1"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c"
-					(reference "J24")
-					(unit 3)
 				)
 			)
 		)
@@ -26273,7 +26304,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47k"
 			(at 45.72 137.16 90)
 			(effects
 				(font
@@ -26306,6 +26337,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
