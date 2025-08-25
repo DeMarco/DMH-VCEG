@@ -329,7 +329,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "02785404-6f66-4c3e-bca0-dec33c77e150")
-		(at 115 167.5)
+		(at 115 168.5)
 		(property "Reference" "SW4"
 			(at 0 -8 0)
 			(unlocked yes)
@@ -6840,7 +6840,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "21d028d3-2e81-4015-9e5b-573f1d2fac48")
-		(at 130 167.5)
+		(at 130 168.5)
 		(property "Reference" "SW5"
 			(at 0 -8 0)
 			(unlocked yes)
@@ -9440,7 +9440,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 		(layer "F.Cu")
 		(uuid "2e0e6f22-c171-4c1f-b6c2-1eaee19542f7")
-		(at 79.2226 177.25 180)
+		(at 55 168.5 180)
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C51"
@@ -9455,7 +9455,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 4.4726 -2 0)
+			(at 0.75 3 0)
 			(layer "F.SilkS")
 			(uuid "d9aeaca1-5397-4d7f-a5ed-21564b73ac6e")
 			(effects
@@ -15123,7 +15123,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 		(layer "F.Cu")
 		(uuid "4080ec34-b59a-4281-a7df-577608d10f8d")
-		(at 92.2226 177.25 180)
+		(at 47.2226 168.5 180)
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C49"
@@ -15138,7 +15138,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 4.4726 -2 0)
+			(at 0.7226 3 0)
 			(layer "F.SilkS")
 			(uuid "1621ce9a-116c-4206-bbd2-4f40c14aff31")
 			(effects
@@ -16490,7 +16490,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 		(layer "F.Cu")
 		(uuid "421ab393-1d2c-4176-8c40-c6c48e1ecf21")
-		(at 122.2226 177.25 180)
+		(at 154.25 168.5 180)
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C65"
@@ -16505,7 +16505,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 4.4726 -2 0)
+			(at 0.75 3 0)
 			(layer "F.SilkS")
 			(uuid "413457b2-4922-4386-8ed5-888bedbd4703")
 			(effects
@@ -31294,7 +31294,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "9284b330-a660-4731-a936-ca7bec1412c3")
-		(at 70 167.5)
+		(at 70 168.5)
 		(property "Reference" "SW1"
 			(at 0 -8 0)
 			(unlocked yes)
@@ -32310,7 +32310,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "982db0ef-999b-44c7-b406-8e2a57ca16e9")
-		(at 85 167.5)
+		(at 85 168.5)
 		(property "Reference" "SW2"
 			(at 0 -8 0)
 			(unlocked yes)
@@ -39866,7 +39866,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "c4791c87-5153-4b78-a762-bb7a988a2f17")
-		(at 100 167.5)
+		(at 100 168.5)
 		(property "Reference" "SW3"
 			(at 0 -8 0)
 			(unlocked yes)
@@ -40029,7 +40029,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 		(layer "F.Cu")
 		(uuid "c4d18aa8-e478-4fe0-ab7c-e31772ca8339")
-		(at 109.2226 177.25 180)
+		(at 146.5 168.5 180)
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C67"
@@ -40044,7 +40044,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 4.4726 -2 0)
+			(at 0.75 3 0)
 			(layer "F.SilkS")
 			(uuid "c30860fb-079c-4732-8f6a-6a4f46613218")
 			(effects
@@ -56287,8 +56287,8 @@
 		(uuid "2a271e44-fa39-40a2-8ee4-6cacdf227321")
 	)
 	(gr_circle
-		(center 85 167.5)
-		(end 88.1 167.5)
+		(center 85 168.5)
+		(end 88.1 168.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56320,8 +56320,8 @@
 		(uuid "35606cfc-5bf2-4f55-bf43-e20ec1c6ce95")
 	)
 	(gr_circle
-		(center 130 167.5)
-		(end 133.1 167.5)
+		(center 130 168.5)
+		(end 133.1 168.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56331,8 +56331,8 @@
 		(uuid "3cdc6773-520f-4f87-a5b8-ca65f1c65266")
 	)
 	(gr_circle
-		(center 70 167.5)
-		(end 73.1 167.5)
+		(center 70 168.5)
+		(end 73.1 168.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56573,8 +56573,8 @@
 		(uuid "b3daa14a-2f5f-4817-8e20-6968ab736877")
 	)
 	(gr_circle
-		(center 100 167.5)
-		(end 103.1 167.5)
+		(center 100 168.5)
+		(end 103.1 168.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -56694,8 +56694,8 @@
 		(uuid "fa8d3486-3f3b-497e-8893-89429900d25b")
 	)
 	(gr_circle
-		(center 115 167.5)
-		(end 118.1 167.5)
+		(center 115 168.5)
+		(end 118.1 168.5)
 		(stroke
 			(width 0.1)
 			(type default)
