@@ -6766,6 +6766,12 @@
 		(uuid "886ddb5b-3aea-4de4-90a7-7c8f7b0f48b7")
 	)
 	(junction
+		(at 166.37 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89d01cd6-9f15-4707-9364-f6aa69907fd3")
+	)
+	(junction
 		(at 110.49 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9537,6 +9543,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 162.56) (xy 168.91 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780dac44-1c5b-41bd-90ea-7911ab770ea9")
+	)
+	(wire
+		(pts
 			(xy 222.25 54.61) (xy 223.52 54.61)
 		)
 		(stroke
@@ -12285,6 +12301,16 @@
 		)
 		(uuid "b612af13-6ccf-4722-a470-33594dbc6464")
 	)
+	(label "Sus_State"
+		(at 168.91 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c246e493-b018-467e-b41f-6e9fc58baf7e")
+	)
 	(hierarchical_label "Out R"
 		(shape output)
 		(at 280.67 93.98 180)
@@ -12384,17 +12410,6 @@
 		)
 		(uuid "a848152d-5da7-4520-9fd3-b2615a906f8e")
 	)
-	(hierarchical_label "Sus State"
-		(shape output)
-		(at 168.91 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9c9cdca-10f7-43e3-b81f-5f55f699ee1a")
-	)
 	(hierarchical_label "Att Cur Src"
 		(shape input)
 		(at 162.56 54.61 0)
@@ -12427,6 +12442,17 @@
 			(justify left)
 		)
 		(uuid "de3ec706-8afe-462d-9955-c55c0b414ac9")
+	)
+	(hierarchical_label "Inv Sus State"
+		(shape output)
+		(at 168.91 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5956ebe-8cec-4e58-9839-0feea22caa4e")
 	)
 	(hierarchical_label "Rel Proc CV"
 		(shape input)
