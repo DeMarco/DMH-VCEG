@@ -1269,7 +1269,7 @@
 				(justify right)
 			)
 		)
-		(pin "Sus State" output
+		(pin "Inv Sus State" output
 			(at 101.6 146.05 180)
 			(uuid "ff060a7c-a3de-48ef-b5ea-3a5d9efb4a32")
 			(effects
@@ -1574,7 +1574,7 @@
 				(justify right)
 			)
 		)
-		(pin "Sus State" output
+		(pin "Inv Sus State" output
 			(at 101.6 69.85 180)
 			(uuid "842c1c26-7789-4443-9c27-d9adefca833f")
 			(effects
