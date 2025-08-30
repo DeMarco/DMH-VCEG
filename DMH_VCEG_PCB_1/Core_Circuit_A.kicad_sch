@@ -6242,18 +6242,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 70.612 44.196)
-		(radius 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0ee06cd7-9db6-42e9-847b-840ceca5db9e)
-	)
 	(rectangle
 		(start 62.23 125.73)
 		(end 86.36 143.51)
@@ -6457,16 +6445,6 @@
 		)
 		(uuid "ceccdc88-5fc9-48b8-9481-7b4a3afd04fc")
 	)
-	(text "Was 10n"
-		(exclude_from_sim no)
-		(at 71.12 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d7cc2f6a-3311-464d-a08f-04d8d6f89b5b")
-	)
 	(text "/Q"
 		(exclude_from_sim no)
 		(at 162.814 176.276 0)
@@ -6558,6 +6536,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1add5e64-58fe-408c-9679-2c2f52c8e119")
+	)
+	(junction
+		(at 59.69 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2f90e1-9a98-4b49-b3cf-14a8cb254aad")
 	)
 	(junction
 		(at 248.92 19.05)
@@ -6774,12 +6758,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6acd6cdf-c85e-4ec6-9cb4-94c1d7de700b")
-	)
-	(junction
-		(at 59.69 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bd1bd2b-2d82-4804-94fb-f2b1735a3352")
 	)
 	(junction
 		(at 222.25 74.93)
@@ -8161,16 +8139,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 107.95) (xy 59.69 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30a44375-0944-4802-9b69-281defd970ba")
-	)
-	(wire
-		(pts
 			(xy 49.53 26.67) (xy 54.61 26.67)
 		)
 		(stroke
@@ -8941,16 +8909,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 59.69 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf826d3-e758-49cd-ba3f-e87056c53854")
-	)
-	(wire
-		(pts
 			(xy 120.65 140.97) (xy 123.19 140.97)
 		)
 		(stroke
@@ -9331,7 +9289,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 104.14) (xy 78.74 104.14)
+			(xy 59.69 107.95) (xy 78.74 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9941,7 +9899,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 123.19) (xy 78.74 104.14)
+			(xy 78.74 123.19) (xy 78.74 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10458,6 +10416,16 @@
 			(type default)
 		)
 		(uuid "a4d27297-814b-4756-bb6a-b60c4fe2ec3b")
+	)
+	(wire
+		(pts
+			(xy 59.69 86.36) (xy 59.69 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a527e910-8d88-4786-ab84-e2fc1a0a92e5")
 	)
 	(wire
 		(pts
@@ -23422,7 +23390,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10nF"
 			(at 69.85 43.18 90)
 			(effects
 				(font
