@@ -12962,7 +12962,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 246.38 97.79 90)
+		(at 246.38 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12970,7 +12970,7 @@
 		(dnp no)
 		(uuid "0f872c09-c0cd-4b55-b989-8493e3e16fe2")
 		(property "Reference" "C65"
-			(at 245.618 91.186 90)
+			(at 245.618 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12978,7 +12978,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 245.618 93.726 90)
+			(at 245.618 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +12986,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 250.19 96.8248 0)
+			(at 250.19 86.6648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12995,7 +12995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 97.79 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13004,7 +13004,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 246.38 97.79 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13013,7 +13013,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 246.38 97.79 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13027,7 +13027,7 @@
 			(uuid "9a1be6d1-bedd-4dea-bf0f-f1e87fe241e1")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "C65")
 					(unit 1)
@@ -13817,7 +13817,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "23ea6314-c56a-4d6b-b124-6973eef8955d")
 		(property "Reference" "R199"
@@ -15080,7 +15080,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "32f38afa-356b-4c64-868e-d7f889f26915")
 		(property "Reference" "R19"
@@ -17227,7 +17227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 242.57 76.5048 0)
 			(effects
 				(font
@@ -18039,7 +18039,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 260.35 115.57 90)
+		(at 260.35 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18047,7 +18047,7 @@
 		(dnp no)
 		(uuid "70f04c15-cf1b-4920-b418-0ca55c40e676")
 		(property "Reference" "C66"
-			(at 260.35 108.966 90)
+			(at 260.35 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18055,7 +18055,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 260.35 111.506 90)
+			(at 260.35 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18063,7 +18063,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
-			(at 264.16 114.6048 0)
+			(at 264.16 124.7648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18072,7 +18072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 115.57 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18081,7 +18081,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 260.35 115.57 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18090,7 +18090,7 @@
 			)
 		)
 		(property "Function" "Main Cap B"
-			(at 267.716 117.094 90)
+			(at 267.716 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18108,7 +18108,7 @@
 			(uuid "0822387e-f33b-4d54-9dec-acd12d6d226a")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "C66")
 					(unit 1)
@@ -18639,7 +18639,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 87.63 270)
+		(at 246.38 97.79 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18648,7 +18648,7 @@
 		(dnp no)
 		(uuid "7f4a95d9-0abe-48ec-a35e-c57e9c3ba00e")
 		(property "Reference" "C61"
-			(at 246.253 81.026 90)
+			(at 246.253 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18656,7 +18656,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 246.253 83.566 90)
+			(at 246.253 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18664,7 +18664,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
-			(at 242.57 86.6648 0)
+			(at 242.57 96.8248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18673,7 +18673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 87.63 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18682,7 +18682,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 246.38 87.63 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18691,7 +18691,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 246.38 87.63 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18705,7 +18705,7 @@
 			(uuid "ca398a15-3e28-46f2-9f1d-8839d2c8793f")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "C61")
 					(unit 1)
@@ -22052,7 +22052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 256.54 104.4448 0)
 			(effects
 				(font
@@ -23000,7 +23000,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 260.35 125.73 90)
+		(at 260.35 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23008,7 +23008,7 @@
 		(dnp no)
 		(uuid "c72cab1b-c0c2-4b4e-aab0-ffe04b7cf5a5")
 		(property "Reference" "C67"
-			(at 260.35 119.126 90)
+			(at 260.35 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23016,7 +23016,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 260.35 121.666 90)
+			(at 260.35 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23024,7 +23024,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 264.16 124.7648 0)
+			(at 264.16 114.6048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23033,7 +23033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 125.73 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23042,7 +23042,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 260.35 125.73 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23051,7 +23051,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 260.35 125.73 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23065,7 +23065,7 @@
 			(uuid "7ea80b88-e51e-400b-b6d6-9d2625e547ca")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "C67")
 					(unit 1)

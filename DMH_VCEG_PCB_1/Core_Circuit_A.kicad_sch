@@ -13031,7 +13031,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 87.63 270)
+		(at 246.38 97.79 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13040,7 +13040,7 @@
 		(dnp no)
 		(uuid "13c530e7-1cea-4002-8ce3-798f9983d77e")
 		(property "Reference" "C45"
-			(at 246.38 81.534 90)
+			(at 246.38 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13048,7 +13048,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 246.38 84.074 90)
+			(at 246.38 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13056,7 +13056,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
-			(at 242.57 86.6648 0)
+			(at 242.57 96.8248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13065,7 +13065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 87.63 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13074,7 +13074,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 246.38 87.63 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13083,7 +13083,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 246.38 87.63 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17934,7 +17934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 242.57 76.5048 0)
 			(effects
 				(font
@@ -19498,7 +19498,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 260.35 115.57 270)
+		(at 260.35 125.73 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19507,7 +19507,7 @@
 		(dnp no)
 		(uuid "7ce27bdb-c298-4690-bdac-64fe5d418fd6")
 		(property "Reference" "C50"
-			(at 260.35 108.966 90)
+			(at 260.35 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19515,7 +19515,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 260.35 111.506 90)
+			(at 260.35 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19523,7 +19523,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
-			(at 256.54 114.6048 0)
+			(at 256.54 124.7648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19532,7 +19532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 115.57 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19541,7 +19541,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 260.35 115.57 0)
+			(at 260.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19550,7 +19550,7 @@
 			)
 		)
 		(property "Function" "Main Cap A"
-			(at 262.89 122.936 0)
+			(at 262.89 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19827,7 +19827,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 246.38 97.79 90)
+		(at 246.38 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19835,7 +19835,7 @@
 		(dnp no)
 		(uuid "859afee7-6d3a-419e-9222-892b9190dcbd")
 		(property "Reference" "C49"
-			(at 246.38 91.694 90)
+			(at 246.38 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19843,7 +19843,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 246.38 94.234 90)
+			(at 246.38 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19851,7 +19851,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 250.19 96.8248 0)
+			(at 250.19 86.6648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19860,7 +19860,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 97.79 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19869,7 +19869,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 246.38 97.79 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19878,7 +19878,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 246.38 97.79 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20871,7 +20871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 256.54 104.4448 0)
 			(effects
 				(font
@@ -23704,7 +23704,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 260.35 125.73 90)
+		(at 260.35 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23712,7 +23712,7 @@
 		(dnp no)
 		(uuid "c6488027-380f-4426-a62c-ce15dfca663e")
 		(property "Reference" "C51"
-			(at 260.35 119.126 90)
+			(at 260.35 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23720,7 +23720,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 260.35 121.666 90)
+			(at 260.35 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23728,7 +23728,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 264.16 124.7648 0)
+			(at 264.16 114.6048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23737,7 +23737,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 125.73 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23746,7 +23746,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 260.35 125.73 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23755,7 +23755,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 260.35 125.73 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
