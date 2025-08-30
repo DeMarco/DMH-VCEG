@@ -6619,7 +6619,7 @@
 				)
 			)
 		)
-		(property "Value" "ZPD10"
+		(property "Value" "Z10"
 			(at 85.09 133.35 0)
 			(effects
 				(font
@@ -6652,6 +6652,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

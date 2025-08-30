@@ -6619,7 +6619,7 @@
 				)
 			)
 		)
-		(property "Value" "ZPD10"
+		(property "Value" "Z10"
 			(at 85.09 133.35 0)
 			(effects
 				(font
