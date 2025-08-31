@@ -2490,12 +2490,6 @@
 		(uuid "4377b968-e683-4d17-aed2-324487daf345")
 	)
 	(junction
-		(at 144.78 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4716ab50-5532-48d2-9a39-700471816be9")
-	)
-	(junction
 		(at 176.53 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2640,18 +2634,6 @@
 		(uuid "bb6868fe-ba80-4345-9d43-0ec069d876de")
 	)
 	(junction
-		(at 144.78 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd92c786-a3d3-4c25-b588-45a582bea8a4")
-	)
-	(junction
-		(at 144.78 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0676067-a683-46a0-98ab-f29b5cbde985")
-	)
-	(junction
 		(at 115.57 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2700,12 +2682,6 @@
 		(uuid "ecbb2431-cb85-4532-9d76-332a1f9b7852")
 	)
 	(junction
-		(at 144.78 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee1a495b-6b61-45af-a5ba-8b527d55184f")
-	)
-	(junction
 		(at 125.73 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2722,6 +2698,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f97e0883-8115-46c5-86ff-174380d62078")
+	)
+	(no_connect
+		(at 144.78 63.5)
+		(uuid "6110cf9e-1163-4a54-b56f-d61afa33efe6")
+	)
+	(no_connect
+		(at 144.78 127)
+		(uuid "8a0306da-53a3-4f1d-bb94-c252bb9597b0")
+	)
+	(no_connect
+		(at 144.78 31.75)
+		(uuid "b1a4b1ac-d450-4228-bb63-9a72d31a6230")
+	)
+	(no_connect
+		(at 144.78 95.25)
+		(uuid "cc077591-ad7c-4d64-b521-eb0aa4d8e6d7")
 	)
 	(wire
 		(pts
@@ -2895,7 +2887,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 158.75 97.79)
+			(xy 138.43 97.79) (xy 158.75 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2945,7 +2937,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 66.04) (xy 158.75 66.04)
+			(xy 138.43 66.04) (xy 158.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3465,16 +3457,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 66.04) (xy 144.78 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5973ac92-eb64-49e1-9b1b-a0586cf15b1d")
-	)
-	(wire
-		(pts
 			(xy 105.41 231.14) (xy 109.22 231.14)
 		)
 		(stroke
@@ -3765,16 +3747,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 97.79) (xy 144.78 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85802cf9-4980-46e9-8411-cda5f40c8061")
-	)
-	(wire
-		(pts
 			(xy 38.1 149.86) (xy 38.1 175.26)
 		)
 		(stroke
@@ -3885,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 129.54) (xy 158.75 129.54)
+			(xy 138.43 129.54) (xy 158.75 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3915,7 +3887,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 34.29) (xy 158.75 34.29)
+			(xy 138.43 34.29) (xy 158.75 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3952,16 +3924,6 @@
 			(type default)
 		)
 		(uuid "9c78ed4b-3d5c-46c7-8c83-0efae2dcfef6")
-	)
-	(wire
-		(pts
-			(xy 138.43 34.29) (xy 144.78 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e94d176-2a23-4f70-b2f6-5ab9ed29bfaf")
 	)
 	(wire
 		(pts
@@ -4212,16 +4174,6 @@
 			(type default)
 		)
 		(uuid "bc17d9cd-d144-4784-9bd5-ebdb0da8b07d")
-	)
-	(wire
-		(pts
-			(xy 138.43 129.54) (xy 144.78 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc6b7b3a-bb53-427d-9ea9-44379956b50d")
 	)
 	(wire
 		(pts
@@ -5429,7 +5381,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
-		(at 144.78 124.46 270)
+		(at 144.78 121.92 270)
 		(unit 10)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5438,7 +5390,7 @@
 		(fields_autoplaced yes)
 		(uuid "1437198c-d1c4-4501-93cc-5f19af54bdb8")
 		(property "Reference" "J27"
-			(at 146.05 125.0949 90)
+			(at 146.05 122.5549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5399,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10_PinHeader"
-			(at 142.24 124.46 0)
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5408,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
-			(at 144.78 124.46 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 124.46 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5426,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
-			(at 144.78 124.46 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7632,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
-		(at 144.78 92.71 270)
+		(at 144.78 90.17 270)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7689,7 +7641,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d1ab850-90c5-4a1f-9c40-c86f8f6ea72f")
 		(property "Reference" "J27"
-			(at 146.05 93.3449 90)
+			(at 146.05 90.8049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7698,7 +7650,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10_PinHeader"
-			(at 142.24 92.71 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,7 +7659,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
-			(at 144.78 92.71 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,7 +7668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 92.71 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +7677,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
-			(at 144.78 92.71 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,7 +9734,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
-		(at 144.78 29.21 270)
+		(at 144.78 26.67 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9791,7 +9743,7 @@
 		(fields_autoplaced yes)
 		(uuid "c40a02de-4c32-4449-9256-a1275bb24b6e")
 		(property "Reference" "J27"
-			(at 146.05 29.8449 90)
+			(at 146.05 27.3049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9800,7 +9752,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10_PinHeader"
-			(at 142.24 29.21 0)
+			(at 142.24 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +9761,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
-			(at 144.78 29.21 0)
+			(at 144.78 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 29.21 0)
+			(at 144.78 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9779,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
-			(at 144.78 29.21 0)
+			(at 144.78 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10748,7 +10700,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
-		(at 144.78 60.96 270)
+		(at 144.78 58.42 270)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10757,7 +10709,7 @@
 		(fields_autoplaced yes)
 		(uuid "efefaa5a-1842-475d-a6d1-bbaac4e55a03")
 		(property "Reference" "J27"
-			(at 146.05 61.5949 90)
+			(at 146.05 59.0549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10766,7 +10718,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10_PinHeader"
-			(at 142.24 60.96 0)
+			(at 142.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10775,7 +10727,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
-			(at 144.78 60.96 0)
+			(at 144.78 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10784,7 +10736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 60.96 0)
+			(at 144.78 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,7 +10745,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
-			(at 144.78 60.96 0)
+			(at 144.78 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
