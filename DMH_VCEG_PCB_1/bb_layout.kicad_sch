@@ -1,0 +1,300 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e2965a80-3c40-4649-a5b9-30e4adc7e88b")
+	(paper "A4")
+	(title_block
+		(company "DMH Instruments")
+		(comment 1 "PCB for 15cm Kosmo format synthesizer module")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 50.8 50.8)
+		(end 152.4 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a291d22e-fe2e-4ffd-be84-a4b3ca500224)
+	)
+	(rectangle
+		(start 50.8 101.6)
+		(end 152.4 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad102541-5641-471b-bd34-d942d62f85c4)
+	)
+	(rectangle
+		(start 50.8 76.2)
+		(end 152.4 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c086d0e3-2b85-48f6-a7be-0db326d3d84f)
+	)
+	(rectangle
+		(start 50.8 127)
+		(end 152.4 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec13eb47-7d5b-4e8c-a4b4-3351b709aef4)
+	)
+	(text_box "U09 TL074"
+		(exclude_from_sim no)
+		(at 57.15 111.76 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0dc97a3e-9b6d-43d4-8a00-79928c9f2b1b")
+	)
+	(text_box "U01 TL074"
+		(exclude_from_sim no)
+		(at 95.25 60.96 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "133ae15d-bd92-42c6-be66-b21c3411b36f")
+	)
+	(text_box "U03 CD40106"
+		(exclude_from_sim no)
+		(at 72.39 86.36 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1ec44ecb-784b-4196-a991-9d8fb8417726")
+	)
+	(text_box "U22 CD4066"
+		(exclude_from_sim no)
+		(at 121.92 86.36 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3a914766-3711-4356-b7fe-61af99a9c35d")
+	)
+	(text_box "U07 TL074"
+		(exclude_from_sim no)
+		(at 120.65 60.96 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "45ac5759-6ee0-4d8d-a6e1-51c7aa2d86a7")
+	)
+	(text_box "U10 TL074"
+		(exclude_from_sim no)
+		(at 82.55 111.76 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5a9ed3e2-1513-46fe-81b9-1f770a56494a")
+	)
+	(text_box "U21 TL074"
+		(exclude_from_sim no)
+		(at 101.6 137.16 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6bf7576e-f684-40cc-8bcc-4919d06e028e")
+	)
+	(text_box "U06 CD4001"
+		(exclude_from_sim no)
+		(at 90.17 86.36 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "76d865db-70b8-416b-8293-54f025b596e8")
+	)
+	(text_box "U08 TL074"
+		(exclude_from_sim no)
+		(at 107.95 111.76 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7b264dcf-73ff-482a-9c04-c807663a8c95")
+	)
+	(text_box "U04 CD4066"
+		(exclude_from_sim no)
+		(at 107.95 86.36 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7d61c85c-395d-4cba-8078-6f383923e4a2")
+	)
+	(text_box "U02 CD4001"
+		(exclude_from_sim no)
+		(at 54.61 86.36 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8c04098a-d12b-4f38-bc3f-22be35b61145")
+	)
+	(text_box "U05 TL074"
+		(exclude_from_sim no)
+		(at 133.35 111.76 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a48dcc5b-8992-41fe-95d9-fdad25e0df7d")
+	)
+)

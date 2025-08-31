@@ -701,20 +701,24 @@
       "Core Circuit A"
     ],
     [
-      "0347d444-b732-4d51-a48d-f043a0c0fe84",
+      "8d22a13f-1d3b-4a1f-8b3f-baf42965c019",
       "Core Circuit B"
     ],
     [
-      "dfc6a801-157b-43f6-bf92-8048d56e52a2",
-      "Extra Features A"
+      "7d3cb848-7f4a-41b7-b3df-5bb0c19476ef",
+      "CV Processing A"
     ],
     [
-      "5112ef52-02ff-4071-9179-b1c0d55d0b73",
-      "Extra Features B"
+      "b3f92c0e-ea97-4ef0-9a6b-254feed98ad2",
+      "CV Processing B"
     ],
     [
       "0cdf34b2-39cd-4d9e-981a-97cd34791509",
       "Power"
+    ],
+    [
+      "b1342965-49b9-4a82-bc27-4e4d74178aed",
+      "Bread Board layout"
     ]
   ],
   "text_variables": {}
