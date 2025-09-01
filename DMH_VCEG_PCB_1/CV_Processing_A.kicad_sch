@@ -2565,6 +2565,30 @@
 		)
 		(uuid 0bc961f5-0bfa-4553-bd0a-9af002b4fa96)
 	)
+	(circle
+		(center 95.25 29.21)
+		(radius 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a478009e-67fd-4160-ba5f-131d590d163d)
+	)
+	(circle
+		(center 87.63 25.4)
+		(radius 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d0960a60-61d0-45a7-bc39-16ea3edc777f)
+	)
 	(text "PCB 2"
 		(exclude_from_sim no)
 		(at 16.51 250.19 0)
@@ -2574,6 +2598,26 @@
 			)
 		)
 		(uuid "570a0eec-260a-4e95-a120-a81762c9cd5e")
+	)
+	(text "7.8k"
+		(exclude_from_sim no)
+		(at 89.408 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "672a2205-52af-408f-8f70-eba1e643eab4")
+	)
+	(text "5.87k"
+		(exclude_from_sim no)
+		(at 98.806 24.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6ab56fd-427f-4e17-bc1d-1555f3656087")
 	)
 	(junction
 		(at 167.64 242.57)
