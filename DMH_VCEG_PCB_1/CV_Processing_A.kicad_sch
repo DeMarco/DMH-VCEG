@@ -2553,6 +2553,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 95.504 85.852)
+		(radius 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 07120be2-26a2-4c93-8701-2d61c9c0e055)
+	)
 	(rectangle
 		(start 12.7 13.97)
 		(end 196.85 251.46)
@@ -2564,6 +2576,18 @@
 			(type none)
 		)
 		(uuid 0bc961f5-0bfa-4553-bd0a-9af002b4fa96)
+	)
+	(circle
+		(center 95.504 195.072)
+		(radius 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2bda0409-1fc1-4da8-90f2-f96bef598068)
 	)
 	(circle
 		(center 95.25 29.21)
@@ -2618,6 +2642,26 @@
 			)
 		)
 		(uuid "a6ab56fd-427f-4e17-bc1d-1555f3656087")
+	)
+	(text "5.87k"
+		(exclude_from_sim no)
+		(at 99.06 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be4c73c6-c49c-42aa-9cbf-f804fc047a16")
+	)
+	(text "5.87k"
+		(exclude_from_sim no)
+		(at 99.06 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c875d2a9-5c7d-4f5b-8b70-1d5e132bf276")
 	)
 	(junction
 		(at 167.64 242.57)
