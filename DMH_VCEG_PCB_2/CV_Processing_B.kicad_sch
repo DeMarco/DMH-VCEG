@@ -2565,6 +2565,18 @@
 		)
 		(uuid 36c26112-ec37-4575-8497-c9da5e030e06)
 	)
+	(circle
+		(center 85.09 25.4)
+		(radius 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fbd1149f-77d3-4b5b-bdb3-c2bf1bcbce0d)
+	)
 	(text "PCB 2"
 		(exclude_from_sim no)
 		(at 16.51 250.19 0)
@@ -2574,6 +2586,16 @@
 			)
 		)
 		(uuid "67b352d0-38fb-4a76-8c69-c7530e9467af")
+	)
+	(text "Adjust to ~7.8k"
+		(exclude_from_sim no)
+		(at 98.044 21.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e790b8ce-d45c-4101-9e65-76f3aba12fa0")
 	)
 	(junction
 		(at 167.64 242.57)
@@ -5247,7 +5269,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "5K9"
 			(at 95.25 87.63 90)
 			(effects
 				(font
@@ -10188,7 +10210,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "5K9"
 			(at 95.25 196.85 90)
 			(effects
 				(font
@@ -11852,7 +11874,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "5K9"
 			(at 95.25 30.48 90)
 			(effects
 				(font
