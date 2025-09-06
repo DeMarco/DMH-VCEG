@@ -456,6 +456,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -494,12 +495,29 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 4,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CrossPCB",
+        "pcb_color": "rgba(255, 153, 0, 0.588)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -514,7 +532,140 @@
       "+12V": "rgb(255, 0, 0)",
       "-12V": "rgb(0, 255, 0)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/CV Processing A/Att CV": [
+        "CrossPCB"
+      ],
+      "/CV Processing A/Dec CV": [
+        "CrossPCB"
+      ],
+      "/CV Processing A/Max Level": [
+        "CrossPCB"
+      ],
+      "/CV Processing A/Rel CV": [
+        "CrossPCB"
+      ],
+      "/CV Processing A/Sus CV": [
+        "CrossPCB"
+      ],
+      "/CV Processing A/Sus Level": [
+        "CrossPCB"
+      ],
+      "/CV Processing B/Att CV": [
+        "CrossPCB"
+      ],
+      "/CV Processing B/Dec CV": [
+        "CrossPCB"
+      ],
+      "/CV Processing B/Max Level": [
+        "CrossPCB"
+      ],
+      "/CV Processing B/Rel CV": [
+        "CrossPCB"
+      ],
+      "/CV Processing B/Sus CV": [
+        "CrossPCB"
+      ],
+      "/CV Processing B/Sus Level": [
+        "CrossPCB"
+      ],
+      "/Core Circuit A/Att_State": [
+        "CrossPCB"
+      ],
+      "/Core Circuit A/Dec_State": [
+        "CrossPCB"
+      ],
+      "/Core Circuit A/Inv Sus State": [
+        "CrossPCB"
+      ],
+      "/Core Circuit A/Out": [
+        "CrossPCB"
+      ],
+      "/Core Circuit A/ProcGate": [
+        "CrossPCB"
+      ],
+      "/Core Circuit A/Rel_State": [
+        "CrossPCB"
+      ],
+      "/Core Circuit A/Sus_State": [
+        "CrossPCB"
+      ],
+      "/Core Circuit B/Att_State": [
+        "CrossPCB"
+      ],
+      "/Core Circuit B/Dec_State": [
+        "CrossPCB"
+      ],
+      "/Core Circuit B/Inv Sus State": [
+        "CrossPCB"
+      ],
+      "/Core Circuit B/Out": [
+        "CrossPCB"
+      ],
+      "/Core Circuit B/ProcGate": [
+        "CrossPCB"
+      ],
+      "/Core Circuit B/Rel_State": [
+        "CrossPCB"
+      ],
+      "/Core Circuit B/Sus_State": [
+        "CrossPCB"
+      ],
+      "Net-(J21F-Pin_6)": [
+        "CrossPCB"
+      ],
+      "Net-(J22B-Pin_2)": [
+        "CrossPCB"
+      ],
+      "Net-(J22C-Pin_3)": [
+        "CrossPCB"
+      ],
+      "Net-(J22E-Pin_5)": [
+        "CrossPCB"
+      ],
+      "Net-(J23C-Pin_3)": [
+        "CrossPCB"
+      ],
+      "Net-(J23H-Pin_8)": [
+        "CrossPCB"
+      ],
+      "Net-(J23I-Pin_9)": [
+        "CrossPCB"
+      ],
+      "Net-(J23J-Pin_10)": [
+        "CrossPCB"
+      ],
+      "Net-(J24C-Pin_3)": [
+        "CrossPCB"
+      ],
+      "Net-(J24D-Pin_4)": [
+        "CrossPCB"
+      ],
+      "Net-(J25I-Pin_9)": [
+        "CrossPCB"
+      ],
+      "Net-(J26B-Pin_2)": [
+        "CrossPCB"
+      ],
+      "Net-(J26C-Pin_3)": [
+        "CrossPCB"
+      ],
+      "Net-(J26E-Pin_5)": [
+        "CrossPCB"
+      ],
+      "Net-(J27C-Pin_3)": [
+        "CrossPCB"
+      ],
+      "Net-(J27H-Pin_8)": [
+        "CrossPCB"
+      ],
+      "Net-(J27I-Pin_9)": [
+        "CrossPCB"
+      ],
+      "Net-(J27J-Pin_10)": [
+        "CrossPCB"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
