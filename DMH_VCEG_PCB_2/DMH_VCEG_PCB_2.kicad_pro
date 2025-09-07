@@ -620,6 +620,9 @@
       "Net-(J22C-Pin_3)": [
         "CrossPCB"
       ],
+      "Net-(J22D-Pin_4)": [
+        "CrossPCB"
+      ],
       "Net-(J22E-Pin_5)": [
         "CrossPCB"
       ],
@@ -648,6 +651,9 @@
         "CrossPCB"
       ],
       "Net-(J26C-Pin_3)": [
+        "CrossPCB"
+      ],
+      "Net-(J26D-Pin_4)": [
         "CrossPCB"
       ],
       "Net-(J26E-Pin_5)": [
