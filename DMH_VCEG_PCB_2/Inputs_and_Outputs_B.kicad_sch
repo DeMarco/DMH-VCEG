@@ -8297,7 +8297,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 127 66.04 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8400,7 +8400,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/56bd3f35-094b-4adb-8c6d-1e57b38bb61e"
 					(reference "U23")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -8832,7 +8832,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 127 97.79 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8935,7 +8935,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/56bd3f35-094b-4adb-8c6d-1e57b38bb61e"
 					(reference "U23")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
