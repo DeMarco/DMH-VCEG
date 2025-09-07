@@ -20860,7 +20860,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "93eb93d3-e7aa-4c34-b5f1-9d58d8cc46be")
 		(property "Reference" "#PWR040"
@@ -23042,7 +23042,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "b0ee130f-042a-4f1c-a3be-b498e493fd7f")
 		(property "Reference" "#PWR0117"
@@ -25530,7 +25530,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d362ea16-1a9c-4c9b-93cf-4a1ff64f197e")

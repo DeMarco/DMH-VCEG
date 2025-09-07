@@ -4900,7 +4900,7 @@
 		)
 		(uuid "29b25a4a-1ab1-4171-8b8b-f3a446659db8")
 	)
-	(text_box "ICs on PCB 1 (jacks):\nU1, U2, U3, U5, U6, U7\n\nICs on PCB 2 (pots):\nU4, U8, U9, U10, U21, U22"
+	(text_box "ICs on PCB 1 (jacks):\nU1, U2, U3, U5, U6, U7, U25\n\nICs on PCB 2 (pots):\nU4, U8, U9, U10, U21, U22"
 		(exclude_from_sim no)
 		(at 212.09 151.13 0)
 		(size 33.02 12.7)

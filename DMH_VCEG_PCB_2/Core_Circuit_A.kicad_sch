@@ -17662,7 +17662,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "52485427-be4e-48e8-ae2b-f33d52ec45fd")
 		(property "Reference" "#PWR046"
@@ -18220,7 +18220,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "59ed2d1a-36ba-412a-b94b-9f8a50b36cb3")
 		(property "Reference" "#PWR055"
@@ -23245,7 +23245,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "aa87789c-293f-48bf-87cd-63e49a92a488")
 		(property "Reference" "#PWR038"
@@ -26057,7 +26057,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d56ae75e-a612-47e3-a09b-db21eae31ebe")
