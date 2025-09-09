@@ -528,7 +528,10 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(255, 0, 0)",
+      "-12V": "rgb(0, 194, 0)"
+    },
     "netclass_assignments": {
       "/CV Processing A/Att CV": [
         "CrossPCB"
