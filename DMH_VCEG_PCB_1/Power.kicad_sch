@@ -14594,6 +14594,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 163.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "59f617de-8b2c-4b13-937c-4148233caf82")
 		)

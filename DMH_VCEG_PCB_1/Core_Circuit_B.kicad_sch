@@ -17589,7 +17589,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 76.2 151.13 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17693,7 +17693,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U25")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -19604,7 +19604,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 76.2 130.81 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19708,7 +19708,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U25")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
