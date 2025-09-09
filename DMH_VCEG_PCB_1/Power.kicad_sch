@@ -3202,6 +3202,508 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SynthStuff:Conn_01x10_PinHeader"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10_PinHeader"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_2_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_3_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_4_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_5_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_6_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_7_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_8_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_9_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x10_PinHeader_10_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SynthStuff:Eurorack_Power_Connector_16Pin"
 			(pin_names
 				(offset 1.016)
@@ -5151,6 +5653,22 @@
 		(uuid "fdfb540e-f56b-4d1e-a826-d6456d81adac")
 	)
 	(no_connect
+		(at 30.48 146.05)
+		(uuid "0e8a5a47-e2f6-4d3c-93cc-e3fb965bf3b9")
+	)
+	(no_connect
+		(at 30.48 161.29)
+		(uuid "28e562a1-94fa-4765-a8ee-87410b6ff290")
+	)
+	(no_connect
+		(at 41.91 161.29)
+		(uuid "300086ae-1817-4f23-8d42-d65e748a1ad2")
+	)
+	(no_connect
+		(at 41.91 151.13)
+		(uuid "476d9b04-4683-4a33-85bf-1bb1e1aa1d45")
+	)
+	(no_connect
 		(at 31.75 190.5)
 		(uuid "641f89b5-d32c-4192-ab1e-a73c8114ea63")
 	)
@@ -5159,12 +5677,28 @@
 		(uuid "7b30e57f-90d0-440a-88db-8878a8cf0c13")
 	)
 	(no_connect
+		(at 41.91 156.21)
+		(uuid "a728e638-7db0-452e-9179-341f2d7b8508")
+	)
+	(no_connect
+		(at 41.91 146.05)
+		(uuid "a7a8e015-18c9-4f18-81eb-58c1be94d2ee")
+	)
+	(no_connect
+		(at 30.48 151.13)
+		(uuid "a920e032-02fa-48d6-b196-5b5abcbcf8a0")
+	)
+	(no_connect
 		(at 31.75 187.96)
 		(uuid "b4ea8435-3caa-4ffd-b396-ce90e7daf664")
 	)
 	(no_connect
 		(at 19.05 190.5)
 		(uuid "e664afa4-dc4c-4d32-af4f-ac8bb9ddbf64")
+	)
+	(no_connect
+		(at 30.48 156.21)
+		(uuid "fe5d9644-02a8-4935-a5be-1d0402efd998")
 	)
 	(wire
 		(pts
@@ -8658,6 +9192,99 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:Conn_01x10_PinHeader")
+		(at 25.4 151.13 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06f88e55-9831-4fba-b91f-3fd7f0a11140")
+		(property "Reference" "J23"
+			(at 26.035 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10_PinHeader"
+			(at 25.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10"
+			(at 25.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "0ebab825-093c-4943-9d19-1eaabda35980")
+		)
+		(pin "9"
+			(uuid "2882259c-ae5a-4955-9546-7d356a822a75")
+		)
+		(pin "8"
+			(uuid "4ef2ccd8-ea09-434e-aa61-77a6b171c095")
+		)
+		(pin "6"
+			(uuid "29a8168b-b480-4578-af40-5a110aef4e6d")
+		)
+		(pin "2"
+			(uuid "2595a24c-df21-4299-8200-5484c13a0d3c")
+		)
+		(pin "3"
+			(uuid "ba02b865-9421-449b-8763-20d78003a7f7")
+		)
+		(pin "4"
+			(uuid "984bf1e5-bddc-486e-bc66-cfc610a73829")
+		)
+		(pin "1"
+			(uuid "642debb6-67b4-4671-829e-b31a062735c9")
+		)
+		(pin "7"
+			(uuid "e44a17d7-b4c9-4153-b905-203a53dfff7f")
+		)
+		(pin "5"
+			(uuid "3540fd6f-5a8c-4206-87c7-bd3e8c7fe5d5")
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "J23")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 77.47 171.45 0)
 		(unit 5)
@@ -8709,6 +9336,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "11"
@@ -8950,6 +9585,99 @@
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "U7")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:Conn_01x10_PinHeader")
+		(at 36.83 146.05 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0af76ea4-a821-42f2-8453-5c1a7089df4f")
+		(property "Reference" "J27"
+			(at 37.465 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10_PinHeader"
+			(at 36.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10"
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "773b8d82-4129-4153-8848-9700b654da00")
+		)
+		(pin "2"
+			(uuid "32e105b3-f3dc-4548-a6e9-e09e956f6be6")
+		)
+		(pin "3"
+			(uuid "33fb657e-29a6-4d57-8091-f87e6cde69c8")
+		)
+		(pin "4"
+			(uuid "71dfdf3c-fb0e-4fc5-b850-7b0e865e02f6")
+		)
+		(pin "7"
+			(uuid "7bef066e-494f-416b-95e5-68c8fb59603a")
+		)
+		(pin "9"
+			(uuid "b031d38b-fd02-4a68-96b6-59bbfe890de5")
+		)
+		(pin "1"
+			(uuid "a9985803-36b2-4a82-82d5-00d3f0c956af")
+		)
+		(pin "5"
+			(uuid "2638e627-e3b2-4cde-b02c-ad6034d3e4fa")
+		)
+		(pin "8"
+			(uuid "7bfc1aa8-c315-4eab-b6cf-ecfbee7670c3")
+		)
+		(pin "6"
+			(uuid "b1c7efc3-1cd2-47bc-81e7-34bff745bb60")
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "J27")
+					(unit 4)
 				)
 			)
 		)
@@ -9725,6 +10453,99 @@
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "C18")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:Conn_01x10_PinHeader")
+		(at 36.83 161.29 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "281c4e26-fecc-4a96-97c2-17139af48b8e")
+		(property "Reference" "J27"
+			(at 37.465 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10_PinHeader"
+			(at 36.83 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "773b8d82-4129-4153-8848-9700b654da03")
+		)
+		(pin "2"
+			(uuid "32e105b3-f3dc-4548-a6e9-e09e956f6be9")
+		)
+		(pin "3"
+			(uuid "33fb657e-29a6-4d57-8091-f87e6cde69cb")
+		)
+		(pin "4"
+			(uuid "71c94830-cf7f-40ca-9c47-6fd95651a0a6")
+		)
+		(pin "7"
+			(uuid "01437e9b-23b2-40c4-8cf4-f4c21e3e6a0e")
+		)
+		(pin "9"
+			(uuid "b031d38b-fd02-4a68-96b6-59bbfe890de8")
+		)
+		(pin "1"
+			(uuid "a9985803-36b2-4a82-82d5-00d3f0c956b2")
+		)
+		(pin "5"
+			(uuid "2638e627-e3b2-4cde-b02c-ad6034d3e4fd")
+		)
+		(pin "8"
+			(uuid "7bfc1aa8-c315-4eab-b6cf-ecfbee7670c6")
+		)
+		(pin "6"
+			(uuid "b1c7efc3-1cd2-47bc-81e7-34bff745bb63")
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "J27")
+					(unit 7)
 				)
 			)
 		)
@@ -10954,6 +11775,99 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:Conn_01x10_PinHeader")
+		(at 25.4 161.29 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b0423e1-2765-4496-8b70-195e2d8f608e")
+		(property "Reference" "J23"
+			(at 26.035 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10_PinHeader"
+			(at 25.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10"
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "0ebab825-093c-4943-9d19-1eaabda3597f")
+		)
+		(pin "9"
+			(uuid "2882259c-ae5a-4955-9546-7d356a822a74")
+		)
+		(pin "8"
+			(uuid "4ef2ccd8-ea09-434e-aa61-77a6b171c094")
+		)
+		(pin "6"
+			(uuid "29a8168b-b480-4578-af40-5a110aef4e6c")
+		)
+		(pin "2"
+			(uuid "2595a24c-df21-4299-8200-5484c13a0d3b")
+		)
+		(pin "3"
+			(uuid "ba02b865-9421-449b-8763-20d78003a7f6")
+		)
+		(pin "4"
+			(uuid "984bf1e5-bddc-486e-bc66-cfc610a73828")
+		)
+		(pin "1"
+			(uuid "642debb6-67b4-4671-829e-b31a062735c8")
+		)
+		(pin "7"
+			(uuid "83de2071-250a-4eba-be19-949cd24f477c")
+		)
+		(pin "5"
+			(uuid "3330d9f8-f4a9-4b50-a09f-1108cb487f19")
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "J23")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 203.2 63.5 0)
 		(unit 1)
@@ -11244,6 +12158,99 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:Conn_01x10_PinHeader")
+		(at 25.4 156.21 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5966054f-82e1-41d1-9ff2-40da2a18ac02")
+		(property "Reference" "J23"
+			(at 26.035 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10_PinHeader"
+			(at 25.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10"
+			(at 25.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "0ebab825-093c-4943-9d19-1eaabda3597d")
+		)
+		(pin "9"
+			(uuid "2882259c-ae5a-4955-9546-7d356a822a72")
+		)
+		(pin "8"
+			(uuid "4ef2ccd8-ea09-434e-aa61-77a6b171c092")
+		)
+		(pin "6"
+			(uuid "eb5b821a-e055-4bb2-912a-9f16577f138d")
+		)
+		(pin "2"
+			(uuid "2595a24c-df21-4299-8200-5484c13a0d39")
+		)
+		(pin "3"
+			(uuid "ba02b865-9421-449b-8763-20d78003a7f4")
+		)
+		(pin "4"
+			(uuid "984bf1e5-bddc-486e-bc66-cfc610a73826")
+		)
+		(pin "1"
+			(uuid "642debb6-67b4-4671-829e-b31a062735c6")
+		)
+		(pin "7"
+			(uuid "e44a17d7-b4c9-4153-b905-203a53dfff7c")
+		)
+		(pin "5"
+			(uuid "3330d9f8-f4a9-4b50-a09f-1108cb487f17")
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "J23")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 177.8 127 0)
 		(unit 1)
@@ -11435,6 +12442,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 138.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -12546,6 +13561,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "b3b294b7-202c-4215-8c67-cd88b40311ad")
 		)
@@ -12593,6 +13616,192 @@
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "U14")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:Conn_01x10_PinHeader")
+		(at 36.83 151.13 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7de75f93-6b63-484f-8b9c-f390ed28869a")
+		(property "Reference" "J27"
+			(at 37.465 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10_PinHeader"
+			(at 36.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "773b8d82-4129-4153-8848-9700b654da01")
+		)
+		(pin "2"
+			(uuid "32e105b3-f3dc-4548-a6e9-e09e956f6be7")
+		)
+		(pin "3"
+			(uuid "33fb657e-29a6-4d57-8091-f87e6cde69c9")
+		)
+		(pin "4"
+			(uuid "71c94830-cf7f-40ca-9c47-6fd95651a0a4")
+		)
+		(pin "7"
+			(uuid "7bef066e-494f-416b-95e5-68c8fb59603b")
+		)
+		(pin "9"
+			(uuid "b031d38b-fd02-4a68-96b6-59bbfe890de6")
+		)
+		(pin "1"
+			(uuid "a9985803-36b2-4a82-82d5-00d3f0c956b0")
+		)
+		(pin "5"
+			(uuid "85ed0ffd-0e5d-4918-a6f3-c760de3fe1a3")
+		)
+		(pin "8"
+			(uuid "7bfc1aa8-c315-4eab-b6cf-ecfbee7670c4")
+		)
+		(pin "6"
+			(uuid "b1c7efc3-1cd2-47bc-81e7-34bff745bb61")
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "J27")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:Conn_01x10_PinHeader")
+		(at 25.4 146.05 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f935987-144a-4cb4-8b75-26015ae23a76")
+		(property "Reference" "J23"
+			(at 26.035 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10_PinHeader"
+			(at 25.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10"
+			(at 25.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "0ebab825-093c-4943-9d19-1eaabda3597e")
+		)
+		(pin "9"
+			(uuid "2882259c-ae5a-4955-9546-7d356a822a73")
+		)
+		(pin "8"
+			(uuid "4ef2ccd8-ea09-434e-aa61-77a6b171c093")
+		)
+		(pin "6"
+			(uuid "29a8168b-b480-4578-af40-5a110aef4e6b")
+		)
+		(pin "2"
+			(uuid "2595a24c-df21-4299-8200-5484c13a0d3a")
+		)
+		(pin "3"
+			(uuid "ba02b865-9421-449b-8763-20d78003a7f5")
+		)
+		(pin "4"
+			(uuid "9a4c431f-ad02-4028-8e42-22e7b5e86e2d")
+		)
+		(pin "1"
+			(uuid "642debb6-67b4-4671-829e-b31a062735c7")
+		)
+		(pin "7"
+			(uuid "e44a17d7-b4c9-4153-b905-203a53dfff7d")
+		)
+		(pin "5"
+			(uuid "3330d9f8-f4a9-4b50-a09f-1108cb487f18")
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "J23")
+					(unit 4)
 				)
 			)
 		)
@@ -13386,46 +14595,46 @@
 			)
 		)
 		(pin "13"
-			(uuid "59f617de-8b2c-4b13-937c-4148233caf80")
+			(uuid "59f617de-8b2c-4b13-937c-4148233caf82")
 		)
 		(pin "7"
 			(uuid "2d24f085-c2d4-4db0-944d-ce4ef071968b")
 		)
 		(pin "9"
-			(uuid "9ca1e974-d15e-4f70-b887-691d030ea96d")
+			(uuid "9ca1e974-d15e-4f70-b887-691d030ea96f")
 		)
 		(pin "2"
-			(uuid "58ca2e18-c30d-420a-bde8-78da7487c70e")
+			(uuid "58ca2e18-c30d-420a-bde8-78da7487c710")
 		)
 		(pin "1"
-			(uuid "b23bffd8-a38e-415b-83e0-71440fb4a03e")
+			(uuid "b23bffd8-a38e-415b-83e0-71440fb4a040")
 		)
 		(pin "5"
-			(uuid "d46695f6-d45a-41d6-8ee6-b46b3f5d7f1f")
+			(uuid "d46695f6-d45a-41d6-8ee6-b46b3f5d7f21")
 		)
 		(pin "6"
-			(uuid "e4ec0002-38ed-4e4b-9748-92c9a6a9b00a")
+			(uuid "e4ec0002-38ed-4e4b-9748-92c9a6a9b00c")
 		)
 		(pin "4"
-			(uuid "28fc0653-ad2a-49ef-a76a-ea38444abaa3")
+			(uuid "28fc0653-ad2a-49ef-a76a-ea38444abaa5")
 		)
 		(pin "10"
-			(uuid "63d89de1-05c8-4955-9041-ea79f9a5b066")
+			(uuid "63d89de1-05c8-4955-9041-ea79f9a5b068")
 		)
 		(pin "8"
-			(uuid "aded8ca8-faf1-4a4b-ab95-a19e427a5505")
+			(uuid "aded8ca8-faf1-4a4b-ab95-a19e427a5507")
 		)
 		(pin "12"
-			(uuid "4397b465-68ff-41fa-ac30-3d1c1a7ad71e")
+			(uuid "4397b465-68ff-41fa-ac30-3d1c1a7ad720")
 		)
 		(pin "11"
-			(uuid "a5bdb041-be0f-4e45-91ad-10e8050b3088")
+			(uuid "a5bdb041-be0f-4e45-91ad-10e8050b308a")
 		)
 		(pin "14"
 			(uuid "3bfce375-dcc2-4cd4-99ce-8d4a5a83d58c")
 		)
 		(pin "3"
-			(uuid "2cdffe13-ba0c-494a-b361-43e078c4ba41")
+			(uuid "2cdffe13-ba0c-494a-b361-43e078c4ba43")
 		)
 		(instances
 			(project "DMH_VCEG_PCB_1"
@@ -13931,6 +15140,99 @@
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR02")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:Conn_01x10_PinHeader")
+		(at 36.83 156.21 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1666dc6-a0a1-4e38-8a47-0a67fbd3288a")
+		(property "Reference" "J27"
+			(at 37.465 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10_PinHeader"
+			(at 36.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10"
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "773b8d82-4129-4153-8848-9700b654da02")
+		)
+		(pin "2"
+			(uuid "32e105b3-f3dc-4548-a6e9-e09e956f6be8")
+		)
+		(pin "3"
+			(uuid "33fb657e-29a6-4d57-8091-f87e6cde69ca")
+		)
+		(pin "4"
+			(uuid "71c94830-cf7f-40ca-9c47-6fd95651a0a5")
+		)
+		(pin "7"
+			(uuid "7bef066e-494f-416b-95e5-68c8fb59603c")
+		)
+		(pin "9"
+			(uuid "b031d38b-fd02-4a68-96b6-59bbfe890de7")
+		)
+		(pin "1"
+			(uuid "a9985803-36b2-4a82-82d5-00d3f0c956b1")
+		)
+		(pin "5"
+			(uuid "2638e627-e3b2-4cde-b02c-ad6034d3e4fc")
+		)
+		(pin "8"
+			(uuid "7bfc1aa8-c315-4eab-b6cf-ecfbee7670c5")
+		)
+		(pin "6"
+			(uuid "4293636a-a217-412b-be57-3f5a1032476a")
+		)
+		(instances
+			(project "DMH_VCEG_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "J27")
+					(unit 6)
 				)
 			)
 		)
@@ -14554,6 +15856,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 243.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e2f52670-126c-480b-beb0-917314bc6e0d")
 		)
@@ -14871,46 +16181,46 @@
 			)
 		)
 		(pin "13"
-			(uuid "59f617de-8b2c-4b13-937c-4148233caf82")
+			(uuid "59f617de-8b2c-4b13-937c-4148233caf83")
 		)
 		(pin "7"
 			(uuid "0b926e9a-5299-48e0-94f6-25da06c99dc6")
 		)
 		(pin "9"
-			(uuid "9ca1e974-d15e-4f70-b887-691d030ea96f")
+			(uuid "9ca1e974-d15e-4f70-b887-691d030ea970")
 		)
 		(pin "2"
-			(uuid "58ca2e18-c30d-420a-bde8-78da7487c710")
+			(uuid "58ca2e18-c30d-420a-bde8-78da7487c711")
 		)
 		(pin "1"
-			(uuid "b23bffd8-a38e-415b-83e0-71440fb4a040")
+			(uuid "b23bffd8-a38e-415b-83e0-71440fb4a041")
 		)
 		(pin "5"
-			(uuid "d46695f6-d45a-41d6-8ee6-b46b3f5d7f21")
+			(uuid "d46695f6-d45a-41d6-8ee6-b46b3f5d7f22")
 		)
 		(pin "6"
-			(uuid "e4ec0002-38ed-4e4b-9748-92c9a6a9b00c")
+			(uuid "e4ec0002-38ed-4e4b-9748-92c9a6a9b00d")
 		)
 		(pin "4"
-			(uuid "28fc0653-ad2a-49ef-a76a-ea38444abaa5")
+			(uuid "28fc0653-ad2a-49ef-a76a-ea38444abaa6")
 		)
 		(pin "10"
-			(uuid "63d89de1-05c8-4955-9041-ea79f9a5b068")
+			(uuid "63d89de1-05c8-4955-9041-ea79f9a5b069")
 		)
 		(pin "8"
-			(uuid "aded8ca8-faf1-4a4b-ab95-a19e427a5507")
+			(uuid "aded8ca8-faf1-4a4b-ab95-a19e427a5508")
 		)
 		(pin "12"
-			(uuid "4397b465-68ff-41fa-ac30-3d1c1a7ad720")
+			(uuid "4397b465-68ff-41fa-ac30-3d1c1a7ad721")
 		)
 		(pin "11"
-			(uuid "a5bdb041-be0f-4e45-91ad-10e8050b308a")
+			(uuid "a5bdb041-be0f-4e45-91ad-10e8050b308b")
 		)
 		(pin "14"
 			(uuid "3334a121-bba6-4bde-af18-a659985a9d7a")
 		)
 		(pin "3"
-			(uuid "2cdffe13-ba0c-494a-b361-43e078c4ba43")
+			(uuid "2cdffe13-ba0c-494a-b361-43e078c4ba44")
 		)
 		(instances
 			(project "DMH_VCEG_PCB_1"
@@ -15689,6 +16999,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "11"

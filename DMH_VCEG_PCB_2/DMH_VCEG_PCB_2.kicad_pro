@@ -592,7 +592,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 4,
+        "line_style": 3,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CrossPCB",
@@ -642,6 +642,9 @@
       "/CV Processing A/Rel CV": [
         "CrossPCB"
       ],
+      "/CV Processing A/Rel Proc CV": [
+        "CrossPCB"
+      ],
       "/CV Processing A/Sus CV": [
         "CrossPCB"
       ],
@@ -658,6 +661,9 @@
         "CrossPCB"
       ],
       "/CV Processing B/Rel CV": [
+        "CrossPCB"
+      ],
+      "/CV Processing B/Rel Proc CV": [
         "CrossPCB"
       ],
       "/CV Processing B/Sus CV": [
@@ -887,7 +893,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
