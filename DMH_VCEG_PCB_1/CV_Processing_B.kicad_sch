@@ -8989,7 +8989,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 53.34 76.2 180)
-		(unit 6)
+		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9082,7 +9082,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/b3f92c0e-ea97-4ef0-9a6b-254feed98ad2"
 					(reference "J26")
-					(unit 6)
+					(unit 7)
 				)
 			)
 		)
@@ -9361,7 +9361,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 132.08 19.05 180)
-		(unit 6)
+		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9454,7 +9454,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/b3f92c0e-ea97-4ef0-9a6b-254feed98ad2"
 					(reference "J25")
-					(unit 6)
+					(unit 7)
 				)
 			)
 		)
