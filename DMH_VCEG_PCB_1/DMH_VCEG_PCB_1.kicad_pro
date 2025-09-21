@@ -617,6 +617,12 @@
       "/Core Circuit B/Sus_State": [
         "CrossPCB"
       ],
+      "Net-(D1-K)": [
+        "Power"
+      ],
+      "Net-(D2-A)": [
+        "Power"
+      ],
       "Net-(J21F-Pin_6)": [
         "CrossPCB"
       ],
