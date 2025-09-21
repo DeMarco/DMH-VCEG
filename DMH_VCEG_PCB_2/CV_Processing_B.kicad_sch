@@ -2598,6 +2598,12 @@
 		(uuid "e790b8ce-d45c-4101-9e65-76f3aba12fa0")
 	)
 	(junction
+		(at 45.72 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "056d1f91-9c77-45d3-b1b3-21950f1c0414")
+	)
+	(junction
 		(at 167.64 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2760,6 +2766,12 @@
 		(uuid "aa10b603-7122-40b7-9df0-6b4c51b2c89e")
 	)
 	(junction
+		(at 45.72 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b070625d-916a-4c34-89ab-a6ba5f1feb18")
+	)
+	(junction
 		(at 127 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2770,12 +2782,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7fa192b-5e9c-4f23-8233-42c97bd3643e")
-	)
-	(junction
-		(at 45.72 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b81a958f-39a2-4a58-adda-59c512b6b715")
 	)
 	(junction
 		(at 167.64 224.79)
@@ -2836,12 +2842,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df9acdcd-29d0-4fcb-8f97-abe25a1636c1")
-	)
-	(junction
-		(at 45.72 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dff22461-4d86-4cfc-8f1e-31811635262c")
 	)
 	(junction
 		(at 106.68 49.53)
@@ -3050,16 +3050,6 @@
 			(type default)
 		)
 		(uuid "094d62b9-fb82-4899-be9f-7282e2d94adf")
-	)
-	(wire
-		(pts
-			(xy 45.72 76.2) (xy 48.26 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "098e6484-a89c-45bb-8567-9e5daeab74b1")
 	)
 	(wire
 		(pts
@@ -3510,6 +3500,16 @@
 			(type default)
 		)
 		(uuid "4555916a-230d-4edc-9315-15a2796a77d9")
+	)
+	(wire
+		(pts
+			(xy 45.72 76.2) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49df25e9-f95b-4ce1-9fc1-f195823fdef5")
 	)
 	(wire
 		(pts
@@ -4113,6 +4113,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 19.05) (xy 48.26 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949c7f30-a366-4f13-8c17-721cf4792250")
+	)
+	(wire
+		(pts
 			(xy 114.3 60.96) (xy 121.92 60.96)
 		)
 		(stroke
@@ -4620,16 +4630,6 @@
 			(type default)
 		)
 		(uuid "d1ab9537-c6ba-42d9-b632-eaaa2a6993d2")
-	)
-	(wire
-		(pts
-			(xy 45.72 19.05) (xy 48.26 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f9f8c3-7de6-401f-930a-09d940b7030c")
 	)
 	(wire
 		(pts
@@ -5556,7 +5556,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 53.34 76.2 180)
-		(unit 6)
+		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5649,7 +5649,7 @@
 			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/b3f92c0e-ea97-4ef0-9a6b-254feed98ad2"
 					(reference "J26")
-					(unit 6)
+					(unit 7)
 				)
 			)
 		)
@@ -9260,7 +9260,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 132.08 19.05 180)
-		(unit 6)
+		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9353,7 +9353,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/b3f92c0e-ea97-4ef0-9a6b-254feed98ad2"
 					(reference "J25")
-					(unit 6)
+					(unit 7)
 				)
 			)
 		)

@@ -62039,7 +62039,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "25,0000 mm"
+		(gr_text "25.0000 mm"
 			(at 37.5 40.35 0)
 			(layer "User.1")
 			(uuid "02dc2943-d957-4069-9177-902a5701b4bf")
@@ -62076,7 +62076,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "25,0000 mm"
+		(gr_text "25.0000 mm"
 			(at 162.5 40.35 0)
 			(layer "User.1")
 			(uuid "1e734a6d-fe02-4b94-8136-f810c3ddbfc2")
@@ -62113,7 +62113,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "25,0000 mm"
+		(gr_text "25.0000 mm"
 			(at 87.5 40.35 0)
 			(layer "User.1")
 			(uuid "5cba961d-30dd-443f-ab57-4a1f56ff6361")
@@ -62150,7 +62150,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "25,0000 mm"
+		(gr_text "25.0000 mm"
 			(at 137.5 40.35 0)
 			(layer "User.1")
 			(uuid "63820475-3ddd-4192-8ecc-321c2ceb8316")
@@ -62187,7 +62187,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "25,0000 mm"
+		(gr_text "25.0000 mm"
 			(at 62.5 40.35 0)
 			(layer "User.1")
 			(uuid "661d633d-df4b-4749-b58d-1504a40b2087")
@@ -62224,7 +62224,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "25,0000 mm"
+		(gr_text "25.0000 mm"
 			(at 112.5 40.35 0)
 			(layer "User.1")
 			(uuid "a289b80e-2817-42cf-a35e-e42d53218d99")

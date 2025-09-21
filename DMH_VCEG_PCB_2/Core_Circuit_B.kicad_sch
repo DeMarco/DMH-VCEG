@@ -14417,7 +14417,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 45.72 160.02 0)
 		(mirror x)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -14520,7 +14520,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U11")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -14528,7 +14528,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 179.07 48.26 90)
-		(unit 7)
+		(unit 9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14621,7 +14621,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "J25")
-					(unit 7)
+					(unit 9)
 				)
 			)
 		)
@@ -15051,7 +15051,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 105.41 72.39 0)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -15155,7 +15155,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U12")
-					(unit 2)
+					(unit 3)
 				)
 			)
 		)
@@ -15163,7 +15163,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 138.43 74.93 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -15267,7 +15267,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U12")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -15627,7 +15627,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 224.79 125.73 0)
 		(mirror y)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -15730,7 +15730,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U15")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -16189,7 +16189,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 119.38 86.36 0)
-		(unit 6)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -16292,7 +16292,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U13")
-					(unit 6)
+					(unit 1)
 				)
 			)
 		)
@@ -16566,7 +16566,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 95.25 30.48 180)
-		(unit 5)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -16670,7 +16670,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U13")
-					(unit 5)
+					(unit 2)
 				)
 			)
 		)
@@ -16678,7 +16678,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 105.41 52.07 0)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -16782,7 +16782,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U12")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -16791,7 +16791,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 245.11 149.86 0)
 		(mirror y)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -16894,7 +16894,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U15")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
@@ -17316,7 +17316,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 245.11 128.27 0)
 		(mirror y)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -17419,7 +17419,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U15")
-					(unit 2)
+					(unit 3)
 				)
 			)
 		)
@@ -17771,7 +17771,7 @@
 		(lib_id "4xxx:40106")
 		(at 78.74 86.36 0)
 		(mirror x)
-		(unit 1)
+		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -17874,7 +17874,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U13")
-					(unit 1)
+					(unit 6)
 				)
 			)
 		)
@@ -18658,7 +18658,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 130.81 140.97 0)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -18762,7 +18762,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U13")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -18934,7 +18934,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 49.53 179.07 0)
 		(mirror x)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -19037,7 +19037,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U15")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -19045,7 +19045,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 194.31 130.81 180)
-		(unit 5)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19138,7 +19138,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "J25")
-					(unit 5)
+					(unit 4)
 				)
 			)
 		)
@@ -19655,7 +19655,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 157.48 153.67 0)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -19759,7 +19759,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U16")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -19767,7 +19767,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 135.89 176.53 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -19871,7 +19871,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U16")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -19955,7 +19955,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 274.32 72.39 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -20058,7 +20058,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U17")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -21347,7 +21347,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 189.23 31.75 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -21450,7 +21450,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U17")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
@@ -21868,7 +21868,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 118.11 179.07 0)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -21918,6 +21918,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 118.11 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "9a47fcb0-2d13-4622-af41-509cbfa8f1c4")
 		)
@@ -21964,7 +21972,7 @@
 			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U13")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -21972,7 +21980,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 194.31 128.27 180)
-		(unit 4)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22065,7 +22073,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "J25")
-					(unit 4)
+					(unit 5)
 				)
 			)
 		)
@@ -22073,7 +22081,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 157.48 173.99 0)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -22177,7 +22185,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U16")
-					(unit 2)
+					(unit 3)
 				)
 			)
 		)
@@ -23786,7 +23794,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 78.74 179.07 0)
-		(unit 2)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -23889,7 +23897,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U13")
-					(unit 2)
+					(unit 5)
 				)
 			)
 		)
@@ -24051,7 +24059,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 45.72 38.1 0)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -24155,7 +24163,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U11")
-					(unit 2)
+					(unit 3)
 				)
 			)
 		)
@@ -24164,7 +24172,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 31.75 123.19 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -24267,7 +24275,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U11")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
@@ -24708,7 +24716,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 45.72 80.01 0)
 		(mirror x)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -24812,7 +24820,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U11")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -25382,7 +25390,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 138.43 50.8 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -25486,7 +25494,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U12")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
@@ -26661,7 +26669,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 231.14 110.49 0)
-		(unit 7)
+		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -26753,7 +26761,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "J26")
-					(unit 7)
+					(unit 6)
 				)
 			)
 		)
@@ -27594,7 +27602,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 243.84 110.49 180)
-		(unit 9)
+		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27686,7 +27694,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "J25")
-					(unit 9)
+					(unit 6)
 				)
 			)
 		)
@@ -27761,7 +27769,7 @@
 	(symbol
 		(lib_id "4xxx:4001")
 		(at 179.07 143.51 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -27865,7 +27873,7 @@
 			(project "DMH_VCEG_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/8d22a13f-1d3b-4a1f-8b3f-baf42965c019"
 					(reference "U16")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
