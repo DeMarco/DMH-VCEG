@@ -1,0 +1,29 @@
+Drill report for DMH_VCEG_PCB_2.kicad_pcb
+Created on 2025-10-03T19:31:17+0200
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DMH_VCEG_PCB_2-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (25 holes)
+    T2  0.600mm  0.0236"  (8 holes)
+    T3  0.800mm  0.0315"  (546 holes)
+    T4  0.900mm  0.0354"  (16 holes)
+    T5  1.000mm  0.0394"  (122 holes)
+    T6  1.100mm  0.0433"  (16 holes)  (with 16 slots)
+    T7  1.800mm  0.0709"  (27 holes)
+    T8  2.000mm  0.0787"  (16 holes)  (with 16 slots)
+
+    Total plated holes count 776
+
+
+Drill file 'DMH_VCEG_PCB_2-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

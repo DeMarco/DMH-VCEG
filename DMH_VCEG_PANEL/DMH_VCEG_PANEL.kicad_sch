@@ -2708,7 +2708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Rel CV"
+		(property "Value" "Rel"
 			(at 237.49 127 0)
 			(effects
 				(font
@@ -2848,7 +2848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Sus CV"
+		(property "Value" "Sus"
 			(at 78.74 127 0)
 			(effects
 				(font
@@ -3905,7 +3905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Dec CV"
+		(property "Value" "Dec"
 			(at 186.69 127 0)
 			(effects
 				(font
@@ -4115,7 +4115,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Att CV"
+		(property "Value" "Att"
 			(at 161.29 127 0)
 			(effects
 				(font
@@ -4185,7 +4185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Att CV"
+		(property "Value" "Att"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -4395,7 +4395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Dec CV"
+		(property "Value" "Dec"
 			(at 53.34 127 0)
 			(effects
 				(font
@@ -4677,7 +4677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Sus CV"
+		(property "Value" "Sus"
 			(at 212.09 127 0)
 			(effects
 				(font
@@ -4747,7 +4747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Rel CV"
+		(property "Value" "Rel"
 			(at 104.14 127 0)
 			(effects
 				(font
