@@ -57169,7 +57169,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Mk1.0 - Month Year"
+	(gr_text "Mk1.0 - October 2025"
 		(at 100 180.25 0)
 		(layer "B.SilkS")
 		(uuid "63c8ad94-a0f8-460c-ac3a-e449a72cd50c")

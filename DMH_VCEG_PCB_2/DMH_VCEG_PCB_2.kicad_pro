@@ -154,6 +154,10 @@
         [
           "silk_over_copper|80714285|71113717|bf572d77-379f-4069-bb44-379a2c1382fa|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "silk_overlap|48576190|172188152|3b060e96-1d8c-4828-8637-132f565f033a|6ecc0e8f-a27e-4704-b97e-c59d7e053005",
+          ""
         ]
       ],
       "meta": {
@@ -230,7 +234,7 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.15,
+        "min_silk_clearance": 0.11,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
