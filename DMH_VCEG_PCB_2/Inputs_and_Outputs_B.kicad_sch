@@ -2377,6 +2377,28 @@
 		)
 		(uuid 4bb5fa5e-1037-44e2-b6e0-f8f90d54f01e)
 	)
+	(rectangle
+		(start 116.84 187.96)
+		(end 134.62 193.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b6b0867-da0c-4a7b-a52d-64796c9b2dc2)
+	)
+	(text "Must be inverted"
+		(exclude_from_sim no)
+		(at 126.746 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10d05a12-3108-4eed-a258-b2bb15fd4d11")
+	)
 	(text "PCB 2"
 		(exclude_from_sim no)
 		(at 148.59 147.066 0)
