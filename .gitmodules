@@ -7,3 +7,6 @@
 [submodule "DMH_VCEG_PCB_2/Libraries/SynthStuff"]
 	path = DMH_VCEG_PCB_2/Libraries/SynthStuff
 	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
+[submodule "DMH_VCEG_PCB_1_Mk1_1/Libraries/SynthStuff"]
+	path = DMH_VCEG_PCB_1_Mk1_1/Libraries/SynthStuff
+	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
