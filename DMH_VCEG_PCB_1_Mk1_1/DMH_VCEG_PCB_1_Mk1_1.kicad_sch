@@ -752,7 +752,7 @@
 			)
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_1_Mk1_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "08")
 				)
@@ -985,7 +985,7 @@
 			)
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_1_Mk1_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "3")
 				)
@@ -1128,7 +1128,7 @@
 			)
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_1_Mk1_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "6")
 				)
@@ -1290,7 +1290,7 @@
 			)
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_1_Mk1_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "5")
 				)
@@ -1333,7 +1333,7 @@
 			)
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_1_Mk1_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "9")
 				)
@@ -1476,7 +1476,7 @@
 			)
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_1_Mk1_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "7")
 				)
@@ -1638,7 +1638,7 @@
 			)
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_1_Mk1_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
 				)
@@ -1821,7 +1821,7 @@
 			)
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_1_Mk1_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
 				)

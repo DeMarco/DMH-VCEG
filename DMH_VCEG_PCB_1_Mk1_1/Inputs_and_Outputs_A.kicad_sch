@@ -2914,18 +2914,6 @@
 		(uuid d05de77e-48ff-4ad9-8970-19502681fb19)
 	)
 	(rectangle
-		(start 118.11 187.96)
-		(end 135.89 193.04)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d6efe8dc-15ae-4397-b31c-ed590a89a4fa)
-	)
-	(rectangle
 		(start 96.52 160.02)
 		(end 140.97 199.39)
 		(stroke
@@ -2946,16 +2934,6 @@
 			)
 		)
 		(uuid "3db20263-bae4-4ade-bce8-0531d6568d0a")
-	)
-	(text "Must be inverted"
-		(exclude_from_sim no)
-		(at 128.016 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9f990fdc-5af9-4070-b4ca-42a4b8b0c2e9")
 	)
 	(text "PCB 2"
 		(exclude_from_sim no)
@@ -7162,7 +7140,7 @@
 				)
 			)
 		)
-		(property "Value" "68K"
+		(property "Value" "68k"
 			(at 119.38 165.1 90)
 			(effects
 				(font
@@ -8237,7 +8215,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "68k"
 			(at 121.92 194.31 90)
 			(effects
 				(font
@@ -9142,7 +9120,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "100k"
 			(at 132.08 194.31 90)
 			(effects
 				(font
