@@ -23566,43 +23566,43 @@
 			(uuid "1dc0e189-1b23-4584-979a-f05824b5294a")
 		)
 		(pin "6"
-			(uuid "766a8ef1-42fc-4ba1-86af-c7f2b7bb9a51")
+			(uuid "766a8ef1-42fc-4ba1-86af-c7f2b7bb9a53")
 		)
 		(pin "4"
-			(uuid "6e49ef56-f0a7-45bc-808a-88d95e0dc2cb")
+			(uuid "6e49ef56-f0a7-45bc-808a-88d95e0dc2cc")
 		)
 		(pin "5"
-			(uuid "4b4a93c9-6056-43d0-9c3f-095beb540e76")
+			(uuid "4b4a93c9-6056-43d0-9c3f-095beb540e77")
 		)
 		(pin "11"
-			(uuid "d3f2d376-5eb4-418d-8a5c-1f8b927963f4")
+			(uuid "d3f2d376-5eb4-418d-8a5c-1f8b927963f5")
 		)
 		(pin "12"
-			(uuid "b7d597f0-9d0d-4fed-95af-5b268b9d59a1")
+			(uuid "b7d597f0-9d0d-4fed-95af-5b268b9d59a2")
 		)
 		(pin "8"
-			(uuid "281c1d5a-f7da-4954-953f-5cee28a7ce9e")
+			(uuid "281c1d5a-f7da-4954-953f-5cee28a7cea0")
 		)
 		(pin "1"
 			(uuid "f35bb8c0-74d8-475d-a020-177bfb33beda")
 		)
 		(pin "3"
-			(uuid "00333e5d-c79f-4eb9-9017-69a396e36521")
+			(uuid "00333e5d-c79f-4eb9-9017-69a396e36522")
 		)
 		(pin "10"
-			(uuid "9702123a-1555-4823-9b55-369ec8506df9")
+			(uuid "9702123a-1555-4823-9b55-369ec8506dfa")
 		)
 		(pin "14"
-			(uuid "4d6000f0-c702-43af-932c-1d3dd2772582")
+			(uuid "4d6000f0-c702-43af-932c-1d3dd2772583")
 		)
 		(pin "2"
 			(uuid "79a6b3f6-c658-4beb-bc66-1e8d3471b48f")
 		)
 		(pin "9"
-			(uuid "20dbfa59-c242-4292-acd5-7b181e8dc058")
+			(uuid "20dbfa59-c242-4292-acd5-7b181e8dc05a")
 		)
 		(pin "7"
-			(uuid "e875d203-7aa1-48ac-b5f4-40ffda62351b")
+			(uuid "e875d203-7aa1-48ac-b5f4-40ffda62351c")
 		)
 		(instances
 			(project "DMH_VCEG_PCB_1_Mk1_1"
@@ -25002,10 +25002,10 @@
 			(uuid "4b4a93c9-6056-43d0-9c3f-095beb540e74")
 		)
 		(pin "11"
-			(uuid "d3f2d376-5eb4-418d-8a5c-1f8b927963f5")
+			(uuid "d3f2d376-5eb4-418d-8a5c-1f8b927963f7")
 		)
 		(pin "12"
-			(uuid "b7d597f0-9d0d-4fed-95af-5b268b9d59a2")
+			(uuid "b7d597f0-9d0d-4fed-95af-5b268b9d59a4")
 		)
 		(pin "8"
 			(uuid "33a6ec88-ded3-4a43-92a6-3c3db5fd0e97")
@@ -25017,10 +25017,10 @@
 			(uuid "00333e5d-c79f-4eb9-9017-69a396e3651f")
 		)
 		(pin "10"
-			(uuid "9702123a-1555-4823-9b55-369ec8506dfa")
+			(uuid "9702123a-1555-4823-9b55-369ec8506dfc")
 		)
 		(pin "14"
-			(uuid "4d6000f0-c702-43af-932c-1d3dd2772583")
+			(uuid "4d6000f0-c702-43af-932c-1d3dd2772585")
 		)
 		(pin "2"
 			(uuid "e83ea203-87c6-4f1e-8386-3ffea9eab30a")
@@ -25029,7 +25029,7 @@
 			(uuid "aa0a7142-a285-4a99-b143-ed8c04b78578")
 		)
 		(pin "7"
-			(uuid "e875d203-7aa1-48ac-b5f4-40ffda62351c")
+			(uuid "e875d203-7aa1-48ac-b5f4-40ffda62351e")
 		)
 		(instances
 			(project "DMH_VCEG_PCB_1"
@@ -27048,10 +27048,10 @@
 			)
 		)
 		(pin "13"
-			(uuid "525b667d-abfd-462d-b0d5-4ee523e8d374")
+			(uuid "525b667d-abfd-462d-b0d5-4ee523e8d375")
 		)
 		(pin "6"
-			(uuid "766a8ef1-42fc-4ba1-86af-c7f2b7bb9a52")
+			(uuid "766a8ef1-42fc-4ba1-86af-c7f2b7bb9a54")
 		)
 		(pin "4"
 			(uuid "c08a92a8-b89d-4fcf-9d0b-46139bdfece9")
@@ -27060,34 +27060,34 @@
 			(uuid "f6868728-9052-4622-8b56-9532a51606a5")
 		)
 		(pin "11"
-			(uuid "d3f2d376-5eb4-418d-8a5c-1f8b927963f6")
+			(uuid "d3f2d376-5eb4-418d-8a5c-1f8b927963f8")
 		)
 		(pin "12"
-			(uuid "b7d597f0-9d0d-4fed-95af-5b268b9d59a3")
+			(uuid "b7d597f0-9d0d-4fed-95af-5b268b9d59a5")
 		)
 		(pin "8"
-			(uuid "281c1d5a-f7da-4954-953f-5cee28a7ce9f")
+			(uuid "281c1d5a-f7da-4954-953f-5cee28a7cea1")
 		)
 		(pin "1"
-			(uuid "43f1f4cb-13e1-4add-ad66-fe7bd11844ad")
+			(uuid "43f1f4cb-13e1-4add-ad66-fe7bd11844ae")
 		)
 		(pin "3"
 			(uuid "cf15534f-cfd4-4b98-bbbd-1122b8b46d72")
 		)
 		(pin "10"
-			(uuid "9702123a-1555-4823-9b55-369ec8506dfb")
+			(uuid "9702123a-1555-4823-9b55-369ec8506dfd")
 		)
 		(pin "14"
-			(uuid "4d6000f0-c702-43af-932c-1d3dd2772584")
+			(uuid "4d6000f0-c702-43af-932c-1d3dd2772586")
 		)
 		(pin "2"
-			(uuid "e83ea203-87c6-4f1e-8386-3ffea9eab30b")
+			(uuid "e83ea203-87c6-4f1e-8386-3ffea9eab30c")
 		)
 		(pin "9"
-			(uuid "20dbfa59-c242-4292-acd5-7b181e8dc059")
+			(uuid "20dbfa59-c242-4292-acd5-7b181e8dc05b")
 		)
 		(pin "7"
-			(uuid "e875d203-7aa1-48ac-b5f4-40ffda62351d")
+			(uuid "e875d203-7aa1-48ac-b5f4-40ffda62351f")
 		)
 		(instances
 			(project "DMH_VCEG_PCB_1"

@@ -3074,6 +3074,12 @@
 		(uuid "4614065e-e660-4c6d-84a7-86c3ba1a99fe")
 	)
 	(junction
+		(at 55.88 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "473041eb-364a-47f1-9e35-8c070ed26181")
+	)
+	(junction
 		(at 153.67 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3138,6 +3144,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83658b02-fdf0-4c18-8a52-27bf38ab24c8")
+	)
+	(junction
+		(at 55.88 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c8705b8-f4ee-49b7-88c0-fffb4cd1e648")
 	)
 	(junction
 		(at 132.08 228.6)
@@ -3230,6 +3242,12 @@
 		(uuid "d8472fe6-d98c-45db-b0c2-ed7308e80234")
 	)
 	(junction
+		(at 55.88 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbe8613c-0fb5-440e-b6e8-fb312bfdd750")
+	)
+	(junction
 		(at 38.1 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3252,6 +3270,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb0457e0-25b3-40af-b668-91bd5e97c4ca")
+	)
+	(junction
+		(at 55.88 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5360e75-6a2a-41c9-9fc4-1a22caeec487")
 	)
 	(junction
 		(at 38.1 73.66)
@@ -3385,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 25.4) (xy 82.55 25.4)
+			(xy 30.48 25.4) (xy 55.88 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3445,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 101.6) (xy 82.55 101.6)
+			(xy 30.48 101.6) (xy 55.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3545,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 25.4) (xy 82.55 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12932830-2b8d-4873-a431-6ac7bdea8465")
+	)
+	(wire
+		(pts
 			(xy 50.8 231.14) (xy 50.8 280.67)
 		)
 		(stroke
@@ -3635,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 50.8) (xy 82.55 50.8)
+			(xy 30.48 50.8) (xy 55.88 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3805,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 25.4) (xy 55.88 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b57ed6-c4a0-4fa1-99d4-16300453051a")
+	)
+	(wire
+		(pts
 			(xy 53.34 104.14) (xy 53.34 165.1)
 		)
 		(stroke
@@ -3882,6 +3926,16 @@
 			(type default)
 		)
 		(uuid "44185246-47a4-42f7-84e0-dcc3b91e95bb")
+	)
+	(wire
+		(pts
+			(xy 58.42 29.21) (xy 55.88 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4574c7ad-0de7-4380-ad0b-be7dca0a5a14")
 	)
 	(wire
 		(pts
@@ -4045,7 +4099,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 76.2) (xy 82.55 76.2)
+			(xy 30.48 76.2) (xy 55.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4152,6 +4206,16 @@
 			(type default)
 		)
 		(uuid "651b6552-2109-43e7-9e03-881fa8d4936a")
+	)
+	(wire
+		(pts
+			(xy 58.42 54.61) (xy 55.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d9d21e-201d-4e5a-845e-00382736aaff")
 	)
 	(wire
 		(pts
@@ -4435,6 +4499,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 76.2) (xy 55.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88652bec-88e5-498b-aff8-5625550f95f3")
+	)
+	(wire
+		(pts
 			(xy 111.76 127) (xy 115.57 127)
 		)
 		(stroke
@@ -4522,6 +4596,16 @@
 			(type default)
 		)
 		(uuid "8f2129e0-5181-495c-8bf0-a3e4c2884a72")
+	)
+	(wire
+		(pts
+			(xy 55.88 50.8) (xy 55.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f731ba2-2234-4b0e-baf2-6f3d05c345f3")
 	)
 	(wire
 		(pts
@@ -4725,6 +4809,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 105.41) (xy 55.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e2abf2-b42b-4257-b816-57dc896698ce")
+	)
+	(wire
+		(pts
 			(xy 109.22 219.71) (xy 109.22 231.14)
 		)
 		(stroke
@@ -4882,6 +4976,16 @@
 			(type default)
 		)
 		(uuid "b1652231-b8c2-4172-a404-15f9aa437230")
+	)
+	(wire
+		(pts
+			(xy 55.88 50.8) (xy 82.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f40cb4-c1e4-4431-87d2-6dc0a9d259c0")
 	)
 	(wire
 		(pts
@@ -5092,6 +5196,16 @@
 			(type default)
 		)
 		(uuid "c4374a79-d484-4d58-a728-d5c500096791")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 82.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4aa22da-4cfe-456a-9826-b1df55e03f55")
 	)
 	(wire
 		(pts
@@ -5575,6 +5689,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 101.6) (xy 55.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f4faff-069b-417a-bb43-49d4486c39a4")
+	)
+	(wire
+		(pts
 			(xy 60.96 278.13) (xy 60.96 270.51)
 		)
 		(stroke
@@ -5655,6 +5779,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 101.6) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef74034b-6015-4c84-8766-26b555d198b4")
+	)
+	(wire
+		(pts
 			(xy 115.57 63.5) (xy 119.38 63.5)
 		)
 		(stroke
@@ -5662,6 +5796,16 @@
 			(type default)
 		)
 		(uuid "ef9cfb3b-0a24-4aa3-a75e-ed4059e4fc2c")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 55.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efadb326-0b63-402b-bb3f-476ef1357eab")
 	)
 	(wire
 		(pts
@@ -5803,6 +5947,17 @@
 		)
 		(uuid "fe846dc2-3bad-4284-bd42-fb6540f43ae8")
 	)
+	(hierarchical_label "Rel CV A T"
+		(shape output)
+		(at 58.42 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eff0726-ee01-46bb-9827-abcf38b59a7b")
+	)
 	(hierarchical_label "SG Out B"
 		(shape input)
 		(at 76.2 181.61 0)
@@ -5813,6 +5968,17 @@
 			(justify left)
 		)
 		(uuid "107f1195-3965-4e8b-b31c-36bc14ac7a93")
+	)
+	(hierarchical_label "Att CV A T"
+		(shape output)
+		(at 58.42 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32cbab05-9658-4e67-b4df-26ccbaeac688")
 	)
 	(hierarchical_label "SG Out A"
 		(shape input)
@@ -5835,6 +6001,17 @@
 			(justify left)
 		)
 		(uuid "3e696791-5a5e-4c41-ace8-6e38c2d826eb")
+	)
+	(hierarchical_label "Dec CV A T"
+		(shape output)
+		(at 58.42 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59ca59ca-1d40-4a13-90ef-0c3b90b6d61d")
 	)
 	(hierarchical_label "Rel CV A"
 		(shape output)
@@ -5945,6 +6122,17 @@
 			(justify left)
 		)
 		(uuid "e8d394b3-b958-4569-965d-fdb2f07981fe")
+	)
+	(hierarchical_label "Sus CV A T"
+		(shape output)
+		(at 58.42 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f101397e-a5ab-42bd-836b-ae74d98a223c")
 	)
 	(hierarchical_label "Att CV A"
 		(shape output)

@@ -718,6 +718,18 @@
       "/Core Circuit B/Sus_State": [
         "CrossPCB"
       ],
+      "/Inputs and Outputs A/Att CV A T": [
+        "CrossPCB"
+      ],
+      "/Inputs and Outputs A/Dec CV A T": [
+        "CrossPCB"
+      ],
+      "/Inputs and Outputs A/Rel CV A T": [
+        "CrossPCB"
+      ],
+      "/Inputs and Outputs A/Sus CV A T": [
+        "CrossPCB"
+      ],
       "Net-(D1-K)": [
         "Power"
       ],
