@@ -7192,7 +7192,7 @@
 	)
 	(polyline
 		(pts
-			(xy 264.16 73.66) (xy 264.16 83.82)
+			(xy 264.16 68.58) (xy 264.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7202,7 +7202,7 @@
 	)
 	(polyline
 		(pts
-			(xy 264.16 73.66) (xy 240.03 73.66)
+			(xy 264.16 68.58) (xy 240.03 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8142,7 +8142,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 66.04) (xy 266.7 66.04)
+			(xy 265.43 66.04) (xy 266.7 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9932,7 +9932,7 @@
 	)
 	(polyline
 		(pts
-			(xy 240.03 55.88) (xy 240.03 73.66)
+			(xy 240.03 55.88) (xy 240.03 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10672,7 +10672,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 60.96) (xy 264.16 66.04)
+			(xy 265.43 60.96) (xy 265.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10842,7 +10842,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 60.96) (xy 264.16 60.96)
+			(xy 273.05 60.96) (xy 265.43 60.96)
 		)
 		(stroke
 			(width 0)
@@ -14999,7 +14999,7 @@
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "295cfe35-62ae-4e27-930b-7fe4eee801fc")
 		(property "Reference" "U26"
@@ -15020,7 +15020,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -23256,7 +23256,7 @@
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "b15d46f3-1fce-4cab-9e4a-88986143fd29")
 		(property "Reference" "U26"
@@ -23277,7 +23277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 223.52 35.56 0)
 			(effects
 				(font
