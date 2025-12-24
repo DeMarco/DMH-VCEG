@@ -4900,10 +4900,10 @@
 		)
 		(uuid "29b25a4a-1ab1-4171-8b8b-f3a446659db8")
 	)
-	(text_box "ICs on PCB 1 (jacks):\nU1, U2, U3, U5, U6, U7, U25\n\nICs on PCB 2 (pots):\nU4, U8, U9, U10, U21, U22"
+	(text_box "ICs on PCB 1 (jacks):\nU1, U2, U3, U5, U6, U7, U25, U26\n\nICs on PCB 2 (pots):\nU4, U8, U9, U10, U21, U22"
 		(exclude_from_sim no)
-		(at 212.09 151.13 0)
-		(size 33.02 12.7)
+		(at 208.28 151.13 0)
+		(size 36.83 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -16250,25 +16250,25 @@
 			)
 		)
 		(pin "5"
-			(uuid "b3b294b7-202c-4215-8c67-cd88b40311ae")
+			(uuid "b3b294b7-202c-4215-8c67-cd88b40311b1")
 		)
 		(pin "8"
-			(uuid "15790b8b-3875-4308-819e-4ad19ac2641f")
+			(uuid "15790b8b-3875-4308-819e-4ad19ac26422")
 		)
 		(pin "2"
-			(uuid "86101130-e4aa-4d2c-b8ce-0707d84d5d33")
+			(uuid "86101130-e4aa-4d2c-b8ce-0707d84d5d36")
 		)
 		(pin "3"
-			(uuid "371f7352-21f7-4381-bc1a-7245b93223db")
+			(uuid "371f7352-21f7-4381-bc1a-7245b93223de")
 		)
 		(pin "6"
-			(uuid "74903f56-7db2-4e5b-9f84-cbc85117a047")
+			(uuid "74903f56-7db2-4e5b-9f84-cbc85117a04a")
 		)
 		(pin "1"
-			(uuid "71da1527-d842-48d6-89f3-a07701a4e26a")
+			(uuid "71da1527-d842-48d6-89f3-a07701a4e26d")
 		)
 		(pin "4"
-			(uuid "050a248c-217b-49fc-8c82-109b6740bc4a")
+			(uuid "050a248c-217b-49fc-8c82-109b6740bc4d")
 		)
 		(pin "14"
 			(uuid "34c14c61-a27c-4eea-94ea-91b77772ae8d")
@@ -16277,19 +16277,19 @@
 			(uuid "26b35a45-d076-4d86-a2a8-d69fddab048d")
 		)
 		(pin "13"
-			(uuid "c87895db-e23e-4082-94ee-e9e53c938717")
+			(uuid "c87895db-e23e-4082-94ee-e9e53c93871a")
 		)
 		(pin "9"
-			(uuid "1bec5ee3-c8f9-4ee4-8a14-4d687566add9")
+			(uuid "1bec5ee3-c8f9-4ee4-8a14-4d687566addc")
 		)
 		(pin "11"
-			(uuid "b9e31ba2-2414-425c-b922-e6c277f8254a")
+			(uuid "b9e31ba2-2414-425c-b922-e6c277f8254d")
 		)
 		(pin "10"
-			(uuid "f5e70f04-6029-492c-a048-314792942ec6")
+			(uuid "f5e70f04-6029-492c-a048-314792942ec9")
 		)
 		(pin "12"
-			(uuid "fd6e6ef3-55ef-4556-bd8c-9585b0ab8884")
+			(uuid "fd6e6ef3-55ef-4556-bd8c-9585b0ab8887")
 		)
 		(instances
 			(project "DMH_VCEG_PCB_1_Mk1_1"
