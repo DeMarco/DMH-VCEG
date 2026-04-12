@@ -51389,8 +51389,8 @@
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 3.81 -17.57 0)
-			(layer "B.Fab")
+			(at 3.81 -7.62 270)
+			(layer "B.SilkS")
 			(uuid "bffdb1bd-4e38-4749-8078-abaf0652ac87")
 			(effects
 				(font

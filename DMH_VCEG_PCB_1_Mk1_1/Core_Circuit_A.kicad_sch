@@ -15708,7 +15708,7 @@
 		(dnp no)
 		(uuid "319b6e13-3126-4308-b992-ad89cf17d3ba")
 		(property "Reference" "R42"
-			(at 30.48 167.64 90)
+			(at 31.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,7 +15716,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 33.02 167.64 90)
+			(at 31.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
