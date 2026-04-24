@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "58f4306d-5387-4983-bb08-41a2313fd315")
 	(paper "A4")
 	(title_block
@@ -719,11 +719,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
 			(at 215.9 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,12 +735,14 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 215.9 99.6446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "Bus Gate" output
@@ -772,11 +776,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "56bd3f35-094b-4adb-8c6d-1e57b38bb61e")
 		(property "Sheetname" "Inputs and Outputs B"
 			(at 38.1 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,12 +792,14 @@
 		)
 		(property "Sheetfile" "Inputs_and_Outputs_B.kicad_sch"
 			(at 38.1 178.3846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "Att CV B TN" input
@@ -1005,11 +1013,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7d3cb848-7f4a-41b7-b3df-5bb0c19476ef")
 		(property "Sheetname" "CV Processing A"
 			(at 165.1 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,12 +1029,14 @@
 		)
 		(property "Sheetfile" "CV_Processing_A.kicad_sch"
 			(at 165.1 76.7846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "Att CV" input
@@ -1147,11 +1159,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8d22a13f-1d3b-4a1f-8b3f-baf42965c019")
 		(property "Sheetname" "Core Circuit B"
 			(at 138.176 126.238 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,12 +1175,14 @@
 		)
 		(property "Sheetfile" "Core_Circuit_B.kicad_sch"
 			(at 101.6 165.6846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "Gate" input
@@ -1310,11 +1326,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b3f92c0e-ea97-4ef0-9a6b-254feed98ad2")
 		(property "Sheetname" "CV Processing B"
 			(at 165.1 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,12 +1342,14 @@
 		)
 		(property "Sheetfile" "CV_Processing_B.kicad_sch"
 			(at 165.1 152.9846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "Att CV" input
@@ -1452,11 +1472,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "cb21e49a-1eb5-49c3-bf16-2a24a7e3f94c")
 		(property "Sheetname" "Core Circuit A"
 			(at 138.176 50.038 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,12 +1488,14 @@
 		)
 		(property "Sheetfile" "Core_Circuit_A.kicad_sch"
 			(at 101.6 89.4846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "Gate" input
@@ -1615,11 +1639,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
 		(property "Sheetname" "Inputs and Outputs A"
 			(at 38.1 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,12 +1655,14 @@
 		)
 		(property "Sheetfile" "Inputs_and_Outputs_A.kicad_sch"
 			(at 38.1 89.4846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "Att CV A" output

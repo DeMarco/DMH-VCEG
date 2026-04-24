@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "731a96da-c193-4a8f-aca2-d1db03578b1b")
 	(paper "A4" portrait)
 	(title_block
@@ -16,8 +16,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,6 +31,8 @@
 			)
 			(property "Value" "TL074"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,33 +42,41 @@
 			)
 			(property "Footprint" ""
 				(at -1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -71,20 +85,24 @@
 			)
 			(property "ki_keywords" "quad opamp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TL074_1_1"
@@ -100,17 +118,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -136,17 +154,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -207,7 +225,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -236,17 +254,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -272,17 +290,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -343,7 +361,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -407,8 +425,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "RV"
 				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -417,6 +439,8 @@
 			)
 			(property "Value" "R_Potentiometer_Trim_US"
 				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -425,47 +449,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Trim-potentiometer, US symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "resistor variable trimpot trimmer"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Potentiometer*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_Potentiometer_Trim_US_0_1"
@@ -574,24 +608,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
 					(name "2"
@@ -602,6 +618,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -620,8 +654,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "RV"
 				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -630,6 +668,8 @@
 			)
 			(property "Value" "R_Potentiometer_US"
 				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -638,47 +678,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Potentiometer, US symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "resistor variable"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Potentiometer*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_Potentiometer_US_0_1"
@@ -787,24 +837,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
 					(name "2"
@@ -815,6 +847,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -835,8 +885,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -845,6 +899,8 @@
 			)
 			(property "Value" "R_US"
 				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -853,47 +909,57 @@
 			)
 			(property "Footprint" ""
 				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_US_0_1"
@@ -962,7 +1028,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -980,7 +1046,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1006,8 +1072,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 1.27 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1016,6 +1086,8 @@
 			)
 			(property "Value" "IDC_02x08"
 				(at 1.27 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1024,47 +1096,57 @@
 			)
 			(property "Footprint" "SynthStuff:IDC-Header_2x08_P2.54mm_Vertical_BackBone"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "IDC jack, 2x8 pins, row a carries same signals as row b."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "BackBone_Connector_16Pin_1_1"
@@ -1554,8 +1636,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1564,56 +1650,68 @@
 			)
 			(property "Value" "Conn_01x06_PinHeader"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x06"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x06_PinHeader_1_1"
@@ -1884,8 +1982,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1894,56 +1996,68 @@
 			)
 			(property "Value" "Conn_01x10_PinHeader"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x10"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x10_PinHeader_1_1"
@@ -2382,8 +2496,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at -0.635 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2392,6 +2510,8 @@
 			)
 			(property "Value" "TS_Jack_6.35mm_Sw"
 				(at -0.635 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2400,47 +2520,57 @@
 			)
 			(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mono audio jack receptacle 6.35mm TS connector tip switch"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Jack*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TS_Jack_6.35mm_Sw_0_1"
@@ -2519,7 +2649,7 @@
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2537,7 +2667,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2555,7 +2685,7 @@
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2574,7 +2704,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -2585,17 +2715,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+12V"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2604,38 +2740,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+12V_0_1"
@@ -2680,7 +2824,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2699,7 +2843,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:-12V"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -2710,17 +2854,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "-12V"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2729,45 +2879,53 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"-12V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "-12V_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2800,7 +2958,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -2811,17 +2969,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2830,38 +2994,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -2882,7 +3054,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2911,7 +3083,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c10bb779-9cf9-407e-b790-5cc6b02efbcd)
+		(uuid "c10bb779-9cf9-407e-b790-5cc6b02efbcd")
 	)
 	(rectangle
 		(start 72.39 13.97)
@@ -2923,7 +3095,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d05de77e-48ff-4ad9-8970-19502681fb19)
+		(uuid "d05de77e-48ff-4ad9-8970-19502681fb19")
 	)
 	(rectangle
 		(start 96.52 160.02)
@@ -2935,7 +3107,7 @@
 		(fill
 			(type none)
 		)
-		(uuid e06a6e54-cfc3-4c86-a23a-ea3e6b3fdbf0)
+		(uuid "e06a6e54-cfc3-4c86-a23a-ea3e6b3fdbf0")
 	)
 	(text "PCB 2"
 		(exclude_from_sim no)
@@ -5991,18 +6163,22 @@
 			(justify left bottom)
 		)
 		(uuid "28f0afc7-a9b8-4e0a-ab08-f139c3e077b2")
-		(property "Netclass" "CrossPCB"
+		(property "Net Class" "CrossPCB"
 			(at 83.2485 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Component Class" ""
 			(at -92.71 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,18 +6199,22 @@
 			(justify left bottom)
 		)
 		(uuid "2bed641c-b4a4-4e34-a7da-4732fb080263")
-		(property "Netclass" "CrossPCB"
+		(property "Net Class" "CrossPCB"
 			(at 85.7885 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Component Class" ""
 			(at -90.17 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,18 +6235,22 @@
 			(justify left bottom)
 		)
 		(uuid "99a36533-9187-4cc9-b919-a49ef786ee79")
-		(property "Netclass" "CrossPCB"
+		(property "Net Class" "CrossPCB"
 			(at 83.2485 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Component Class" ""
 			(at -92.71 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,18 +6271,22 @@
 			(justify left bottom)
 		)
 		(uuid "a1a0e80b-f3e2-4168-9db2-d79ad3d0a1c6")
-		(property "Netclass" "CrossPCB"
+		(property "Net Class" "CrossPCB"
 			(at 139.1285 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Component Class" ""
 			(at -36.83 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,18 +6307,22 @@
 			(justify left bottom)
 		)
 		(uuid "e4854d20-8dc1-4cac-a107-2971e1d70c16")
-		(property "Netclass" "CrossPCB"
+		(property "Net Class" "CrossPCB"
 			(at 83.2485 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Component Class" ""
 			(at -92.71 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,18 +6343,22 @@
 			(justify left bottom)
 		)
 		(uuid "f86ff136-0d00-43d6-a887-19559dbb4f92")
-		(property "Netclass" "CrossPCB"
+		(property "Net Class" "CrossPCB"
 			(at 83.2485 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Component Class" ""
 			(at -92.71 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,14 +6371,18 @@
 		(lib_id "Device:R_US")
 		(at 181.61 226.06 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01e35869-6600-431e-985a-4c7f4b621f47")
 		(property "Reference" "R93"
 			(at 181.61 219.71 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,6 +6391,8 @@
 		)
 		(property "Value" "100k"
 			(at 181.61 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,33 +6401,41 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 181.356 227.076 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 181.61 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 181.61 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 181.61 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6449,7 @@
 			(uuid "02ac203d-659e-413b-b732-63acf6c697c0")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R93")
 					(unit 1)
@@ -6251,13 +6461,17 @@
 		(lib_id "Device:R_US")
 		(at 101.6 243.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0946a39e-ae66-4836-91bf-1d140327cb92")
 		(property "Reference" "R97"
 			(at 101.6 237.49 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,6 +6480,8 @@
 		)
 		(property "Value" "100k"
 			(at 101.6 240.03 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,33 +6490,41 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 101.346 244.856 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 101.6 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 101.6 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6538,7 @@
 			(uuid "61d49502-aa72-4d84-825c-cbef3fefd972")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R97")
 					(unit 1)
@@ -6326,13 +6550,17 @@
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 158.75 241.3 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "125b35f9-8718-45ad-8462-3a096af85a4e")
 		(property "Reference" "RV20"
 			(at 158.75 234.696 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,6 +6569,8 @@
 		)
 		(property "Value" "100k"
 			(at 158.75 243.84 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,33 +6579,41 @@
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 158.75 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 158.75 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
 			(at 158.75 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Out - A Offset"
 			(at 158.75 232.664 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6633,7 @@
 			(uuid "90e0a264-47ba-4dfa-b367-2b482648aa8f")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV20")
 					(unit 1)
@@ -6408,13 +6646,17 @@
 		(at 127 129.54 0)
 		(mirror x)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "17068198-abe4-4c16-b00b-d74a58df79d2")
 		(property "Reference" "U21"
 			(at 127 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,6 +6665,8 @@
 		)
 		(property "Value" "TL074"
 			(at 127 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,33 +6675,41 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 125.73 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 128.27 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 127 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 127 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +6759,7 @@
 			(uuid "d3ad1863-25a4-4c24-b9dc-535e40522cc3")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "U21")
 					(unit 2)
@@ -6520,13 +6772,17 @@
 		(at 101.6 177.8 90)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a0be873-76a0-4f16-9f91-8e0a42f26a61")
 		(property "Reference" "R90"
 			(at 101.6 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,6 +6791,8 @@
 		)
 		(property "Value" "1k"
 			(at 101.6 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,29 +6801,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 101.854 178.816 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 101.6 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6575,7 +6839,7 @@
 			(uuid "bf4ce9d3-0601-4d65-af1a-2f831c0c2335")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R90")
 					(unit 1)
@@ -6587,14 +6851,18 @@
 		(lib_id "Device:R_US")
 		(at 107.95 127 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ce48aa4-83ff-4dcc-8eb2-6d12fb103ce6")
 		(property "Reference" "R87"
 			(at 107.95 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,6 +6871,8 @@
 		)
 		(property "Value" "33k"
 			(at 107.95 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,29 +6881,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 108.204 125.984 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 107.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6643,7 +6919,7 @@
 			(uuid "757bedb4-5526-4d0e-8d58-7c3911e1b3ea")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R87")
 					(unit 1)
@@ -6655,13 +6931,17 @@
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 114.3 243.84 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "20a441f4-f1de-41a2-907b-ef8849449fd3")
 		(property "Reference" "RV21"
 			(at 114.3 237.236 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,6 +6950,8 @@
 		)
 		(property "Value" "100k"
 			(at 114.3 246.38 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,33 +6960,41 @@
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 114.3 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
 			(at 114.3 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Out + A Offset"
 			(at 114.3 235.204 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +7014,7 @@
 			(uuid "f5cc2544-d233-45f4-81f7-e92ea0b7d8dc")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV21")
 					(unit 1)
@@ -6736,14 +7026,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 190.5 163.83 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26e96c1d-51e2-41fb-80b0-ddd289f59a0e")
 		(property "Reference" "J22"
 			(at 189.865 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,42 +7046,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 190.5 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 190.5 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 190.5 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 190.5 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +7129,7 @@
 			(uuid "25cef4a9-7990-4bdf-8645-bc9a8d5199e1")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J22")
 					(unit 1)
@@ -6837,13 +7141,17 @@
 		(lib_id "Device:R_US")
 		(at 116.84 168.91 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cbf81df-126f-4ece-992e-ddfdd0385cc9")
 		(property "Reference" "R88"
 			(at 116.84 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,6 +7160,8 @@
 		)
 		(property "Value" "68K"
 			(at 116.84 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,29 +7170,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 116.586 169.926 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 116.84 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6892,7 +7208,7 @@
 			(uuid "a4e93707-9976-4865-8b20-69a053b0a419")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R88")
 					(unit 1)
@@ -6904,14 +7220,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 190.5 151.13 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa40c2a-dc70-4837-90d7-7da36810a562")
 		(property "Reference" "J21"
 			(at 189.865 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,42 +7240,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 190.5 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 190.5 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 190.5 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 190.5 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +7323,7 @@
 			(uuid "4c4e6258-70a0-4c95-983a-1f1d027ae576")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J21")
 					(unit 1)
@@ -7005,14 +7335,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 88.9 90.17 270)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c7e0390-89c8-4e29-a69b-6f6ab3e22fbb")
 		(property "Reference" "J23"
 			(at 90.17 90.8049 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,42 +7356,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 86.36 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 88.9 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 88.9 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 88.9 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +7439,7 @@
 			(uuid "4c4e6258-70a0-4c95-983a-1f1d027ae577")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J23")
 					(unit 3)
@@ -7107,13 +7451,17 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 165.1 228.6 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4197bd8f-b8f8-481e-909b-e31785ac43f2")
 		(property "Reference" "U7"
 			(at 162.56 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,6 +7470,8 @@
 		)
 		(property "Value" "TL074"
 			(at 162.56 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,33 +7480,41 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 166.37 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 163.83 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 165.1 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 165.1 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7564,7 @@
 			(uuid "3474e0aa-6b1b-4060-ad18-17397488f362")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "U7")
 					(unit 1)
@@ -7218,13 +7576,17 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 120.65 231.14 180)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "42804a65-3104-4e40-950f-c3fdca4a5514")
 		(property "Reference" "U7"
 			(at 118.11 224.282 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,6 +7595,8 @@
 		)
 		(property "Value" "TL074"
 			(at 118.11 226.822 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,33 +7605,41 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 121.92 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 119.38 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 120.65 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 120.65 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7689,7 @@
 			(uuid "3474e0aa-6b1b-4060-ad18-17397488f363")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "U7")
 					(unit 2)
@@ -7329,13 +7701,17 @@
 		(lib_id "Device:R_US")
 		(at 101.6 231.14 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4328f16e-6fa1-4a39-910a-8264c48fd081")
 		(property "Reference" "R95"
 			(at 101.6 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,6 +7720,8 @@
 		)
 		(property "Value" "1k"
 			(at 101.6 227.33 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,29 +7730,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 101.346 232.156 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 101.6 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7384,7 +7768,7 @@
 			(uuid "d5959c2f-9bee-4757-8880-f1dd754838b9")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R95")
 					(unit 1)
@@ -7396,23 +7780,29 @@
 		(lib_id "power:+12V")
 		(at 139.7 238.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46c319e2-b4df-4706-ad68-8a88041b6635")
 		(property "Reference" "#PWR093"
 			(at 139.7 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
 			(at 139.7 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,36 +7811,42 @@
 		)
 		(property "Footprint" ""
 			(at 139.7 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 139.7 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 139.7 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ca6a4706-79f2-4644-948c-7fbf33ff6127")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR093")
 					(unit 1)
@@ -7462,14 +7858,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 144.78 170.18 270)
 		(unit 5)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47981ed0-5095-42c6-b232-1f09762e0929")
 		(property "Reference" "J22"
 			(at 146.05 170.8149 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,42 +7879,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 142.24 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 144.78 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7962,7 @@
 			(uuid "977fe62a-0ecd-4e34-aa48-5a3fac8509bd")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J22")
 					(unit 5)
@@ -7564,14 +7974,18 @@
 		(lib_id "Device:R_US")
 		(at 107.95 95.25 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4df04442-0aa6-4ef0-8bf3-0c0ad52461bb")
 		(property "Reference" "R86"
 			(at 107.95 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,6 +7994,8 @@
 		)
 		(property "Value" "33k"
 			(at 107.95 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,29 +8004,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 108.204 94.234 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 107.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7620,7 +8042,7 @@
 			(uuid "fe635e40-ce88-4463-a63a-6e09a72294c6")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R86")
 					(unit 1)
@@ -7632,23 +8054,29 @@
 		(lib_id "power:GND")
 		(at 86.36 275.59 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f508f2e-2a53-44a1-92f3-1012de992777")
 		(property "Reference" "#PWR035"
 			(at 86.36 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 86.36 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,36 +8085,42 @@
 		)
 		(property "Footprint" ""
 			(at 86.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 86.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "5591eae6-b277-4694-8b1d-ce61c9c7565b")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR035")
 					(unit 1)
@@ -7698,13 +8132,17 @@
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 127 85.09 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ff215f4-4df0-4347-9719-b3c9d9bbf9c6")
 		(property "Reference" "RV15"
 			(at 127 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,6 +8151,8 @@
 		)
 		(property "Value" "50k"
 			(at 127 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,33 +8161,41 @@
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal"
 			(at 127 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
 			(at 127 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Sus CV A Zero"
 			(at 127 86.868 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +8215,7 @@
 			(uuid "bc3f6ae1-8396-4458-8ff0-8fb972d2af47")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV15")
 					(unit 1)
@@ -7779,14 +8227,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 190.5 176.53 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5008b09e-7929-4b09-ad46-995735f24902")
 		(property "Reference" "J23"
 			(at 189.865 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,42 +8247,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 190.5 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 190.5 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 190.5 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 190.5 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7868,7 +8330,7 @@
 			(uuid "25cef4a9-7990-4bdf-8645-bc9a8d5199e3")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J23")
 					(unit 1)
@@ -7881,23 +8343,29 @@
 		(at 114.3 191.77 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c2a4341-fe21-420c-bdc0-71aeec899621")
 		(property "Reference" "#PWR091"
 			(at 114.3 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 114.3 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,29 +8374,35 @@
 		)
 		(property "Footprint" ""
 			(at 114.3 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 114.3 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7948,13 +8422,17 @@
 		(at 121.92 190.5 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "64367f38-d97e-4000-923c-67d016e84798")
 		(property "Reference" "R198"
 			(at 121.92 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,6 +8441,8 @@
 		)
 		(property "Value" "100k"
 			(at 121.92 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,33 +8451,41 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 121.666 189.484 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 121.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 121.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 121.92 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,23 +8511,29 @@
 		(lib_id "power:+12V")
 		(at 95.25 241.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6543d0f8-7cf6-4d0b-8639-eefe6447b357")
 		(property "Reference" "#PWR095"
 			(at 95.25 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
 			(at 95.25 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,36 +8542,42 @@
 		)
 		(property "Footprint" ""
 			(at 95.25 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 95.25 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 95.25 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "1703ad0c-a25c-483a-a14b-76e3dcaad87e")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR095")
 					(unit 1)
@@ -8089,23 +8589,29 @@
 		(lib_id "power:+12V")
 		(at 137.16 189.23 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a071283-44ee-49d9-878a-c122d2611acb")
 		(property "Reference" "#PWR022"
 			(at 137.16 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
 			(at 137.16 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8114,36 +8620,42 @@
 		)
 		(property "Footprint" ""
 			(at 137.16 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 137.16 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 137.16 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "86b95e3e-5fd5-452e-a876-fe79a2982ceb")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR022")
 					(unit 1)
@@ -8155,14 +8667,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 88.9 58.42 270)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7106623c-634f-4b69-b482-7649896dfe24")
 		(property "Reference" "J22"
 			(at 90.17 59.0549 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,42 +8688,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 88.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 88.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 88.9 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8771,7 @@
 			(uuid "4c4e6258-70a0-4c95-983a-1f1d027ae578")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J22")
 					(unit 4)
@@ -8257,23 +8783,29 @@
 		(lib_id "power:GND")
 		(at 101.6 77.47 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75eadeee-cc14-442b-9db3-4f5fca6417f7")
 		(property "Reference" "#PWR086"
 			(at 101.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 101.6 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,36 +8814,42 @@
 		)
 		(property "Footprint" ""
 			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0bf348be-0fb3-4d34-8859-32b6fb359517")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR086")
 					(unit 1)
@@ -8324,13 +8862,17 @@
 		(at 101.6 71.12 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "79f882c5-118b-4f1c-97aa-7f221386448a")
 		(property "Reference" "RV14"
 			(at 99.06 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,6 +8882,8 @@
 		)
 		(property "Value" "100k"
 			(at 99.06 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,33 +8893,41 @@
 		)
 		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
 			(at 101.6 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
 			(at 101.6 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Dec CV A Amt"
 			(at 92.202 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8947,7 @@
 			(uuid "17b01a29-548b-4b6f-b820-8ad010102805")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV14")
 					(unit 1)
@@ -8407,14 +8959,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 88.9 121.92 270)
 		(unit 8)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81504e6f-c30f-4366-94a4-03a289d62a7b")
 		(property "Reference" "J23"
 			(at 90.17 122.5549 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,42 +8980,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 86.36 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 88.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 88.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 88.9 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8497,7 +9063,7 @@
 			(uuid "4c4e6258-70a0-4c95-983a-1f1d027ae579")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J23")
 					(unit 8)
@@ -8509,13 +9075,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 152.4 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8395cb1f-5c19-4871-a1d5-4ae58ec7554f")
 		(property "Reference" "J6"
 			(at 24.765 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,6 +9094,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,33 +9104,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Trig A"
 			(at 25.4 159.512 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +9158,7 @@
 			(uuid "f4734f51-2041-4eec-ba9e-83e43f0f7677")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J6")
 					(unit 1)
@@ -8590,23 +9170,29 @@
 		(lib_id "power:GND")
 		(at 171.45 194.31 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d57f06-0699-47b1-b222-3451916b3a96")
 		(property "Reference" "#PWR092"
 			(at 171.45 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 171.45 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,36 +9201,42 @@
 		)
 		(property "Footprint" ""
 			(at 171.45 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 171.45 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 171.45 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "38100092-5d29-41d6-a939-a2b4f3a24625")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR092")
 					(unit 1)
@@ -8656,13 +9248,17 @@
 		(lib_id "Device:R_US")
 		(at 146.05 228.6 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "86a01cf6-ad80-4ce1-8329-10124e2ee40b")
 		(property "Reference" "R94"
 			(at 146.05 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,6 +9267,8 @@
 		)
 		(property "Value" "100k"
 			(at 146.05 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,33 +9277,41 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 145.796 229.616 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 146.05 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 146.05 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +9325,7 @@
 			(uuid "30ef7cae-9255-4ca5-9f3e-7fc2727ec554")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R94")
 					(unit 1)
@@ -8731,13 +9337,17 @@
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 127 53.34 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "89fc6452-addb-4b5d-92d9-377f8f8d31c9")
 		(property "Reference" "RV13"
 			(at 127 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,6 +9356,8 @@
 		)
 		(property "Value" "50k"
 			(at 127 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8754,33 +9366,41 @@
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal"
 			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
 			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Dec CV A Zero"
 			(at 127 55.118 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +9420,7 @@
 			(uuid "ee43c8de-3194-437f-ad38-5ded81f86402")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV13")
 					(unit 1)
@@ -8812,13 +9432,17 @@
 		(lib_id "Device:R_US")
 		(at 133.35 175.26 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d73e082-133c-47e9-b159-f19d3e996373")
 		(property "Reference" "R89"
 			(at 133.35 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,6 +9451,8 @@
 		)
 		(property "Value" "100k"
 			(at 133.35 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,29 +9461,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 133.096 176.276 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 133.35 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 133.35 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8867,7 +9499,7 @@
 			(uuid "840a5d5c-9359-459c-89d4-1616973a469e")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R89")
 					(unit 1)
@@ -8879,13 +9511,17 @@
 		(lib_id "Device:R_US")
 		(at 120.65 219.71 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dfdd0c4-f138-43f7-bf65-9d7852d3bc9e")
 		(property "Reference" "R92"
 			(at 120.65 213.36 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,6 +9530,8 @@
 		)
 		(property "Value" "100k"
 			(at 120.65 215.9 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,33 +9540,41 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 120.396 220.726 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 120.65 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 120.65 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +9588,7 @@
 			(uuid "6001e3d3-3be2-44b6-afa7-d25235d7cdf0")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R92")
 					(unit 1)
@@ -8954,14 +9600,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 88.9 172.72 270)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff9ca8f-a08b-4716-b110-30edd89bd105")
 		(property "Reference" "J22"
 			(at 90.17 173.3549 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,42 +9621,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 86.36 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 88.9 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 88.9 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 88.9 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,7 +9704,7 @@
 			(uuid "977fe62a-0ecd-4e34-aa48-5a3fac8509be")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J22")
 					(unit 3)
@@ -9056,23 +9716,29 @@
 		(lib_id "power:GND")
 		(at 127 241.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91cb5357-3ad1-4657-96c2-6ef1edc04a5a")
 		(property "Reference" "#PWR096"
 			(at 127 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 127 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,36 +9747,42 @@
 		)
 		(property "Footprint" ""
 			(at 127 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 127 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "cf5690d3-889f-48ea-9e61-cafb15ce2461")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR096")
 					(unit 1)
@@ -9123,13 +9795,17 @@
 		(at 132.08 190.5 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "91cbc8f8-5282-45ba-bdcf-323c8e293e48")
 		(property "Reference" "R197"
 			(at 132.08 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,6 +9814,8 @@
 		)
 		(property "Value" "68k"
 			(at 132.08 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,33 +9824,41 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 131.826 189.484 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.08 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 132.08 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 132.08 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9198,13 +9884,17 @@
 		(lib_id "SynthStuff:BackBone_Connector_16Pin")
 		(at 63.5 265.43 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "923c24aa-d8b2-4c1d-b51f-ece42f4b0917")
 		(property "Reference" "J200"
 			(at 67.056 264.16 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9214,43 +9904,53 @@
 		)
 		(property "Value" "IDC_02x08"
 			(at 85.852 265.176 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SynthStuff:IDC-Header_2x08_P2.54mm_Vertical_BackBone"
 			(at 63.5 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 63.5 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "IDC jack, 2x8 pins, row a carries same signals as row b."
 			(at 63.5 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 63.5 265.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +10006,7 @@
 			(uuid "06fd9218-196b-445d-9d03-100968d82162")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J200")
 					(unit 1)
@@ -9319,13 +10019,17 @@
 		(at 127 34.29 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "94478810-4862-474f-b796-5a8b123935d8")
 		(property "Reference" "U21"
 			(at 127 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,6 +10038,8 @@
 		)
 		(property "Value" "TL074"
 			(at 127 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9342,33 +10048,41 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 125.73 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 128.27 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 127 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 127 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +10132,7 @@
 			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2e")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "U21")
 					(unit 1)
@@ -9430,23 +10144,29 @@
 		(lib_id "power:GND")
 		(at 171.45 238.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "998369e7-4897-49d3-ac4f-8b6c9da75b14")
 		(property "Reference" "#PWR094"
 			(at 171.45 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 171.45 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,36 +10175,42 @@
 		)
 		(property "Footprint" ""
 			(at 171.45 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 171.45 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 171.45 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "a22e7c50-18b4-4bd0-bbc2-0bd508bc3bc1")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR094")
 					(unit 1)
@@ -9496,14 +10222,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 88.9 26.67 270)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b1dd65b-8755-4848-b999-ecff56468e77")
 		(property "Reference" "J22"
 			(at 90.17 27.3049 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,42 +10243,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 86.36 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 88.9 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 88.9 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 88.9 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +10326,7 @@
 			(uuid "4c4e6258-70a0-4c95-983a-1f1d027ae57a")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J22")
 					(unit 2)
@@ -9599,13 +10339,17 @@
 		(at 101.6 134.62 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b4cd658-6e25-49c7-a39a-fedc4ef509c9")
 		(property "Reference" "RV18"
 			(at 99.06 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9615,6 +10359,8 @@
 		)
 		(property "Value" "100k"
 			(at 99.06 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,33 +10370,41 @@
 		)
 		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
 			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
 			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Rel CV A Amt"
 			(at 92.456 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +10424,7 @@
 			(uuid "b6a1656d-4794-4517-9386-8eb3b35840a0")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV18")
 					(unit 1)
@@ -9682,23 +10436,29 @@
 		(lib_id "power:-12V")
 		(at 182.88 181.61 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ed53926-18c5-484b-bf02-b8f10e709abc")
 		(property "Reference" "#PWR090"
 			(at 182.88 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "-12V"
 			(at 182.88 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9707,36 +10467,42 @@
 		)
 		(property "Footprint" ""
 			(at 182.88 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 182.88 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 182.88 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "33736552-8e06-4a0d-b1a0-8b3c960eab0e")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR090")
 					(unit 1)
@@ -9748,13 +10514,17 @@
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 127 116.84 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a56dfd0e-d2b4-4b9e-84f1-5ab335fb0188")
 		(property "Reference" "RV17"
 			(at 127 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,6 +10533,8 @@
 		)
 		(property "Value" "50k"
 			(at 127 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,33 +10543,41 @@
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal"
 			(at 127 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
 			(at 127 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Rel CV A Zero"
 			(at 127 118.618 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +10597,7 @@
 			(uuid "f0a2589b-2641-4e15-ad17-ab45cdf150db")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV17")
 					(unit 1)
@@ -9830,13 +10610,17 @@
 		(at 101.6 39.37 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5bc579d-c945-4dbb-8000-148cd639ec59")
 		(property "Reference" "RV12"
 			(at 99.06 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,6 +10630,8 @@
 		)
 		(property "Value" "100k"
 			(at 99.06 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,33 +10641,41 @@
 		)
 		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
 			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
 			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Att CV A Amt"
 			(at 92.71 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,7 +10695,7 @@
 			(uuid "0cb58ce4-7938-43ea-b550-0460daf5c98b")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV12")
 					(unit 1)
@@ -9914,13 +10708,17 @@
 		(at 127 66.04 0)
 		(mirror x)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a66c8fa1-a5aa-4170-ac66-81fef5adef3d")
 		(property "Reference" "U21"
 			(at 127 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,6 +10727,8 @@
 		)
 		(property "Value" "TL074"
 			(at 127 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,33 +10737,41 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 125.73 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 128.27 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 127 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 127 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10821,7 @@
 			(uuid "e48522a2-22f0-4e78-ac74-5c01720aa0ea")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "U21")
 					(unit 4)
@@ -10025,13 +10833,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 177.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6f1de2b-c6ef-4c9b-a51e-a4913b0070eb")
 		(property "Reference" "J7"
 			(at 24.765 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10040,6 +10852,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,33 +10862,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "SG Out A"
 			(at 25.4 184.912 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +10916,7 @@
 			(uuid "3e190e98-4fe9-4fd0-9f29-cd20bb8a4658")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J7")
 					(unit 1)
@@ -10106,14 +10928,18 @@
 		(lib_id "Device:R_US")
 		(at 146.05 210.82 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8ede6dd-bbd1-4804-88d2-b31d744b576a")
 		(property "Reference" "R91"
 			(at 146.05 204.47 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,6 +10948,8 @@
 		)
 		(property "Value" "1k"
 			(at 146.05 207.01 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,33 +10958,41 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 145.796 211.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 146.05 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 146.05 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10170,7 +11006,7 @@
 			(uuid "2fb29662-ddba-4294-af33-146046259290")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R91")
 					(unit 1)
@@ -10182,23 +11018,29 @@
 		(lib_id "power:GND")
 		(at 101.6 45.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aee17adf-b502-4556-a4ae-9972d3f857ba")
 		(property "Reference" "#PWR085"
 			(at 101.6 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 101.6 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,36 +11049,42 @@
 		)
 		(property "Footprint" ""
 			(at 101.6 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 101.6 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 101.6 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "86cdd814-9d53-4fc7-b71f-cc69178a4bc0")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR085")
 					(unit 1)
@@ -10248,14 +11096,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 190.5 153.67 180)
 		(unit 10)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afb57c58-ee69-4951-a5c6-def5797505f6")
 		(property "Reference" "J21"
 			(at 189.865 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,42 +11116,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 190.5 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 190.5 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 190.5 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 190.5 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +11199,7 @@
 			(uuid "4c4e6258-70a0-4c95-983a-1f1d027ae57c")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J21")
 					(unit 10)
@@ -10349,23 +11211,29 @@
 		(lib_id "power:GND")
 		(at 101.6 140.97 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2217236-9157-4360-b4f4-30f2f016af7e")
 		(property "Reference" "#PWR088"
 			(at 101.6 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 101.6 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10374,36 +11242,42 @@
 		)
 		(property "Footprint" ""
 			(at 101.6 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 101.6 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 101.6 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "46f359d6-4410-4b59-b049-33ab4ee956df")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR088")
 					(unit 1)
@@ -10416,13 +11290,17 @@
 		(at 127 97.79 0)
 		(mirror x)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4d43938-416c-4104-8045-9e4fdcd88847")
 		(property "Reference" "U21"
 			(at 127 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,6 +11309,8 @@
 		)
 		(property "Value" "TL074"
 			(at 127 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,33 +11319,41 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 125.73 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 127 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 127 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +11403,7 @@
 			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2f")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "U21")
 					(unit 3)
@@ -10527,14 +11415,18 @@
 		(lib_id "SynthStuff:Conn_01x06_PinHeader")
 		(at 190.5 191.77 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b76e05cd-e617-46a1-a885-b1eb8ecc107e")
 		(property "Reference" "J24"
 			(at 189.865 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10543,42 +11435,52 @@
 		)
 		(property "Value" "Conn_01x06_PinHeader"
 			(at 190.5 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 190.5 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06"
 			(at 190.5 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 190.5 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10604,7 +11506,7 @@
 			(uuid "5d2200d9-6a4d-4d42-b714-f61311912780")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J24")
 					(unit 1)
@@ -10616,14 +11518,18 @@
 		(lib_id "Device:R_US")
 		(at 107.95 31.75 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb9a22b9-9de9-40a1-af44-fb7c0c2890a2")
 		(property "Reference" "R84"
 			(at 107.95 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,6 +11538,8 @@
 		)
 		(property "Value" "33k"
 			(at 107.95 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10640,29 +11548,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 108.204 30.734 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 107.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10672,7 +11586,7 @@
 			(uuid "24e1e93e-149d-4391-99f9-572f6eb6a432")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R84")
 					(unit 1)
@@ -10684,13 +11598,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 25.4 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1fe546a-bb43-484c-bdf8-de87d3bf695d")
 		(property "Reference" "J1"
 			(at 24.765 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,6 +11617,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,33 +11627,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Att CV A"
 			(at 25.4 32.512 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,7 +11681,7 @@
 			(uuid "c930b21b-d960-483f-bbf6-e0efcdd23d6c")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J1")
 					(unit 1)
@@ -10765,13 +11693,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 101.6 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c287e87d-10d4-4384-bc19-2c3dee5379bb")
 		(property "Reference" "J4"
 			(at 24.765 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,6 +11712,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10788,33 +11722,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Rel CV A"
 			(at 25.4 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10834,7 +11776,7 @@
 			(uuid "09e449ef-9f50-4c5a-8c85-b78237207375")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J4")
 					(unit 1)
@@ -10846,13 +11788,17 @@
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 127 21.59 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5799645-5d9c-413c-aee0-b1e3afc36d21")
 		(property "Reference" "RV11"
 			(at 127 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10861,6 +11807,8 @@
 		)
 		(property "Value" "50k"
 			(at 127 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10869,33 +11817,41 @@
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal"
 			(at 127 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
 			(at 127 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Att CV A Zero"
 			(at 127 23.368 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,7 +11871,7 @@
 			(uuid "7e9b1100-eb04-4f64-ac61-5376b0c56293")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV11")
 					(unit 1)
@@ -10927,13 +11883,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 127 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc7de1d4-e346-49d0-8430-5bfa449386cb")
 		(property "Reference" "J5"
 			(at 24.765 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,6 +11902,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10950,33 +11912,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Gate A"
 			(at 25.4 134.112 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +11966,7 @@
 			(uuid "efa42441-4e71-476b-b2ce-b3ccaa82ca15")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J5")
 					(unit 1)
@@ -11008,23 +11978,29 @@
 		(lib_id "power:+12V")
 		(at 182.88 148.59 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d138affc-b14b-44b2-baad-f5999fab4ce0")
 		(property "Reference" "#PWR089"
 			(at 182.88 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
 			(at 182.88 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11033,36 +12009,42 @@
 		)
 		(property "Footprint" ""
 			(at 182.88 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 182.88 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 182.88 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0c2a24f8-055f-4034-9349-826f00f62ee3")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR089")
 					(unit 1)
@@ -11074,13 +12056,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 76.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5119b6d-fd75-44d9-b8ae-dce222bc7481")
 		(property "Reference" "J3"
 			(at 24.765 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11089,6 +12075,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11097,33 +12085,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Sus CV A"
 			(at 25.4 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,7 +12139,7 @@
 			(uuid "3f9c860a-ca26-4301-9d92-0f1500ee86b1")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J3")
 					(unit 1)
@@ -11155,13 +12151,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 50.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9977e34-07ae-4908-ab77-7c66048b0053")
 		(property "Reference" "J2"
 			(at 24.765 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,6 +12170,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11178,33 +12180,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Dec CV A"
 			(at 25.4 57.912 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,7 +12234,7 @@
 			(uuid "f7150246-c861-4e8d-8af2-560e605025b1")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J2")
 					(unit 1)
@@ -11236,13 +12246,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 254 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dad30bc2-aa80-4177-a09b-8fc43caf54c9")
 		(property "Reference" "J10"
 			(at 24.765 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,6 +12265,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 247.65 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11259,33 +12275,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Out + A"
 			(at 25.4 261.112 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11305,7 +12329,7 @@
 			(uuid "71911fcf-a8fc-41c3-b552-131d0b4995ec")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J10")
 					(unit 1)
@@ -11317,13 +12341,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 228.6 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc7eab0e-f6c7-48b9-9663-d677ec1e9420")
 		(property "Reference" "J9"
 			(at 24.765 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,6 +12360,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,33 +12370,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Out - A"
 			(at 25.4 235.712 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +12424,7 @@
 			(uuid "1bcf4b43-5266-4d98-882d-6c86ea65bda5")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J9")
 					(unit 1)
@@ -11398,13 +12436,17 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 118.11 177.8 180)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "de512551-3496-40b0-8cca-2ba697bdb19f")
 		(property "Reference" "U8"
 			(at 118.11 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,6 +12455,8 @@
 		)
 		(property "Value" "TL074"
 			(at 118.11 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11421,33 +12465,41 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 119.38 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 118.11 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 118.11 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11497,7 +12549,7 @@
 			(uuid "410e665e-c947-4a02-9b17-8e4a77e2a219")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "U8")
 					(unit 4)
@@ -11509,13 +12561,17 @@
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
 		(at 25.4 203.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfbd6d9b-553e-43fb-9e2a-1b43dc0738f9")
 		(property "Reference" "J8"
 			(at 24.765 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,6 +12580,8 @@
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 24.765 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11532,33 +12590,41 @@
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
 			(at 25.4 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 25.4 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Out R A"
 			(at 25.4 210.312 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +12644,7 @@
 			(uuid "ad03d564-2d7a-4a7a-a688-915147a7e467")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J8")
 					(unit 1)
@@ -11590,13 +12656,17 @@
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 165.1 215.9 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e732be63-c9ba-4611-b510-afbce396788d")
 		(property "Reference" "RV19"
 			(at 165.1 209.296 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11605,6 +12675,8 @@
 		)
 		(property "Value" "100k"
 			(at 165.1 218.44 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,33 +12685,41 @@
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 165.1 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 165.1 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
 			(at 165.1 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Output A Gain"
 			(at 165.1 207.264 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11659,7 +12739,7 @@
 			(uuid "e2095b10-fd99-4a3c-918b-bf4c4b49a742")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV19")
 					(unit 1)
@@ -11671,14 +12751,18 @@
 		(lib_id "SynthStuff:Conn_01x10_PinHeader")
 		(at 190.5 179.07 180)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e81df856-c833-4c5a-a586-9764c97cb83a")
 		(property "Reference" "J23"
 			(at 189.865 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11687,42 +12771,52 @@
 		)
 		(property "Value" "Conn_01x10_PinHeader"
 			(at 190.5 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 190.5 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10"
 			(at 190.5 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 190.5 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11760,7 +12854,7 @@
 			(uuid "25cef4a9-7990-4bdf-8645-bc9a8d5199e4")
 		)
 		(instances
-			(project ""
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J23")
 					(unit 2)
@@ -11772,23 +12866,29 @@
 		(lib_id "power:GND")
 		(at 101.6 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb5facf-003a-4dd7-b15f-2690b00e9170")
 		(property "Reference" "#PWR087"
 			(at 101.6 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 101.6 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,36 +12897,42 @@
 		)
 		(property "Footprint" ""
 			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "877ca3c9-5eb8-4445-8ad7-b624b8a8038b")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "#PWR087")
 					(unit 1)
@@ -11838,13 +12944,17 @@
 		(lib_id "Device:R_US")
 		(at 146.05 241.3 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f160702b-9d2b-485d-86e9-c7b1fce51102")
 		(property "Reference" "R96"
 			(at 146.05 234.95 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,6 +12963,8 @@
 		)
 		(property "Value" "100k"
 			(at 146.05 237.49 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,33 +12973,41 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 145.796 242.316 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 146.05 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" ""
 			(at 146.05 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11901,7 +13021,7 @@
 			(uuid "a88c69fc-165e-44c7-b650-d54881108fa4")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R96")
 					(unit 1)
@@ -11914,13 +13034,17 @@
 		(at 101.6 102.87 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3a10353-4c3d-45b6-9c74-5b2dc2c453d0")
 		(property "Reference" "RV16"
 			(at 99.06 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11930,6 +13054,8 @@
 		)
 		(property "Value" "100k"
 			(at 99.06 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11939,33 +13065,41 @@
 		)
 		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
 			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
 			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "Sus CV A Amt"
 			(at 92.202 99.314 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11985,7 +13119,7 @@
 			(uuid "b921507b-1aa7-4826-bd87-57a18775f50a")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "RV16")
 					(unit 1)
@@ -11997,14 +13131,18 @@
 		(lib_id "Device:R_US")
 		(at 107.95 63.5 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffde0d26-7834-4944-babe-56f80defdc84")
 		(property "Reference" "R85"
 			(at 107.95 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12013,6 +13151,8 @@
 		)
 		(property "Value" "33k"
 			(at 107.95 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12021,29 +13161,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 108.204 62.484 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.95 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 107.95 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12053,7 +13199,7 @@
 			(uuid "35a1bd1f-f641-480d-bc7a-157eae5e0b0a")
 		)
 		(instances
-			(project "DMH_VCEG_PCB_1"
+			(project "DMH_VCEG_PCB_2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "R85")
 					(unit 1)

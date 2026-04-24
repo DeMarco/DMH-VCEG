@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e2965a80-3c40-4649-a5b9-30e4adc7e88b")
 	(paper "A4")
 	(title_block
@@ -19,7 +19,7 @@
 		(fill
 			(type none)
 		)
-		(uuid a291d22e-fe2e-4ffd-be84-a4b3ca500224)
+		(uuid "a291d22e-fe2e-4ffd-be84-a4b3ca500224")
 	)
 	(rectangle
 		(start 50.8 101.6)
@@ -31,7 +31,7 @@
 		(fill
 			(type none)
 		)
-		(uuid ad102541-5641-471b-bd34-d942d62f85c4)
+		(uuid "ad102541-5641-471b-bd34-d942d62f85c4")
 	)
 	(rectangle
 		(start 50.8 76.2)
@@ -43,7 +43,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c086d0e3-2b85-48f6-a7be-0db326d3d84f)
+		(uuid "c086d0e3-2b85-48f6-a7be-0db326d3d84f")
 	)
 	(rectangle
 		(start 50.8 127)
@@ -55,7 +55,7 @@
 		(fill
 			(type none)
 		)
-		(uuid ec13eb47-7d5b-4e8c-a4b4-3351b709aef4)
+		(uuid "ec13eb47-7d5b-4e8c-a4b4-3351b709aef4")
 	)
 	(text_box "U09 TL074"
 		(exclude_from_sim no)
